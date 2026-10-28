@@ -1,6 +1,6 @@
 {
   "name": "dualtran-logseq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bilingual translation for Logseq: keep the source block and add the translation underneath",
   "author": "seigwen",
   "license": "MPL-2.0",
