@@ -13,7 +13,8 @@
   "logseq": {
     "id": "dualtran-translate",
     "title": "DualTran Translate",
-    "icon": "./icon.png"
+    "icon": "./icon.png",
+    "main": "dist/index.html"
   },
   "devDependencies": {
     "@logseq/libs": "^0.0.17",
