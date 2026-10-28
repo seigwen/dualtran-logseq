@@ -1,0 +1,25 @@
+{
+  "name": "dualtran-logseq",
+  "version": "0.1.0",
+  "description": "Bilingual translation for Logseq: keep the source block and add the translation underneath",
+  "author": "seigwen",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "logseq": {
+    "id": "dualtran-translate",
+    "title": "DualTran Translate",
+    "icon": "./icon.png"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.17",
+    "@types/node": "^26.6.5",
+    "esbuild": "^0.21.5",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0"
+  }
+}
