@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Vgrajeni ponudniki, katalog models.dev ali končna točka, združljiva z OpenAI po meri.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Vgrajeni ponudniki, dodatni ponudniki ali končna točka, združljiva z OpenAI po meri."
   },
   "providerGroupBuiltIn": {
     "message": "Vgrajeno",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── več ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Po meri",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modeli prihajajo iz models.dev za izbranega ponudnika.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modeli so prikazani za izbranega ponudnika."
   },
   "customModelOption": {
     "message": "Model po meri…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev ni dosegljiv — samo vgrajeni ponudniki.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Seznam ponudnikov ni na voljo – samo vgrajeni ponudniki."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ ponudnikov · $MODELS$ modelov",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Osveževanje …",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Podatki o ponudnikih in modelih iz models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

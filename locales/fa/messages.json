@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "ارائه‌دهندگان داخلی، فهرست models.dev، یا یک نقطه پایانی سفارشی سازگار با OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "ارائه‌دهندگان داخلی، ارائه‌دهندگان اضافی، یا یک نقطه پایانی سفارشی سازگار با OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "داخلی",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── بیشتر ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "سفارشی",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "مدل‌ها از models.dev برای ارائه‌دهنده انتخاب‌شده می‌آیند.",
-    "description": "Settings description for the model dropdown."
+    "message": "مدل‌ها برای ارائه‌دهنده انتخاب‌شده فهرست شده‌اند."
   },
   "customModelOption": {
     "message": "مدل سفارشی…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev در دسترس نیست — فقط ارائه‌دهندگان داخلی.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "فهرست ارائه‌دهندگان در دسترس نیست — فقط ارائه‌دهندگان داخلی."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ ارائه‌دهنده · $MODELS$ مدل",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "در حال به‌روزرسانی…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "داده‌های ارائه‌دهنده و مدل از models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

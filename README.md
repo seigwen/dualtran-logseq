@@ -33,7 +33,7 @@ Then in Logseq: **Settings → Advanced → Developer mode** on → **Plugins �
 | Slash menu / command palette | `Translate block (below)` | Translates the current block, inserts the result as a sibling |
 | Slash menu / command palette | `Translate page to a new page` | Translates every block into a new page named `<page> · <lang>` |
 | Command palette | `DualTran: settings` | Opens the settings panel |
-| Command palette | `DualTran: refresh provider and model list` | Re-fetches the models.dev catalogue |
+| Command palette | `DualTran: refresh provider and model list` | Re-fetches the provider list |
 
 ## Settings
 
@@ -46,9 +46,9 @@ DualTran Obsidian plugin:
 | Engine | Google Translate or AI (BYOK) |
 | Interface language | Follows Logseq, or one of the 38 bundled languages |
 | Target language | Dropdown of 142 languages (name + code), defaults to the Logseq language |
-| AI provider | Built-in providers → `──── more ────` → models.dev catalogue (235 providers) → custom |
+| AI provider | Built-in providers → `──── more ────` → additional providers (235) → custom |
 | API key | Stored in this graph's plugin settings |
-| Model | Dropdown from models.dev for the selected provider, plus a custom id |
+| Model | Dropdown of the selected provider's models, plus a custom id |
 | Endpoint | Filled from the provider automatically; edit it to override, “Reset” restores the default |
 | Reasoning effort | “Lowest” (default), provider default, or the levels the model declares |
 | Provider & model list | Status line plus a Refresh button (24 h cache in the plugin iframe's localStorage) |
@@ -84,11 +84,11 @@ immediately but the command names after the next Logseq start.
 
 ## Status
 
-Current version: **0.2.0**.
+Current version: **0.2.1**.
 
 Verified on a real Logseq 2.0.2 instance (driven over the DevTools protocol):
 
-- `npm run verify` — i18n check (38 locales × 74 keys), typecheck, 62 unit tests, build, dist guards.
+- `npm run verify` — i18n check (38 locales × 72 keys), typecheck, 64 unit tests, build, dist guards.
 - `npm run e2e` against the running app: 223 provider options, 142 target languages, provider switch
   → model + endpoint auto-fill, German/Arabic panel text, Arabic `dir=rtl` (`e2e/artifacts/`).
 - Google Translate inserts a translated sibling block; page translation creates `<page> · zh-CN`
@@ -96,7 +96,7 @@ Verified on a real Logseq 2.0.2 instance (driven over the DevTools protocol):
   and on failure.
 - AI path with a real provider: a DeepSeek request with an invalid key surfaces the provider's own
   `Authentication Fails …` message, not `Failed to fetch`.
-- 0.1.1 → 0.2.0 settings migration (legacy `target/endpoint/apiKey/model` → new keys; the old
+- 0.1.1 → 0.2.x settings migration (legacy `target/endpoint/apiKey/model` → new keys; the old
   default endpoint becomes “auto”).
 
 Not verified:

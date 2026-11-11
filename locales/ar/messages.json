@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "موفرو الخدمة المدمجون، أو كتالوج models.dev، أو نقطة نهاية مخصصة متوافقة مع OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "موفرو الخدمة المدمجون أو موفرو خدمة إضافيون أو نقطة نهاية مخصصة متوافقة مع OpenAI"
   },
   "providerGroupBuiltIn": {
     "message": "مدمج",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── المزيد ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "مخصص",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "تأتي الطرازات من models.dev للمزوّد المحدد.",
-    "description": "Settings description for the model dropdown."
+    "message": "تُعرض النماذج لموفر الخدمة المحدد"
   },
   "customModelOption": {
     "message": "طراز مخصص…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev غير متاح — المزوّدون المدمجون فقط.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "قائمة موفري الخدمة غير متاحة — موفرو الخدمة المدمجون فقط"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ مزوّد · $MODELS$ نموذج",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "جارٍ التحديث…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "بيانات المزوّدين والنماذج من models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

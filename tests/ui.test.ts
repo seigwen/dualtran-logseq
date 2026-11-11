@@ -106,7 +106,27 @@ describe("settings panel", () => {
     expect(equal?.textContent).toBe("gpt-equal");
   });
 
-  it("groups providers built-in → divider → catalogue → custom", () => {
+  it("reflects the stored engine after a re-render", () => {
+    const { deps } = makeDeps({}, { engine: "ai" });
+    const host = mount(deps);
+    expect((host.querySelector('[data-dt="engine"]') as HTMLSelectElement).value).toBe("ai");
+
+    document.body.textContent = "";
+    const google = makeDeps();
+    const other = mount(google.deps);
+    const select = other.querySelector('[data-dt="engine"]') as HTMLSelectElement;
+    select.value = "ai";
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+    expect(google.updates[0]).toEqual({ engine: "ai" });
+    expect(google.rerender).toHaveBeenCalled();
+  });
+
+  it("never mentions the catalogue vendor", () => {
+    const host = mount(makeDeps().deps);
+    expect(host.textContent || "").not.toMatch(/models\.dev/i);
+  });
+
+  it("groups providers built-in → divider → catalogue (flat) → custom", () => {
     const host = mount(makeDeps().deps);
     const provider = host.querySelector('[data-dt="provider"]') as HTMLSelectElement;
     const options = [...provider.options];
@@ -116,6 +136,10 @@ describe("settings panel", () => {
     expect(dividerIndex).toBe(4);
     expect(options[dividerIndex].disabled).toBe(true);
     expect(ids).toContain("groq");
+    // Catalogue entries are flat (no vendor-labelled optgroup).
+    expect(provider.querySelector('optgroup[label="models.dev"]')).toBeNull();
+    const groq = options.find((option) => option.value === "groq");
+    expect(groq?.parentElement).toBe(provider);
     expect(ids[ids.length - 1]).toBe(CUSTOM_PROVIDER);
     expect(options[options.length - 1].parentElement?.tagName).toBe("OPTGROUP");
   });

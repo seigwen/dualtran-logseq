@@ -1,6 +1,6 @@
 {
   "name": "dualtran-logseq",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Bilingual translation for Logseq: keep the source block and add the translation underneath",
   "author": "seigwen",
   "license": "MPL-2.0",
@@ -15,7 +15,8 @@
     "i18n:sync": "node scripts/locale-kit.mjs",
     "i18n:check": "node scripts/locale-kit.mjs --check",
     "e2e": "node e2e/settings-panel.mjs",
-    "verify": "npm run i18n:check && npm run typecheck && npm test && npm run build && npm run test:dist"
+    "verify": "npm run i18n:build && npm run i18n:check && npm run typecheck && npm test && npm run build && npm run test:dist",
+    "i18n:build": "node scripts/build-i18n.mjs"
   },
   "logseq": {
     "id": "dualtran-translate",

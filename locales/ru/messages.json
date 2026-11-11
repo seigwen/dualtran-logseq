@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Встроенные провайдеры, каталог models.dev или собственный OpenAI-совместимый эндпоинт",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Встроенные провайдеры, дополнительные провайдеры или собственный OpenAI-совместимый эндпоинт."
   },
   "providerGroupBuiltIn": {
     "message": "Встроенные",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── ещё ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Собственный",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Модели берутся с models.dev для выбранного провайдера.",
-    "description": "Settings description for the model dropdown."
+    "message": "Модели перечислены для выбранного провайдера."
   },
   "customModelOption": {
     "message": "Своя модель…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev недоступен — только встроенные провайдеры.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Список провайдеров недоступен — только встроенные провайдеры."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ провайдеров · $MODELS$ моделей",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Обновление…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Данные о провайдерах и моделях от models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

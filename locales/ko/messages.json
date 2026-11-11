@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "내장 제공자, models.dev 카탈로그 또는 사용자 지정 OpenAI 호환 엔드포인트입니다.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "내장 제공자, 추가 제공자 또는 사용자 지정 OpenAI 호환 엔드포인트"
   },
   "providerGroupBuiltIn": {
     "message": "내장",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── 더 보기 ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "사용자 지정",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "모델은 선택한 제공자의 models.dev에서 가져옵니다.",
-    "description": "Settings description for the model dropdown."
+    "message": "선택한 제공자에 대한 모델이 나열됩니다"
   },
   "customModelOption": {
     "message": "사용자 지정 모델…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev 사용 불가 — 내장 제공자만 사용",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "제공자 목록을 사용할 수 없음 — 내장 제공자만 사용"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$개 제공자 · $MODELS$개 모델",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "새로고침 중…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "제공자 및 모델 데이터 출처: models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

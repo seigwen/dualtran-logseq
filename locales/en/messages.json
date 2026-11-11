@@ -64,7 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Built-in providers, the models.dev catalogue, or a custom OpenAI-compatible endpoint.",
+    "message": "Built-in providers, additional providers, or a custom OpenAI-compatible endpoint.",
     "description": "Settings description for the AI provider dropdown."
   },
   "providerGroupBuiltIn": {
@@ -73,11 +73,7 @@
   },
   "providerGroupMore": {
     "message": "──── more ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
+    "description": "Disabled divider between built-in providers and the additional ones."
   },
   "providerGroupCustom": {
     "message": "Custom",
@@ -112,7 +108,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Models come from models.dev for the selected provider.",
+    "message": "Models are listed for the selected provider.",
     "description": "Settings description for the model dropdown."
   },
   "customModelOption": {
@@ -180,8 +176,8 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev unavailable — built-in providers only.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Provider list unavailable — built-in providers only.",
+    "description": "Catalogue status when the provider list cannot be reached."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ providers · $MODELS$ models",
@@ -198,10 +194,6 @@
   "btnRefreshing": {
     "message": "Refreshing…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Provider and model data from models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

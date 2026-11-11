@@ -76,7 +76,8 @@ const CSS = `
 .dt-btn:disabled{opacity:.6;cursor:default;}
 .dt-status{font-size:12px;opacity:.7;}
 .dt-status-row{display:flex;align-items:center;gap:10px;margin-top:6px;}
-.dt-foot{padding:10px 22px 14px;border-top:1px solid var(--ls-border-color,#d0d7de);font-size:11px;opacity:.5;display:flex;justify-content:space-between;gap:12px;}
+.dt-foot{padding:10px 22px 14px;border-top:1px solid var(--ls-border-color,#d0d7de);font-size:11px;opacity:.5;display:flex;justify-content:flex-end;gap:12px;}
+.dt-panel[dir="rtl"] .dt-foot{justify-content:flex-start;}
 .dt-panel[dir="rtl"] .dt-close{margin-inline-start:auto;}
 `;
 
@@ -186,6 +187,7 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   engine.dataset.dt = "engine";
   engine.appendChild(option(doc, "google", t("engineGoogle")));
   engine.appendChild(option(doc, "ai", t("engineAi")));
+  engine.value = settings.engine;
   engine.addEventListener("change", () => {
     deps.update({ engine: engine.value === "ai" ? "ai" : "google" });
     deps.rerender();
@@ -244,26 +246,27 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   const providerRow = row(doc, { label: t("settingProvider"), desc: t("settingProviderDesc") });
   const provider = select(doc, settings.aiProvider);
   provider.dataset.dt = "provider";
-  // Built-in group, disabled divider, catalogue group, custom group.
-  const groups: Array<{ id: "built-in" | "models.dev" | "custom"; label: string }> = [
-    { id: "built-in", label: t("providerGroupBuiltIn") },
-    { id: "models.dev", label: t("providerGroupCatalog") },
-    { id: "custom", label: t("providerGroupCustom") },
-  ];
-  for (const group of groups) {
-    const entries = providers.filter((entry) => entry.source === group.id);
-    if (entries.length === 0) continue;
-    if (group.id === "models.dev") {
-      provider.appendChild(option(doc, PROVIDER_SEPARATOR, t("providerGroupMore"), true));
-    }
-    const optgroup = doc.createElement("optgroup");
-    optgroup.label = group.label;
-    for (const entry of entries) {
-      const label = group.id === "custom" ? t("providerCustomOption") : entry.label;
-      optgroup.appendChild(option(doc, entry.id, label));
-    }
-    provider.appendChild(optgroup);
+  // Built-ins in an optgroup, a disabled divider, then the rest flat. The
+  // catalogue source is an implementation detail — the user only sees "more".
+  const builtIn = doc.createElement("optgroup");
+  builtIn.label = t("providerGroupBuiltIn");
+  for (const entry of providers.filter((option) => option.source === "built-in")) {
+    builtIn.appendChild(option(doc, entry.id, entry.label));
   }
+  provider.appendChild(builtIn);
+
+  const catalogueEntries = providers.filter((entry) => entry.source === "models.dev");
+  if (catalogueEntries.length > 0) {
+    provider.appendChild(option(doc, PROVIDER_SEPARATOR, t("providerGroupMore"), true));
+    for (const entry of catalogueEntries) provider.appendChild(option(doc, entry.id, entry.label));
+  }
+
+  const custom = doc.createElement("optgroup");
+  custom.label = t("providerGroupCustom");
+  for (const entry of providers.filter((option) => option.source === "custom")) {
+    custom.appendChild(option(doc, entry.id, t("providerCustomOption")));
+  }
+  provider.appendChild(custom);
   provider.value = settings.aiProvider;
   provider.addEventListener("change", () => {
     if (provider.value === settings.aiProvider) return;
@@ -464,11 +467,9 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   // Footer
   const foot = doc.createElement("footer");
   foot.className = "dt-foot";
-  const source = doc.createElement("span");
-  source.textContent = t("dataSource");
   const version = doc.createElement("span");
   version.textContent = t("aboutVersion", { VERSION: deps.version });
-  foot.append(source, version);
+  foot.append(version);
   panel.appendChild(foot);
 
   host.appendChild(backdrop);

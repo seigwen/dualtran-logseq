@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Nhà cung cấp tích hợp, danh mục models.dev hoặc điểm cuối tương thích OpenAI tùy chỉnh.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Nhà cung cấp tích hợp, nhà cung cấp bổ sung hoặc điểm cuối tương thích OpenAI tùy chỉnh"
   },
   "providerGroupBuiltIn": {
     "message": "Tích hợp",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── thêm ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Tùy chỉnh",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Mô hình lấy từ models.dev cho nhà cung cấp đã chọn",
-    "description": "Settings description for the model dropdown."
+    "message": "Các mô hình được liệt kê cho nhà cung cấp đã chọn"
   },
   "customModelOption": {
     "message": "Mô hình tùy chỉnh…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev không khả dụng — chỉ dùng nhà cung cấp tích hợp.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Danh sách nhà cung cấp không khả dụng — chỉ nhà cung cấp tích hợp"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ nhà cung cấp · $MODELS$ mô hình",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Đang làm mới…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Dữ liệu nhà cung cấp và mô hình từ models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

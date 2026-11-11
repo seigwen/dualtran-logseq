@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Furnizori încorporați, catalogul models.dev sau un endpoint personalizat compatibil OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Furnizori integrați, furnizori suplimentari sau un endpoint personalizat compatibil OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Încorporat",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── mai multe ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Personalizat",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modelele provin de la models.dev pentru furnizorul selectat.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modelele sunt listate pentru furnizorul selectat."
   },
   "customModelOption": {
     "message": "Model personalizat…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev indisponibil — doar furnizori încorporați.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Lista furnizorilor indisponibilă — doar furnizori integrați."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ furnizori · $MODELS$ modele",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Se reîmprospătează…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Date despre furnizori și modele de la models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

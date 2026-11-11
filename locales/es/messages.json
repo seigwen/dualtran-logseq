@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Proveedores integrados, el catálogo de models.dev o un endpoint personalizado compatible con OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Proveedores integrados, proveedores adicionales o un endpoint personalizado compatible con OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Integrados",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── más ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Personalizado",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Los modelos provienen de models.dev para el proveedor seleccionado.",
-    "description": "Settings description for the model dropdown."
+    "message": "Los modelos se muestran para el proveedor seleccionado."
   },
   "customModelOption": {
     "message": "Modelo personalizado…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev no disponible — solo proveedores integrados.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Lista de proveedores no disponible — solo proveedores integrados."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ proveedores · $MODELS$ modelos",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Actualizando…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Datos de proveedores y modelos de models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

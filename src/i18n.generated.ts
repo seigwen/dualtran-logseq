@@ -68,8 +68,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Ingeboude verskaffers, die models.dev-katalogus of 'n pasgemaakte OpenAI-versoenbare eindpunt.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Ingeboude verskaffers, bykomende verskaffers of 'n pasgemaakte OpenAI-versoenbare eindpunt."
     },
     "providerGroupBuiltIn": {
       "message": "Ingebou",
@@ -78,10 +77,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── meer ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Pasgemaak",
@@ -116,8 +111,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modelle kom van models.dev vir die gekose verskaffer.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modelle word gelys vir die gekose verskaffer."
     },
     "customModelOption": {
       "message": "Pasgemaakte model…",
@@ -208,8 +202,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nie beskikbaar nie — slegs ingeboude verskaffers.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Verskafferlys nie beskikbaar nie — slegs ingeboude verskaffers."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ verskaffers · $MODELS$ modelle",
@@ -230,10 +223,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Verfris tans…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Verskaffer- en modeldata van models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -402,8 +391,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "موفرو الخدمة المدمجون، أو كتالوج models.dev، أو نقطة نهاية مخصصة متوافقة مع OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "موفرو الخدمة المدمجون أو موفرو خدمة إضافيون أو نقطة نهاية مخصصة متوافقة مع OpenAI"
     },
     "providerGroupBuiltIn": {
       "message": "مدمج",
@@ -412,10 +400,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── المزيد ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "مخصص",
@@ -450,8 +434,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "تأتي الطرازات من models.dev للمزوّد المحدد.",
-      "description": "Settings description for the model dropdown."
+      "message": "تُعرض النماذج لموفر الخدمة المحدد"
     },
     "customModelOption": {
       "message": "طراز مخصص…",
@@ -542,8 +525,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev غير متاح — المزوّدون المدمجون فقط.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "قائمة موفري الخدمة غير متاحة — موفرو الخدمة المدمجون فقط"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ مزوّد · $MODELS$ نموذج",
@@ -564,10 +546,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "جارٍ التحديث…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "بيانات المزوّدين والنماذج من models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -736,8 +714,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Proveïdors integrats, el catàleg de models.dev o un punt final personalitzat compatible amb OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Proveïdors integrats, proveïdors addicionals o un punt de connexió personalitzat compatible amb OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Integrats",
@@ -746,10 +723,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── més ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalitzat",
@@ -784,8 +757,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Els models provenen de models.dev per al proveïdor seleccionat.",
-      "description": "Settings description for the model dropdown."
+      "message": "Els models es mostren per al proveïdor seleccionat."
     },
     "customModelOption": {
       "message": "Model personalitzat…",
@@ -876,8 +848,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev no disponible — només proveïdors integrats.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Llista de proveïdors no disponible — només proveïdors integrats."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ proveïdors · $MODELS$ models",
@@ -898,10 +869,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Actualitzant…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dades de proveïdors i models de models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -1070,8 +1037,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Vestavění poskytovatelé, katalog models.dev nebo vlastní koncový bod kompatibilní s OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Vestavěné",
@@ -1080,10 +1046,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── další ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Vlastní",
@@ -1118,8 +1080,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modely pocházejí z models.dev pro vybraného poskytovatele.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modely jsou uvedeny pro vybraného poskytovatele."
     },
     "customModelOption": {
       "message": "Vlastní model…",
@@ -1210,8 +1171,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nedostupný — pouze vestavění poskytovatelé.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Seznam poskytovatelů není k dispozici — pouze vestavění poskytovatelé."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ poskytovatelů · $MODELS$ modelů",
@@ -1232,10 +1192,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Obnovování…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Data o poskytovatelích a modelech z models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -1404,8 +1360,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Indbyggede udbydere, models.dev-kataloget eller et brugerdefineret OpenAI-kompatibelt endpoint",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Indbyggede udbydere, yderligere udbydere eller et brugerdefineret OpenAI-kompatibelt endpoint."
     },
     "providerGroupBuiltIn": {
       "message": "Indbygget",
@@ -1414,10 +1369,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mere ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Brugerdefineret",
@@ -1452,8 +1403,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeller hentes fra models.dev for den valgte udbyder",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeller er listet for den valgte udbyder."
     },
     "customModelOption": {
       "message": "Brugerdefineret model…",
@@ -1544,8 +1494,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev utilgængelig — kun indbyggede udbydere.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Udbyderlisten er ikke tilgængelig — kun indbyggede udbydere."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ udbydere · $MODELS$ modeller",
@@ -1566,10 +1515,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Opdaterer…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Udbyler- og modeldata fra models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -1738,8 +1683,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Integrierte Anbieter, der models.dev-Katalog oder ein benutzerdefinierter OpenAI-kompatibler Endpunkt.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Integrierte Anbieter, zusätzliche Anbieter oder ein benutzerdefinierter OpenAI-kompatibler Endpunkt."
     },
     "providerGroupBuiltIn": {
       "message": "Integriert",
@@ -1748,10 +1692,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mehr ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Benutzerdefiniert",
@@ -1786,8 +1726,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modelle stammen von models.dev für den ausgewählten Anbieter.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modelle werden für den ausgewählten Anbieter aufgelistet."
     },
     "customModelOption": {
       "message": "Benutzerdefiniertes Modell…",
@@ -1878,8 +1817,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nicht verfügbar — nur integrierte Anbieter.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Anbieterliste nicht verfügbar — nur integrierte Anbieter."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ Anbieter · $MODELS$ Modelle",
@@ -1900,10 +1838,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Wird aktualisiert…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Anbieter- und Modelldaten von models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -2072,8 +2006,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Ενσωματωμένοι πάροχοι, ο κατάλογος models.dev ή προσαρμοσμένο endpoint συμβατό με OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Ενσωματωμένοι πάροχοι, πρόσθετοι πάροχοι ή προσαρμοσμένο endpoint συμβατό με OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Ενσωματωμένοι",
@@ -2082,10 +2015,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── περισσότερα ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Προσαρμοσμένος",
@@ -2120,8 +2049,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Τα μοντέλα προέρχονται από το models.dev για τον επιλεγμένο πάροχο.",
-      "description": "Settings description for the model dropdown."
+      "message": "Τα μοντέλα εμφανίζονται για τον επιλεγμένο πάροχο."
     },
     "customModelOption": {
       "message": "Προσαρμοσμένο μοντέλο…",
@@ -2212,8 +2140,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "Το models.dev δεν είναι διαθέσιμο — μόνο ενσωματωμένοι πάροχοι.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Η λίστα παρόχων δεν είναι διαθέσιμη — μόνο ενσωματωμένοι πάροχοι."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ πάροχοι · $MODELS$ μοντέλα",
@@ -2234,10 +2161,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Ανανέωση…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Δεδομένα παρόχων και μοντέλων από το models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -2406,7 +2329,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Built-in providers, the models.dev catalogue, or a custom OpenAI-compatible endpoint.",
+      "message": "Built-in providers, additional providers, or a custom OpenAI-compatible endpoint.",
       "description": "Settings description for the AI provider dropdown."
     },
     "providerGroupBuiltIn": {
@@ -2415,11 +2338,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "providerGroupMore": {
       "message": "──── more ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
+      "description": "Disabled divider between built-in providers and the additional ones."
     },
     "providerGroupCustom": {
       "message": "Custom",
@@ -2454,7 +2373,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Models come from models.dev for the selected provider.",
+      "message": "Models are listed for the selected provider.",
       "description": "Settings description for the model dropdown."
     },
     "customModelOption": {
@@ -2546,8 +2465,8 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev unavailable — built-in providers only.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Provider list unavailable — built-in providers only.",
+      "description": "Catalogue status when the provider list cannot be reached."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ providers · $MODELS$ models",
@@ -2568,10 +2487,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Refreshing…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Provider and model data from models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -2740,8 +2655,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Proveedores integrados, el catálogo de models.dev o un endpoint personalizado compatible con OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Proveedores integrados, proveedores adicionales o un endpoint personalizado compatible con OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Integrados",
@@ -2750,10 +2664,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── más ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalizado",
@@ -2788,8 +2698,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Los modelos provienen de models.dev para el proveedor seleccionado.",
-      "description": "Settings description for the model dropdown."
+      "message": "Los modelos se muestran para el proveedor seleccionado."
     },
     "customModelOption": {
       "message": "Modelo personalizado…",
@@ -2880,8 +2789,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev no disponible — solo proveedores integrados.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista de proveedores no disponible — solo proveedores integrados."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ proveedores · $MODELS$ modelos",
@@ -2902,10 +2810,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Actualizando…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Datos de proveedores y modelos de models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -3074,8 +2978,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "ارائه‌دهندگان داخلی، فهرست models.dev، یا یک نقطه پایانی سفارشی سازگار با OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "ارائه‌دهندگان داخلی، ارائه‌دهندگان اضافی، یا یک نقطه پایانی سفارشی سازگار با OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "داخلی",
@@ -3084,10 +2987,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── بیشتر ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "سفارشی",
@@ -3122,8 +3021,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "مدل‌ها از models.dev برای ارائه‌دهنده انتخاب‌شده می‌آیند.",
-      "description": "Settings description for the model dropdown."
+      "message": "مدل‌ها برای ارائه‌دهنده انتخاب‌شده فهرست شده‌اند."
     },
     "customModelOption": {
       "message": "مدل سفارشی…",
@@ -3214,8 +3112,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev در دسترس نیست — فقط ارائه‌دهندگان داخلی.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "فهرست ارائه‌دهندگان در دسترس نیست — فقط ارائه‌دهندگان داخلی."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ ارائه‌دهنده · $MODELS$ مدل",
@@ -3236,10 +3133,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "در حال به‌روزرسانی…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "داده‌های ارائه‌دهنده و مدل از models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -3408,8 +3301,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Sisäänrakennetut tarjoajat, models.dev-luettelo tai mukautettu OpenAI-yhteensopiva päätepiste.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Sisäänrakennetut palveluntarjoajat, lisäpalveluntarjoajat tai mukautettu OpenAI-yhteensopiva päätepiste."
     },
     "providerGroupBuiltIn": {
       "message": "Sisäänrakennetut",
@@ -3418,10 +3310,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── lisää ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Mukautettu",
@@ -3456,8 +3344,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Mallit tulevat models.dev-palvelusta valitulle tarjoajalle.",
-      "description": "Settings description for the model dropdown."
+      "message": "Valitun palveluntarjoajan mallit luetellaan."
     },
     "customModelOption": {
       "message": "Mukautettu malli…",
@@ -3548,8 +3435,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev ei ole käytettävissä — vain sisäänrakennetut tarjoajat.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Palveluntarjoajaluettelo ei saatavilla — vain sisäänrakennetut palveluntarjoajat."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ tarjoajaa · $MODELS$ mallia",
@@ -3570,10 +3456,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Päivitetään…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Tarjoaja- ja mallitiedot models.dev-palvelusta",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -3742,8 +3624,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Fournisseurs intégrés, le catalogue models.dev ou un point de terminaison personnalisé compatible OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Fournisseurs intégrés, fournisseurs supplémentaires ou un point de terminaison personnalisé compatible OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Intégrés",
@@ -3752,10 +3633,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── plus ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personnalisé",
@@ -3790,8 +3667,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Les modèles proviennent de models.dev pour le fournisseur sélectionné.",
-      "description": "Settings description for the model dropdown."
+      "message": "Les modèles sont listés pour le fournisseur sélectionné."
     },
     "customModelOption": {
       "message": "Modèle personnalisé…",
@@ -3882,8 +3758,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev indisponible — fournisseurs intégrés uniquement.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Liste des fournisseurs indisponible — fournisseurs intégrés uniquement."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ fournisseurs · $MODELS$ modèles",
@@ -3904,10 +3779,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Actualisation…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Données des fournisseurs et modèles issues de models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -4076,8 +3947,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "ספקים מובנים, קטלוג models.dev, או נקודת קצה מותאמת תואמת OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "ספקים מובנים, ספקים נוספים או נקודת קצה מותאמת אישית תואמת OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "מובנה",
@@ -4086,10 +3956,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── עוד ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "מותאם אישית",
@@ -4124,8 +3990,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "המודלים מגיעים מ-models.dev עבור הספק הנבחר.",
-      "description": "Settings description for the model dropdown."
+      "message": "המודלים מוצגים עבור הספק הנבחר."
     },
     "customModelOption": {
       "message": "מודל מותאם אישית…",
@@ -4216,8 +4081,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev לא זמין — רק ספקים מובנים.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "רשימת הספקים אינה זמינה — ספקים מובנים בלבד."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ ספקים · $MODELS$ מודלים",
@@ -4238,10 +4102,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "מרענן…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "נתוני ספקים ומודלים מ-models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -4410,8 +4270,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "अंतर्निहित प्रदाता, models.dev कैटलॉग, या कस्टम OpenAI-संगत एंडपॉइंट।",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "अंतर्निहित प्रदाता, अतिरिक्त प्रदाता, या कस्टम OpenAI-संगत एंडपॉइंट।"
     },
     "providerGroupBuiltIn": {
       "message": "अंतर्निहित",
@@ -4420,10 +4279,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── अधिक ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "कस्टम",
@@ -4458,8 +4313,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "चयनित प्रदाता के लिए मॉडल models.dev से आते हैं।",
-      "description": "Settings description for the model dropdown."
+      "message": "चयनित प्रदाता के लिए मॉडल सूचीबद्ध हैं।"
     },
     "customModelOption": {
       "message": "कस्टम मॉडल…",
@@ -4550,8 +4404,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev उपलब्ध नहीं — केवल अंतर्निहित प्रदाता।",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "प्रदाता सूची अनुपलब्ध — केवल अंतर्निहित प्रदाता।"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ प्रदाता · $MODELS$ मॉडल",
@@ -4572,10 +4425,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "रीफ़्रेश हो रहा है…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "प्रदाता और मॉडल डेटा models.dev से",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -4744,8 +4593,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Ugrađeni pružatelji, katalog models.dev ili prilagođeni OpenAI-kompatibilni endpoint.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Ugrađeni pružatelji, dodatni pružatelji ili prilagođena OpenAI-kompatibilna krajnja točka."
     },
     "providerGroupBuiltIn": {
       "message": "Ugrađeno",
@@ -4754,10 +4602,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── više ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Prilagođeno",
@@ -4792,8 +4636,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeli dolaze s models.dev za odabranog pružatelja.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeli su navedeni za odabranog pružatelja."
     },
     "customModelOption": {
       "message": "Prilagođeni model…",
@@ -4884,8 +4727,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nedostupan — samo ugrađeni pružatelji.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Popis pružatelja nedostupan — samo ugrađeni pružatelji."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ pružatelja · $MODELS$ modela",
@@ -4906,10 +4748,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Osvježavanje…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Podaci o pružateljima i modelima od models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -5078,8 +4916,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Beépített szolgáltatók, a models.dev katalógus vagy egyéni OpenAI-kompatibilis végpont.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Beépített szolgáltatók, további szolgáltatók vagy egyéni OpenAI-kompatibilis végpont."
     },
     "providerGroupBuiltIn": {
       "message": "Beépített",
@@ -5088,10 +4925,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── további ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Egyéni",
@@ -5126,8 +4959,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "A modellek a models.dev-ről származnak a kiválasztott szolgáltatónál.",
-      "description": "Settings description for the model dropdown."
+      "message": "A modellek a kiválasztott szolgáltatóhoz vannak listázva."
     },
     "customModelOption": {
       "message": "Egyéni modell…",
@@ -5218,8 +5050,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nem elérhető — csak beépített szolgáltatók.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "A szolgáltatólista nem érhető el — csak beépített szolgáltatók."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ szolgáltató · $MODELS$ modell",
@@ -5240,10 +5071,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Frissítés…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Szolgáltató- és modelladatok a models.dev-től",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -5412,8 +5239,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Innbyggðir veitendur, models.dev skráin eða sérsniðinn OpenAI-samhæfður endapunktur.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Innbyggðir þjónustuveitendur, viðbótarþjónustuveitendur eða sérsniðinn OpenAI-samhæfur endapunktur."
     },
     "providerGroupBuiltIn": {
       "message": "Innbyggðir",
@@ -5422,10 +5248,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── fleiri ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Sérsniðið",
@@ -5460,8 +5282,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Líkön koma frá models.dev fyrir valinn þjónustuveitanda",
-      "description": "Settings description for the model dropdown."
+      "message": "Líkön eru listuð fyrir valinn þjónustuveitanda."
     },
     "customModelOption": {
       "message": "Sérsniðið líkan…",
@@ -5552,8 +5373,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev ekki tiltækt — aðeins innbyggðir veitendur.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Listi þjónustuveitenda ekki tiltækur — aðeins innbyggðir þjónustuveitendur."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ veitendur · $MODELS$ líkön",
@@ -5574,10 +5394,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Endurnýji…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Gögn um veitendur og líkön frá models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -5746,8 +5562,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Provider integrati, il catalogo models.dev o un endpoint personalizzato compatibile con OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Provider integrati, provider aggiuntivi o un endpoint personalizzato compatibile con OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Integrati",
@@ -5756,10 +5571,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── altri ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalizzato",
@@ -5794,8 +5605,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "I modelli provengono da models.dev per il provider selezionato.",
-      "description": "Settings description for the model dropdown."
+      "message": "I modelli sono elencati per il provider selezionato."
     },
     "customModelOption": {
       "message": "Modello personalizzato…",
@@ -5886,8 +5696,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev non disponibile — solo provider integrati.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Elenco provider non disponibile — solo provider integrati."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ provider · $MODELS$ modelli",
@@ -5908,10 +5717,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Aggiornamento…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dati su provider e modelli da models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -6080,8 +5885,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "組み込みプロバイダー、models.devカタログ、またはOpenAI互換のカスタムエンドポイント",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "組み込みプロバイダー、追加プロバイダー、またはカスタムのOpenAI互換エンドポイント"
     },
     "providerGroupBuiltIn": {
       "message": "組み込み",
@@ -6090,10 +5894,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── その他 ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "カスタム",
@@ -6128,8 +5928,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "モデルは選択したプロバイダーのmodels.devから取得されます",
-      "description": "Settings description for the model dropdown."
+      "message": "モデルは選択したプロバイダーに対して一覧表示されます"
     },
     "customModelOption": {
       "message": "カスタムモデル…",
@@ -6220,8 +6019,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev は利用できません — 組み込みプロバイダーのみ",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "プロバイダーリストを利用できません — 組み込みプロバイダーのみ"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ プロバイダー · $MODELS$ モデル",
@@ -6242,10 +6040,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "更新中…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "プロバイダーとモデルのデータは models.dev から取得",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -6414,8 +6208,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "내장 제공자, models.dev 카탈로그 또는 사용자 지정 OpenAI 호환 엔드포인트입니다.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "내장 제공자, 추가 제공자 또는 사용자 지정 OpenAI 호환 엔드포인트"
     },
     "providerGroupBuiltIn": {
       "message": "내장",
@@ -6424,10 +6217,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── 더 보기 ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "사용자 지정",
@@ -6462,8 +6251,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "모델은 선택한 제공자의 models.dev에서 가져옵니다.",
-      "description": "Settings description for the model dropdown."
+      "message": "선택한 제공자에 대한 모델이 나열됩니다"
     },
     "customModelOption": {
       "message": "사용자 지정 모델…",
@@ -6554,8 +6342,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev 사용 불가 — 내장 제공자만 사용",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "제공자 목록을 사용할 수 없음 — 내장 제공자만 사용"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$개 제공자 · $MODELS$개 모델",
@@ -6576,10 +6363,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "새로고침 중…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "제공자 및 모델 데이터 출처: models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -6748,8 +6531,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Iebūvētie pakalpojumu sniedzēji, models.dev katalogs vai pielāgots OpenAI saderīgs galapunkts.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Iebūvētie pakalpojumu sniedzēji, papildu pakalpojumu sniedzēji vai pielāgots OpenAI saderīgs galapunkts."
     },
     "providerGroupBuiltIn": {
       "message": "Iebūvēts",
@@ -6758,10 +6540,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── vairāk ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Pielāgots",
@@ -6796,8 +6574,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeļi tiek iegūti no models.dev atlasītajam pakalpojumu sniedzējam.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeļi tiek parādīti atlasītajam pakalpojumu sniedzējam."
     },
     "customModelOption": {
       "message": "Pielāgots modelis…",
@@ -6888,8 +6665,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nav pieejams — tikai iebūvētie pakalpojumu sniedzēji.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Pakalpojumu sniedzēju saraksts nav pieejams — tikai iebūvētie pakalpojumu sniedzēji."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ pakalpojumu sniedzēji · $MODELS$ modeļi",
@@ -6910,10 +6686,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Atjauno…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Pakalpojumu sniedzēju un modeļu dati no models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -7082,8 +6854,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Ingebouwde providers, de models.dev-catalogus of een aangepast OpenAI-compatibel eindpunt.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Ingebouwde providers, extra providers of een aangepast OpenAI-compatibel eindpunt."
     },
     "providerGroupBuiltIn": {
       "message": "Ingebouwd",
@@ -7092,10 +6863,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── meer ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Aangepast",
@@ -7130,8 +6897,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modellen zijn afkomstig van models.dev voor de geselecteerde provider.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modellen worden getoond voor de geselecteerde provider."
     },
     "customModelOption": {
       "message": "Aangepast model…",
@@ -7222,8 +6988,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev niet beschikbaar — alleen ingebouwde providers.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Providerlijst niet beschikbaar — alleen ingebouwde providers."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ providers · $MODELS$ modellen",
@@ -7244,10 +7009,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Vernieuwen…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Provider- en modelgegevens van models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -7416,8 +7177,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Innebygde leverandører, models.dev-katalogen eller et egendefinert OpenAI-kompatibelt endepunkt.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Innebygde leverandører, flere leverandører eller et egendefinert OpenAI-kompatibelt endepunkt."
     },
     "providerGroupBuiltIn": {
       "message": "Innebygd",
@@ -7426,10 +7186,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mer ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Egendefinert",
@@ -7464,8 +7220,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeller hentes fra models.dev for valgt leverandør.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeller vises for den valgte leverandøren."
     },
     "customModelOption": {
       "message": "Egendefinert modell…",
@@ -7556,8 +7311,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev utilgjengelig – kun innebygde leverandører.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Leverandørlisten er utilgjengelig – kun innebygde leverandører."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ leverandører · $MODELS$ modeller",
@@ -7578,10 +7332,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Oppdaterer…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Leverandør- og modelldata fra models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -7750,8 +7500,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Wbudowani dostawcy, katalog models.dev lub niestandardowy punkt końcowy zgodny z OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Wbudowani dostawcy, dodatkowi dostawcy lub niestandardowy punkt końcowy zgodny z OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Wbudowane",
@@ -7760,10 +7509,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── więcej ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Niestandardowe",
@@ -7798,8 +7543,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modele pochodzą z models.dev dla wybranego dostawcy.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modele są wyświetlane dla wybranego dostawcy."
     },
     "customModelOption": {
       "message": "Model niestandardowy…",
@@ -7890,8 +7634,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev niedostępny — tylko wbudowani dostawcy.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista dostawców niedostępna — tylko wbudowani dostawcy."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ dostawców · $MODELS$ modeli",
@@ -7912,10 +7655,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Odświeżanie…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dane dostawców i modeli z models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -8084,8 +7823,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Provedores integrados, o catálogo models.dev ou um endpoint personalizado compatível com OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Provedores integrados, provedores adicionais ou um endpoint personalizado compatível com OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Integrados",
@@ -8094,10 +7832,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mais ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalizado",
@@ -8132,8 +7866,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Os modelos vêm do models.dev para o provedor selecionado.",
-      "description": "Settings description for the model dropdown."
+      "message": "Os modelos são listados para o provedor selecionado."
     },
     "customModelOption": {
       "message": "Modelo personalizado…",
@@ -8224,8 +7957,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev indisponível — apenas provedores integrados.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista de provedores indisponível — apenas provedores integrados."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ provedores · $MODELS$ modelos",
@@ -8246,10 +7978,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Atualizando…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dados de provedores e modelos do models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -8418,8 +8146,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Fornecedores integrados, o catálogo models.dev ou um endpoint personalizado compatível com OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Fornecedores integrados, fornecedores adicionais ou um endpoint personalizado compatível com OpenAI"
     },
     "providerGroupBuiltIn": {
       "message": "Integrados",
@@ -8428,10 +8155,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mais ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalizado",
@@ -8466,8 +8189,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Os modelos vêm de models.dev para o fornecedor selecionado.",
-      "description": "Settings description for the model dropdown."
+      "message": "Os modelos são apresentados para o fornecedor selecionado"
     },
     "customModelOption": {
       "message": "Modelo personalizado…",
@@ -8558,8 +8280,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev indisponível — apenas fornecedores integrados.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista de fornecedores indisponível — apenas fornecedores integrados"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ fornecedores · $MODELS$ modelos",
@@ -8580,10 +8301,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "A atualizar…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dados de fornecedores e modelos de models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -8752,8 +8469,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Furnizori încorporați, catalogul models.dev sau un endpoint personalizat compatibil OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Furnizori integrați, furnizori suplimentari sau un endpoint personalizat compatibil OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Încorporat",
@@ -8762,10 +8478,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── mai multe ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Personalizat",
@@ -8800,8 +8512,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modelele provin de la models.dev pentru furnizorul selectat.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modelele sunt listate pentru furnizorul selectat."
     },
     "customModelOption": {
       "message": "Model personalizat…",
@@ -8892,8 +8603,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev indisponibil — doar furnizori încorporați.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista furnizorilor indisponibilă — doar furnizori integrați."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ furnizori · $MODELS$ modele",
@@ -8914,10 +8624,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Se reîmprospătează…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Date despre furnizori și modele de la models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -9086,8 +8792,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Встроенные провайдеры, каталог models.dev или собственный OpenAI-совместимый эндпоинт",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Встроенные провайдеры, дополнительные провайдеры или собственный OpenAI-совместимый эндпоинт."
     },
     "providerGroupBuiltIn": {
       "message": "Встроенные",
@@ -9096,10 +8801,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── ещё ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Собственный",
@@ -9134,8 +8835,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Модели берутся с models.dev для выбранного провайдера.",
-      "description": "Settings description for the model dropdown."
+      "message": "Модели перечислены для выбранного провайдера."
     },
     "customModelOption": {
       "message": "Своя модель…",
@@ -9226,8 +8926,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev недоступен — только встроенные провайдеры.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Список провайдеров недоступен — только встроенные провайдеры."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ провайдеров · $MODELS$ моделей",
@@ -9248,10 +8947,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Обновление…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Данные о провайдерах и моделях от models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -9420,8 +9115,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Vgrajeni ponudniki, katalog models.dev ali končna točka, združljiva z OpenAI po meri.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Vgrajeni ponudniki, dodatni ponudniki ali končna točka, združljiva z OpenAI po meri."
     },
     "providerGroupBuiltIn": {
       "message": "Vgrajeno",
@@ -9430,10 +9124,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── več ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Po meri",
@@ -9468,8 +9158,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeli prihajajo iz models.dev za izbranega ponudnika.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeli so prikazani za izbranega ponudnika."
     },
     "customModelOption": {
       "message": "Model po meri…",
@@ -9560,8 +9249,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev ni dosegljiv — samo vgrajeni ponudniki.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Seznam ponudnikov ni na voljo – samo vgrajeni ponudniki."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ ponudnikov · $MODELS$ modelov",
@@ -9582,10 +9270,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Osveževanje …",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Podatki o ponudnikih in modelih iz models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -9754,8 +9438,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Ugrađeni provajderi, models.dev katalog ili prilagođeni OpenAI-kompatibilni endpoint.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Ugrađeni provajderi, dodatni provajderi ili prilagođena OpenAI-kompatibilna krajnja tačka."
     },
     "providerGroupBuiltIn": {
       "message": "Ugrađeno",
@@ -9764,10 +9447,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── više ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Prilagođeno",
@@ -9802,8 +9481,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeli dolaze sa models.dev za izabranog provajdera.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeli su prikazani za izabranog provajdera."
     },
     "customModelOption": {
       "message": "Prilagođeni model…",
@@ -9894,8 +9572,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev nedostupan — samo ugrađeni provajderi.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Lista provajdera nije dostupna — samo ugrađeni provajderi."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ provajdera · $MODELS$ modela",
@@ -9916,10 +9593,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Osvežavanje…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Podaci o provajderima i modelima od models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -10088,8 +9761,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Inbyggda leverantörer, katalogen models.dev eller en anpassad OpenAI-kompatibel endpoint.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Inbyggda leverantörer, ytterligare leverantörer eller en anpassad OpenAI-kompatibel slutpunkt."
     },
     "providerGroupBuiltIn": {
       "message": "Inbyggda",
@@ -10098,10 +9770,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── fler ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Anpassad",
@@ -10136,8 +9804,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeller hämtas från models.dev för vald leverantör.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeller listas för den valda leverantören."
     },
     "customModelOption": {
       "message": "Anpassad modell…",
@@ -10228,8 +9895,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev är inte tillgängligt – endast inbyggda leverantörer.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Leverantörslistan är inte tillgänglig – endast inbyggda leverantörer."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ leverantörer · $MODELS$ modeller",
@@ -10250,10 +9916,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Uppdaterar…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Leverantörs- och modelldata från models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -10422,8 +10084,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "ผู้ให้บริการในตัว แคตตาล็อก models.dev หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
     },
     "providerGroupBuiltIn": {
       "message": "ในตัว",
@@ -10432,10 +10093,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── เพิ่มเติม ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "กำหนดเอง",
@@ -10470,8 +10127,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "โมเดลมาจาก models.dev สำหรับผู้ให้บริการที่เลือก",
-      "description": "Settings description for the model dropdown."
+      "message": "โมเดลจะแสดงสำหรับผู้ให้บริการที่เลือก"
     },
     "customModelOption": {
       "message": "โมเดลกำหนดเอง…",
@@ -10562,8 +10218,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev ไม่พร้อมใช้งาน — ใช้ผู้ให้บริการที่มีในตัวเท่านั้น",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "รายการผู้ให้บริการไม่พร้อมใช้งาน — ใช้ผู้ให้บริการในตัวเท่านั้น"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ ผู้ให้บริการ · $MODELS$ โมเดล",
@@ -10584,10 +10239,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "กำลังรีเฟรช…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "ข้อมูลผู้ให้บริการและโมเดลจาก models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -10756,8 +10407,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Yerleşik sağlayıcılar, models.dev kataloğu veya özel bir OpenAI uyumlu uç nokta.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Yerleşik sağlayıcılar, ek sağlayıcılar veya özel bir OpenAI uyumlu uç nokta."
     },
     "providerGroupBuiltIn": {
       "message": "Yerleşik",
@@ -10766,10 +10416,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── daha fazla ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Özel",
@@ -10804,8 +10450,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Modeller, seçilen sağlayıcı için models.dev üzerinden gelir.",
-      "description": "Settings description for the model dropdown."
+      "message": "Modeller seçili sağlayıcı için listelenir."
     },
     "customModelOption": {
       "message": "Özel model…",
@@ -10896,8 +10541,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev kullanılamıyor — yalnızca yerleşik sağlayıcılar.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Sağlayıcı listesi kullanılamıyor — yalnızca yerleşik sağlayıcılar."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ sağlayıcı · $MODELS$ model",
@@ -10918,10 +10562,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Yenileniyor…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Sağlayıcı ve model verileri models.dev'den alınır",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -11090,8 +10730,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "ئىچكى تەمىنلىگۈچىلەر، models.dev كاتالوگى ياكى خاس OpenAI ماس كېلىدىغان ئاخىرلاشقۇچى.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "ئىچكى تەمىنلىگۈچىلەر، قوشۇمچە تەمىنلىگۈچىلەر ياكى OpenAI غا ماسلاشتۇرۇلغان ئۆزگىچە ئاخىرلاش نۇقتىسى."
     },
     "providerGroupBuiltIn": {
       "message": "ئىچكى",
@@ -11100,10 +10739,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── تېخىمۇ كۆپ ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "خاس",
@@ -11138,8 +10773,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "مودېللار تاللانغان تەمىنلىگۈچى ئۈچۈن models.dev دىن كېلىدۇ.",
-      "description": "Settings description for the model dropdown."
+      "message": "مودېللار تاللانغان تەمىنلىگۈچى ئۈچۈن تىزىملىنىدۇ."
     },
     "customModelOption": {
       "message": "ئىختىيارىي مودېل…",
@@ -11230,8 +10864,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev ئىشلەتكىلى بولمايدۇ — پەقەت قۇرۇلغان تەمىنلىگۈچىلەر.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "تەمىنلىگۈچى تىزىملىكى ئىشلەتكىلى بولمايدۇ — پەقەت ئىچكى تەمىنلىگۈچىلەر."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ تەمىنلىگۈچى · $MODELS$ مودېل",
@@ -11252,10 +10885,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "يېڭىلىنىۋاتىدۇ…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "تەمىنلىگۈچى ۋە مودېل ئۇچۇرى models.dev دىن",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -11424,8 +11053,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Вбудовані провайдери, каталог models.dev або власна кінцева точка, сумісна з OpenAI.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Вбудовані провайдери, додаткові провайдери або власна кінцева точка, сумісна з OpenAI."
     },
     "providerGroupBuiltIn": {
       "message": "Вбудовані",
@@ -11434,10 +11062,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── більше ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Власний",
@@ -11472,8 +11096,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Моделі надходять з models.dev для вибраного постачальника.",
-      "description": "Settings description for the model dropdown."
+      "message": "Моделі наведено для вибраного провайдера."
     },
     "customModelOption": {
       "message": "Власна модель…",
@@ -11564,8 +11187,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev недоступний — лише вбудовані провайдери.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Список провайдерів недоступний — лише вбудовані провайдери."
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ провайдерів · $MODELS$ моделей",
@@ -11586,10 +11208,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Оновлення…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Дані про провайдерів і моделі від models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -11758,8 +11376,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI provider."
     },
     "settingProviderDesc": {
-      "message": "Nhà cung cấp tích hợp, danh mục models.dev hoặc điểm cuối tương thích OpenAI tùy chỉnh.",
-      "description": "Settings description for the AI provider dropdown."
+      "message": "Nhà cung cấp tích hợp, nhà cung cấp bổ sung hoặc điểm cuối tương thích OpenAI tùy chỉnh"
     },
     "providerGroupBuiltIn": {
       "message": "Tích hợp",
@@ -11768,10 +11385,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "providerGroupMore": {
       "message": "──── thêm ────",
       "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev",
-      "description": "Provider dropdown group label."
     },
     "providerGroupCustom": {
       "message": "Tùy chỉnh",
@@ -11806,8 +11419,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Settings label: AI model."
     },
     "settingModelDesc": {
-      "message": "Mô hình lấy từ models.dev cho nhà cung cấp đã chọn",
-      "description": "Settings description for the model dropdown."
+      "message": "Các mô hình được liệt kê cho nhà cung cấp đã chọn"
     },
     "customModelOption": {
       "message": "Mô hình tùy chỉnh…",
@@ -11898,8 +11510,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "description": "Catalogue status while models.dev is being fetched."
     },
     "catalogOffline": {
-      "message": "models.dev không khả dụng — chỉ dùng nhà cung cấp tích hợp.",
-      "description": "Catalogue status when models.dev cannot be reached."
+      "message": "Danh sách nhà cung cấp không khả dụng — chỉ nhà cung cấp tích hợp"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ nhà cung cấp · $MODELS$ mô hình",
@@ -11920,10 +11531,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnRefreshing": {
       "message": "Đang làm mới…",
       "description": "Refresh button while the catalogue is reloading."
-    },
-    "dataSource": {
-      "message": "Dữ liệu nhà cung cấp và mô hình từ models.dev",
-      "description": "Footer credit for the catalogue data source."
     },
     "aboutVersion": {
       "message": "DualTran Translate v$VERSION$",
@@ -12076,16 +11683,13 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI 服务商"
     },
     "settingProviderDesc": {
-      "message": "内建服务商、models.dev 目录，或自定义 OpenAI 兼容端点。"
+      "message": "内建服务商、更多服务商，或自定义 OpenAI 兼容端点。"
     },
     "providerGroupBuiltIn": {
       "message": "内建"
     },
     "providerGroupMore": {
       "message": "──── 更多 ────"
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev"
     },
     "providerGroupCustom": {
       "message": "自定义"
@@ -12112,7 +11716,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "模型"
     },
     "settingModelDesc": {
-      "message": "模型列表来自 models.dev，对应当前服务商。"
+      "message": "模型列表跟随所选服务商。"
     },
     "customModelOption": {
       "message": "自定义模型…"
@@ -12181,7 +11785,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "正在加载服务商与模型列表…"
     },
     "catalogOffline": {
-      "message": "models.dev 不可用 — 仅显示内建服务商。"
+      "message": "服务商列表暂时不可用 — 仅显示内建服务商。"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ 个服务商 · $MODELS$ 个模型"
@@ -12191,9 +11795,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "btnRefreshing": {
       "message": "正在刷新…"
-    },
-    "dataSource": {
-      "message": "服务商与模型数据来自 models.dev"
     },
     "aboutVersion": {
       "message": "DualTran 翻译 v$VERSION$"
@@ -12300,16 +11901,13 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI 服務商"
     },
     "settingProviderDesc": {
-      "message": "內建服務商、models.dev 目錄，或自訂 OpenAI 相容端點。"
+      "message": "內建服務商、更多服務商，或自訂 OpenAI 相容端點。"
     },
     "providerGroupBuiltIn": {
       "message": "內建"
     },
     "providerGroupMore": {
       "message": "──── 更多 ────"
-    },
-    "providerGroupCatalog": {
-      "message": "models.dev"
     },
     "providerGroupCustom": {
       "message": "自訂"
@@ -12336,7 +11934,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "模型"
     },
     "settingModelDesc": {
-      "message": "模型清單來自 models.dev，對應目前服務商。"
+      "message": "模型清單跟隨所選服務商。"
     },
     "customModelOption": {
       "message": "自訂模型…"
@@ -12405,7 +12003,7 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "正在載入服務商與模型清單…"
     },
     "catalogOffline": {
-      "message": "models.dev 無法使用 — 僅顯示內建服務商。"
+      "message": "服務商清單暫時無法使用 — 僅顯示內建服務商。"
     },
     "catalogSummary": {
       "message": "$PROVIDERS$ 個服務商 · $MODELS$ 個模型"
@@ -12415,9 +12013,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "btnRefreshing": {
       "message": "正在重新整理…"
-    },
-    "dataSource": {
-      "message": "服務商與模型資料來自 models.dev"
     },
     "aboutVersion": {
       "message": "DualTran 翻譯 v$VERSION$"

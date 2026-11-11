@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Vestavění poskytovatelé, katalog models.dev nebo vlastní koncový bod kompatibilní s OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Vestavěné",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── další ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Vlastní",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modely pocházejí z models.dev pro vybraného poskytovatele.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modely jsou uvedeny pro vybraného poskytovatele."
   },
   "customModelOption": {
     "message": "Vlastní model…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev nedostupný — pouze vestavění poskytovatelé.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Seznam poskytovatelů není k dispozici — pouze vestavění poskytovatelé."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ poskytovatelů · $MODELS$ modelů",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Obnovování…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Data o poskytovatelích a modelech z models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

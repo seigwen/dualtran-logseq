@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Ingebouwde providers, de models.dev-catalogus of een aangepast OpenAI-compatibel eindpunt.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Ingebouwde providers, extra providers of een aangepast OpenAI-compatibel eindpunt."
   },
   "providerGroupBuiltIn": {
     "message": "Ingebouwd",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── meer ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Aangepast",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modellen zijn afkomstig van models.dev voor de geselecteerde provider.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modellen worden getoond voor de geselecteerde provider."
   },
   "customModelOption": {
     "message": "Aangepast model…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev niet beschikbaar — alleen ingebouwde providers.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Providerlijst niet beschikbaar — alleen ingebouwde providers."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ providers · $MODELS$ modellen",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Vernieuwen…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Provider- en modelgegevens van models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

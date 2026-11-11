@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "अंतर्निहित प्रदाता, models.dev कैटलॉग, या कस्टम OpenAI-संगत एंडपॉइंट।",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "अंतर्निहित प्रदाता, अतिरिक्त प्रदाता, या कस्टम OpenAI-संगत एंडपॉइंट।"
   },
   "providerGroupBuiltIn": {
     "message": "अंतर्निहित",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── अधिक ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "कस्टम",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "चयनित प्रदाता के लिए मॉडल models.dev से आते हैं।",
-    "description": "Settings description for the model dropdown."
+    "message": "चयनित प्रदाता के लिए मॉडल सूचीबद्ध हैं।"
   },
   "customModelOption": {
     "message": "कस्टम मॉडल…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev उपलब्ध नहीं — केवल अंतर्निहित प्रदाता।",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "प्रदाता सूची अनुपलब्ध — केवल अंतर्निहित प्रदाता।"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ प्रदाता · $MODELS$ मॉडल",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "रीफ़्रेश हो रहा है…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "प्रदाता और मॉडल डेटा models.dev से",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

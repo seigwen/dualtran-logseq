@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Sisäänrakennetut tarjoajat, models.dev-luettelo tai mukautettu OpenAI-yhteensopiva päätepiste.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Sisäänrakennetut palveluntarjoajat, lisäpalveluntarjoajat tai mukautettu OpenAI-yhteensopiva päätepiste."
   },
   "providerGroupBuiltIn": {
     "message": "Sisäänrakennetut",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── lisää ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Mukautettu",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Mallit tulevat models.dev-palvelusta valitulle tarjoajalle.",
-    "description": "Settings description for the model dropdown."
+    "message": "Valitun palveluntarjoajan mallit luetellaan."
   },
   "customModelOption": {
     "message": "Mukautettu malli…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev ei ole käytettävissä — vain sisäänrakennetut tarjoajat.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Palveluntarjoajaluettelo ei saatavilla — vain sisäänrakennetut palveluntarjoajat."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ tarjoajaa · $MODELS$ mallia",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Päivitetään…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Tarjoaja- ja mallitiedot models.dev-palvelusta",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "ผู้ให้บริการในตัว แคตตาล็อก models.dev หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
   },
   "providerGroupBuiltIn": {
     "message": "ในตัว",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── เพิ่มเติม ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "กำหนดเอง",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "โมเดลมาจาก models.dev สำหรับผู้ให้บริการที่เลือก",
-    "description": "Settings description for the model dropdown."
+    "message": "โมเดลจะแสดงสำหรับผู้ให้บริการที่เลือก"
   },
   "customModelOption": {
     "message": "โมเดลกำหนดเอง…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev ไม่พร้อมใช้งาน — ใช้ผู้ให้บริการที่มีในตัวเท่านั้น",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "รายการผู้ให้บริการไม่พร้อมใช้งาน — ใช้ผู้ให้บริการในตัวเท่านั้น"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ ผู้ให้บริการ · $MODELS$ โมเดล",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "กำลังรีเฟรช…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "ข้อมูลผู้ให้บริการและโมเดลจาก models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Ugrađeni provajderi, models.dev katalog ili prilagođeni OpenAI-kompatibilni endpoint.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Ugrađeni provajderi, dodatni provajderi ili prilagođena OpenAI-kompatibilna krajnja tačka."
   },
   "providerGroupBuiltIn": {
     "message": "Ugrađeno",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── više ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Prilagođeno",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modeli dolaze sa models.dev za izabranog provajdera.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modeli su prikazani za izabranog provajdera."
   },
   "customModelOption": {
     "message": "Prilagođeni model…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev nedostupan — samo ugrađeni provajderi.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Lista provajdera nije dostupna — samo ugrađeni provajderi."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ provajdera · $MODELS$ modela",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Osvežavanje…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Podaci o provajderima i modelima od models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Fournisseurs intégrés, le catalogue models.dev ou un point de terminaison personnalisé compatible OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Fournisseurs intégrés, fournisseurs supplémentaires ou un point de terminaison personnalisé compatible OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Intégrés",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── plus ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Personnalisé",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Les modèles proviennent de models.dev pour le fournisseur sélectionné.",
-    "description": "Settings description for the model dropdown."
+    "message": "Les modèles sont listés pour le fournisseur sélectionné."
   },
   "customModelOption": {
     "message": "Modèle personnalisé…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev indisponible — fournisseurs intégrés uniquement.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Liste des fournisseurs indisponible — fournisseurs intégrés uniquement."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ fournisseurs · $MODELS$ modèles",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Actualisation…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Données des fournisseurs et modèles issues de models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Proveïdors integrats, el catàleg de models.dev o un punt final personalitzat compatible amb OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Proveïdors integrats, proveïdors addicionals o un punt de connexió personalitzat compatible amb OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Integrats",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── més ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Personalitzat",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Els models provenen de models.dev per al proveïdor seleccionat.",
-    "description": "Settings description for the model dropdown."
+    "message": "Els models es mostren per al proveïdor seleccionat."
   },
   "customModelOption": {
     "message": "Model personalitzat…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev no disponible — només proveïdors integrats.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Llista de proveïdors no disponible — només proveïdors integrats."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ proveïdors · $MODELS$ models",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Actualitzant…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Dades de proveïdors i models de models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -23,25 +23,25 @@ come from the `logseq` block / `version` of `package.json` inside the linked rep
 release therefore means committing the built `dist/` + `package.json` to the repo; no marketplace
 PR is needed for a version bump.
 
-## Verification boundary (0.2.0)
+## Verification boundary (0.2.1)
 
 Verified:
 
-- `npm run verify` passes: 38 locale catalogues (74 keys each), `tsc --noEmit`, 62 unit tests,
+- `npm run verify` passes: 38 locale catalogues (72 keys each), `tsc --noEmit`, 64 unit tests,
   esbuild bundle (2.1 MB), dist guards (`node:`-free, banner version, locale completeness).
 - Real Logseq 2.0.2 over CDP: settings panel opens from the command palette and from the native
-  settings button; 223 provider options (built-in → disabled divider → models.dev → custom), 142
+  settings button; 223 provider options (built-in → disabled divider → additional providers → custom), 142
   target languages, provider switch re-populates models and auto-fills the endpoint; German and
   Arabic UI strings render; Arabic panel is `dir=rtl`.
 - Google Translate: block translation inserts the translated sibling block; page translation
   creates `<page> · <lang>` and shows a persistent `1/5 …` progress toast that is removed on
   success and on failure.
 - AI: DeepSeek with an invalid key surfaces the provider's `Authentication Fails …` message.
-- 0.1.1 settings migrate to the 0.2.0 keys on first load.
+- 0.1.1 settings migrate to the 0.2.x keys on first load.
 
 Not verified:
 
 - Local Ollama over plain HTTP is blocked by the sandbox CSP (platform limit).
 - Error responses without CORS headers (e.g. OpenAI 401) surface as a network failure in Logseq.
 
-Release status: 0.2.0.
+Release status: 0.2.1.

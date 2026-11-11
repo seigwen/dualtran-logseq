@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "組み込みプロバイダー、models.devカタログ、またはOpenAI互換のカスタムエンドポイント",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "組み込みプロバイダー、追加プロバイダー、またはカスタムのOpenAI互換エンドポイント"
   },
   "providerGroupBuiltIn": {
     "message": "組み込み",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── その他 ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "カスタム",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "モデルは選択したプロバイダーのmodels.devから取得されます",
-    "description": "Settings description for the model dropdown."
+    "message": "モデルは選択したプロバイダーに対して一覧表示されます"
   },
   "customModelOption": {
     "message": "カスタムモデル…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev は利用できません — 組み込みプロバイダーのみ",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "プロバイダーリストを利用できません — 組み込みプロバイダーのみ"
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ プロバイダー · $MODELS$ モデル",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "更新中…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "プロバイダーとモデルのデータは models.dev から取得",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

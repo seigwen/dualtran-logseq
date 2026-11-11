@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Innebygde leverandører, models.dev-katalogen eller et egendefinert OpenAI-kompatibelt endepunkt.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Innebygde leverandører, flere leverandører eller et egendefinert OpenAI-kompatibelt endepunkt."
   },
   "providerGroupBuiltIn": {
     "message": "Innebygd",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── mer ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Egendefinert",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modeller hentes fra models.dev for valgt leverandør.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modeller vises for den valgte leverandøren."
   },
   "customModelOption": {
     "message": "Egendefinert modell…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev utilgjengelig – kun innebygde leverandører.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Leverandørlisten er utilgjengelig – kun innebygde leverandører."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ leverandører · $MODELS$ modeller",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Oppdaterer…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Leverandør- og modelldata fra models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

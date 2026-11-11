@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Beépített szolgáltatók, a models.dev katalógus vagy egyéni OpenAI-kompatibilis végpont.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Beépített szolgáltatók, további szolgáltatók vagy egyéni OpenAI-kompatibilis végpont."
   },
   "providerGroupBuiltIn": {
     "message": "Beépített",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── további ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Egyéni",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "A modellek a models.dev-ről származnak a kiválasztott szolgáltatónál.",
-    "description": "Settings description for the model dropdown."
+    "message": "A modellek a kiválasztott szolgáltatóhoz vannak listázva."
   },
   "customModelOption": {
     "message": "Egyéni modell…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev nem elérhető — csak beépített szolgáltatók.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "A szolgáltatólista nem érhető el — csak beépített szolgáltatók."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ szolgáltató · $MODELS$ modell",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Frissítés…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Szolgáltató- és modelladatok a models.dev-től",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

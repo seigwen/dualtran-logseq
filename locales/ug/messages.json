@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "ئىچكى تەمىنلىگۈچىلەر، models.dev كاتالوگى ياكى خاس OpenAI ماس كېلىدىغان ئاخىرلاشقۇچى.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "ئىچكى تەمىنلىگۈچىلەر، قوشۇمچە تەمىنلىگۈچىلەر ياكى OpenAI غا ماسلاشتۇرۇلغان ئۆزگىچە ئاخىرلاش نۇقتىسى."
   },
   "providerGroupBuiltIn": {
     "message": "ئىچكى",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── تېخىمۇ كۆپ ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "خاس",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "مودېللار تاللانغان تەمىنلىگۈچى ئۈچۈن models.dev دىن كېلىدۇ.",
-    "description": "Settings description for the model dropdown."
+    "message": "مودېللار تاللانغان تەمىنلىگۈچى ئۈچۈن تىزىملىنىدۇ."
   },
   "customModelOption": {
     "message": "ئىختىيارىي مودېل…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev ئىشلەتكىلى بولمايدۇ — پەقەت قۇرۇلغان تەمىنلىگۈچىلەر.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "تەمىنلىگۈچى تىزىملىكى ئىشلەتكىلى بولمايدۇ — پەقەت ئىچكى تەمىنلىگۈچىلەر."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ تەمىنلىگۈچى · $MODELS$ مودېل",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "يېڭىلىنىۋاتىدۇ…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "تەمىنلىگۈچى ۋە مودېل ئۇچۇرى models.dev دىن",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Yerleşik sağlayıcılar, models.dev kataloğu veya özel bir OpenAI uyumlu uç nokta.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Yerleşik sağlayıcılar, ek sağlayıcılar veya özel bir OpenAI uyumlu uç nokta."
   },
   "providerGroupBuiltIn": {
     "message": "Yerleşik",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── daha fazla ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Özel",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Modeller, seçilen sağlayıcı için models.dev üzerinden gelir.",
-    "description": "Settings description for the model dropdown."
+    "message": "Modeller seçili sağlayıcı için listelenir."
   },
   "customModelOption": {
     "message": "Özel model…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "models.dev kullanılamıyor — yalnızca yerleşik sağlayıcılar.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Sağlayıcı listesi kullanılamıyor — yalnızca yerleşik sağlayıcılar."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ sağlayıcı · $MODELS$ model",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Yenileniyor…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Sağlayıcı ve model verileri models.dev'den alınır",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",

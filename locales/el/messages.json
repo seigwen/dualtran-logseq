@@ -64,8 +64,7 @@
     "description": "Settings label: AI provider."
   },
   "settingProviderDesc": {
-    "message": "Ενσωματωμένοι πάροχοι, ο κατάλογος models.dev ή προσαρμοσμένο endpoint συμβατό με OpenAI.",
-    "description": "Settings description for the AI provider dropdown."
+    "message": "Ενσωματωμένοι πάροχοι, πρόσθετοι πάροχοι ή προσαρμοσμένο endpoint συμβατό με OpenAI."
   },
   "providerGroupBuiltIn": {
     "message": "Ενσωματωμένοι",
@@ -74,10 +73,6 @@
   "providerGroupMore": {
     "message": "──── περισσότερα ────",
     "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCatalog": {
-    "message": "models.dev",
-    "description": "Provider dropdown group label."
   },
   "providerGroupCustom": {
     "message": "Προσαρμοσμένος",
@@ -112,8 +107,7 @@
     "description": "Settings label: AI model."
   },
   "settingModelDesc": {
-    "message": "Τα μοντέλα προέρχονται από το models.dev για τον επιλεγμένο πάροχο.",
-    "description": "Settings description for the model dropdown."
+    "message": "Τα μοντέλα εμφανίζονται για τον επιλεγμένο πάροχο."
   },
   "customModelOption": {
     "message": "Προσαρμοσμένο μοντέλο…",
@@ -204,8 +198,7 @@
     "description": "Catalogue status while models.dev is being fetched."
   },
   "catalogOffline": {
-    "message": "Το models.dev δεν είναι διαθέσιμο — μόνο ενσωματωμένοι πάροχοι.",
-    "description": "Catalogue status when models.dev cannot be reached."
+    "message": "Η λίστα παρόχων δεν είναι διαθέσιμη — μόνο ενσωματωμένοι πάροχοι."
   },
   "catalogSummary": {
     "message": "$PROVIDERS$ πάροχοι · $MODELS$ μοντέλα",
@@ -226,10 +219,6 @@
   "btnRefreshing": {
     "message": "Ανανέωση…",
     "description": "Refresh button while the catalogue is reloading."
-  },
-  "dataSource": {
-    "message": "Δεδομένα παρόχων και μοντέλων από το models.dev",
-    "description": "Footer credit for the catalogue data source."
   },
   "aboutVersion": {
     "message": "DualTran Translate v$VERSION$",
