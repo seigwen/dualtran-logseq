@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "Cài đặt DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Đóng",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Chung",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Dịch",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "Mô hình AI (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Danh sách nhà cung cấp và mô hình",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Công cụ",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google hoạt động không cần khóa; AI dùng nhà cung cấp của bạn.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Dịch",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "Mô hình AI",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Ngôn ngữ giao diện",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Theo Logseq trừ khi được ghi đè.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Theo Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Ngôn ngữ đích",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Ngôn ngữ mà bản dịch được viết bằng.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "Nhà cung cấp AI",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Nhà cung cấp tích hợp, danh mục models.dev hoặc điểm cuối tương thích OpenAI tùy chỉnh.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Tích hợp",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── thêm ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Tùy chỉnh",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Nhà cung cấp tùy chỉnh…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Id nhà cung cấp tùy chỉnh",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Dùng làm nhãn yêu cầu; endpoint bên dưới cung cấp API base",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "Khóa API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Chỉ lưu trong cài đặt plugin của graph này",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Mô hình",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Mô hình lấy từ models.dev cho nhà cung cấp đã chọn",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Mô hình tùy chỉnh…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "ID mô hình tùy chỉnh",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Dùng khi Mô hình được đặt thành Tùy chỉnh",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "ví dụ: gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpoint",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Được điền từ nhà cung cấp; chỉnh sửa để ghi đè.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Đặt lại về mặc định của nhà cung cấp",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Mức độ suy luận",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Thấp nhất giữ mức nỗ lực nhỏ nhất của mô hình; mức cao hơn tốn nhiều token hơn.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Mô hình này không hỗ trợ mức độ suy luận.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Thấp nhất (mặc định)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Mặc định của nhà cung cấp",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Không",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Tối thiểu",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Thấp",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Trung bình",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Cao",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Rất cao",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Tối đa",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Mặc định của nhà cung cấp",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Đang tải danh sách nhà cung cấp và mô hình…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev không khả dụng — chỉ dùng nhà cung cấp tích hợp.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ nhà cung cấp · $MODELS$ mô hình",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Làm mới",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Đang làm mới…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Dữ liệu nhà cung cấp và mô hình từ models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Dịch khối (bên dưới)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Dịch trang sang trang mới",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: cài đặt",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: làm mới danh sách nhà cung cấp và mô hình",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Hãy đặt con trỏ vào trong một khối trước.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Khối này trống.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Hãy mở một trang trước.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Trang này không có khối nào.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Trang \"$NAME$\" đã tồn tại.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Đang dịch…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Đang dịch $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Dịch thất bại: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Dịch trang thất bại: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Hãy chọn một mô hình AI trong cài đặt DualTran trước.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Đã làm mới danh sách nhà cung cấp và mô hình.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Mở bảng cài đặt DualTran từ bảng lệnh (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Mở bảng cài đặt",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

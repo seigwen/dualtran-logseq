@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "Ρυθμίσεις DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Κλείσιμο",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Γενικά",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Μετάφραση",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "Μοντέλο AI (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Λίστα παρόχων και μοντέλων",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Μηχανή",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Το Google λειτουργεί χωρίς κλειδί, το AI χρησιμοποιεί τον δικό σας πάροχο.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "Μοντέλο AI",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Γλώσσα διεπαφής",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Ακολουθεί το Logseq εκτός αν παρακαμφθεί.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Ακολουθεί το Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Γλώσσα-στόχος",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Η γλώσσα στην οποία γράφονται οι μεταφράσεις.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "Πάροχος τεχνητής νοημοσύνης",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Ενσωματωμένοι πάροχοι, ο κατάλογος models.dev ή προσαρμοσμένο endpoint συμβατό με OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Ενσωματωμένοι",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── περισσότερα ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Προσαρμοσμένος",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Προσαρμοσμένος πάροχος…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Αναγνωριστικό προσαρμοσμένου παρόχου",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Χρησιμοποιείται ως ετικέτα αιτήματος· το παρακάτω endpoint παρέχει το API base.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "Κλειδί API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Αποθηκεύεται μόνο στις ρυθμίσεις πρόσθετου αυτού του γράφου.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Μοντέλο",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Τα μοντέλα προέρχονται από το models.dev για τον επιλεγμένο πάροχο.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Προσαρμοσμένο μοντέλο…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Αναγνωριστικό προσαρμοσμένου μοντέλου",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Χρησιμοποιείται όταν το Μοντέλο έχει οριστεί σε Προσαρμοσμένο.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "π.χ. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpoint",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Συμπληρώνεται από τον πάροχο· επεξεργαστείτε για παράκαμψη.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Επαναφορά στο προεπιλεγμένο του παρόχου",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Βάθος συλλογισμού",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Το χαμηλότερο διατηρεί την ελάχιστη προσπάθεια του μοντέλου· τα υψηλότερα επίπεδα κοστίζουν περισσότερα tokens.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Αυτό το μοντέλο δεν εκθέτει επίπεδο συλλογισμού.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Χαμηλότερο (προεπιλογή)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Προεπιλογή παρόχου",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Κανένα",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Ελάχιστο",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Χαμηλή",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Μεσαία",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Υψηλή",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Πολύ υψηλό",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Μέγιστη",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Προεπιλογή παρόχου",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Φόρτωση λίστας παρόχων και μοντέλων…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "Το models.dev δεν είναι διαθέσιμο — μόνο ενσωματωμένοι πάροχοι.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ πάροχοι · $MODELS$ μοντέλα",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Ανανέωση",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Ανανέωση…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Δεδομένα παρόχων και μοντέλων από το models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Μετάφραση τμήματος (παρακάτω)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Μετάφραση σελίδας σε νέα σελίδα",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: ρυθμίσεις",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: ανανέωση λίστας παρόχων και μοντέλων",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Τοποθετήστε πρώτα τον κέρσορα μέσα σε ένα μπλοκ.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Αυτό το μπλοκ είναι κενό.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Ανοίξτε πρώτα μια σελίδα.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Αυτή η σελίδα δεν έχει μπλοκ.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Η σελίδα \"$NAME$\" υπάρχει ήδη.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Μετάφραση…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Μετάφραση $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Η μετάφραση απέτυχε: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Η μετάφραση της σελίδας απέτυχε: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Επιλέξτε πρώτα ένα μοντέλο AI στις ρυθμίσεις του DualTran.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Η λίστα παρόχων και μοντέλων ανανεώθηκε.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Ανοίξτε τον πίνακα ρυθμίσεων του DualTran από την παλέτα εντολών (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Άνοιγμα πίνακα ρυθμίσεων",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "Nastavení DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Zavřít",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Obecné",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Překlad",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI model (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Seznam poskytovatelů a modelů",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Překladový engine",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google funguje bez klíče; AI využívá vašeho vlastního poskytovatele.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI model",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Jazyk rozhraní",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Řídí se Logseq, pokud není přepsáno.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Podle Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Cílový jazyk",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Jazyk, do kterého se překlady zapisují.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "Poskytovatel AI",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Vestavění poskytovatelé, katalog models.dev nebo vlastní koncový bod kompatibilní s OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Vestavěné",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── další ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Vlastní",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Vlastní poskytovatel…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "ID vlastního poskytovatele",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Používá se jako označení požadavku; koncový bod níže poskytuje základ API.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "Klíč API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Uloženo pouze v nastavení pluginu tohoto grafu.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Model",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Modely pocházejí z models.dev pro vybraného poskytovatele.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Vlastní model…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "ID vlastního modelu",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Použije se, když je Model nastaven na Vlastní.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "např. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpoint",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Vyplněno poskytovatelem; upravte pro přepsání.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Obnovit výchozí hodnotu poskytovatele",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Úroveň uvažování",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Nejnižší zachovává nejmenší úsilí modelu; vyšší úrovně spotřebovávají více tokenů.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Tento model nepodporuje úroveň uvažování.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Nejnižší (výchozí)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Výchozí hodnota poskytovatele",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Žádné",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Minimální",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Nízká",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Střední",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Vysoká",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Velmi vysoká",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Maximální",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Výchozí hodnota poskytovatele",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Načítání seznamu poskytovatelů a modelů…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev nedostupný — pouze vestavění poskytovatelé.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ poskytovatelů · $MODELS$ modelů",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Obnovit",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Obnovování…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Data o poskytovatelích a modelech z models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Přeložit blok (níže)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Přeložit stránku na novou stránku",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: nastavení",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: obnovit seznam poskytovatelů a modelů",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Nejprve umístěte kurzor do bloku.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Tento blok je prázdný.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Nejprve otevřete stránku.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Tato stránka neobsahuje žádné bloky.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Stránka \"$NAME$\" již existuje.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Překládání…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Překládání $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Překlad se nezdařil: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Překlad stránky se nezdařil: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Nejprve v nastavení DualTran zvolte AI model.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Seznam poskytovatelů a modelů byl obnoven.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Otevřete panel nastavení DualTran z palety příkazů (DualTran: nastavení).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Otevřít panel nastavení",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

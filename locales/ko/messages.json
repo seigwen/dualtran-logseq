@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran 설정",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "닫기",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "일반",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "번역",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI 모델 (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "제공자 및 모델 목록",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "엔진",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google은 키 없이 작동하며 AI는 사용자의 제공자를 사용합니다",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google 번역",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI 모델",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "인터페이스 언어",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Logseq 설정을 따릅니다. 별도로 지정하지 않는 한.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseq 따르기",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "대상 언어",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "번역이 작성되는 언어입니다.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI 공급자",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "내장 제공자, models.dev 카탈로그 또는 사용자 지정 OpenAI 호환 엔드포인트입니다.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "내장",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── 더 보기 ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "사용자 지정",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "사용자 지정 제공자…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "사용자 지정 제공자 id",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "요청 레이블로 사용되며 아래 엔드포인트가 API 베이스를 제공합니다.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API 키",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "이 그래프의 플러그인 설정에만 저장됩니다.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "모델",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "모델은 선택한 제공자의 models.dev에서 가져옵니다.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "사용자 지정 모델…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "사용자 지정 모델 ID",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "모델이 사용자 지정으로 설정된 경우 사용됩니다.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "예: gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "엔드포인트",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "제공자에서 채워집니다. 재정의하려면 편집하세요.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "제공자 기본값으로 재설정",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "추론 강도",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "가장 낮음은 모델의 최소 추론 강도를 유지하며, 높은 수준일수록 토큰이 더 소모됩니다.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "이 모델은 추론 수준을 지원하지 않습니다.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "가장 낮음 (기본값)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "제공자 기본값",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "없음",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "최소",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "낮음",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "중간",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "높음",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "매우 높음",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "최대",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "제공자 기본값",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "제공자 및 모델 목록 불러오는 중…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev 사용 불가 — 내장 제공자만 사용",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$개 제공자 · $MODELS$개 모델",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "새로고침",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "새로고침 중…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "제공자 및 모델 데이터 출처: models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "블록 번역 (아래)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "페이지를 새 페이지로 번역",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: 설정",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: 제공자 및 모델 목록 새로고침",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "먼저 블록 안에 커서를 두세요.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "이 블록은 비어 있습니다.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "먼저 페이지를 여세요.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "이 페이지에는 블록이 없습니다.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "\"$NAME$\" 페이지가 이미 있습니다.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "번역 중…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "$DONE$/$TOTAL$ 번역 중…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "번역 실패: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "페이지 번역 실패: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "먼저 DualTran 설정에서 AI 모델을 선택하세요.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "제공자 및 모델 목록을 새로 고쳤습니다.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "명령 팔레트에서 DualTran 설정 패널을 여세요 (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "설정 패널 열기",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

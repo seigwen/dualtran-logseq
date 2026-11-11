@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran सेटिंग्स",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "बंद करें",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "सामान्य",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "अनुवाद",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI मॉडल (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "प्रदाता और मॉडल सूची",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "इंजन",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google बिना कुंजी के काम करता है; AI आपके अपने प्रदाता का उपयोग करता है।",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google अनुवाद",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI मॉडल",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "इंटरफ़ेस भाषा",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Logseq का अनुसरण करता है जब तक ओवरराइड न किया जाए।",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseq का अनुसरण करें",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "लक्षित भाषा",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "वह भाषा जिसमें अनुवाद लिखे जाते हैं।",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "एआई प्रदाता",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "अंतर्निहित प्रदाता, models.dev कैटलॉग, या कस्टम OpenAI-संगत एंडपॉइंट।",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "अंतर्निहित",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── अधिक ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "कस्टम",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "कस्टम प्रदाता…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "कस्टम प्रदाता आईडी",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "अनुरोध लेबल के रूप में उपयोग किया जाता है; नीचे दिया गया एंडपॉइंट API बेस प्रदान करता है।",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API कुंजी",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "केवल इस ग्राफ़ की प्लगइन सेटिंग्स में संग्रहीत।",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "मॉडल",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "चयनित प्रदाता के लिए मॉडल models.dev से आते हैं।",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "कस्टम मॉडल…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "कस्टम मॉडल आईडी",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "जब मॉडल को कस्टम पर सेट किया जाता है तब उपयोग होता है।",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "उदा. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "एंडपॉइंट",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "प्रदाता से भरा गया; ओवरराइड करने के लिए संपादित करें।",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "प्रदाता डिफ़ॉल्ट पर रीसेट करें",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "तर्क प्रयास",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "न्यूनतम मॉडल का सबसे छोटा प्रयास रखता है; उच्च स्तरों में अधिक टोकन लगते हैं।",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "यह मॉडल तर्क स्तर प्रदर्शित नहीं करता।",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "न्यूनतम (डिफ़ॉल्ट)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "प्रदाता डिफ़ॉल्ट",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "कोई नहीं",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "न्यूनतम",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "निम्न",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "मध्यम",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "उच्च",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "अति उच्च",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "अधिकतम",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "प्रदाता डिफ़ॉल्ट",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "प्रदाता और मॉडल सूची लोड हो रही है…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev उपलब्ध नहीं — केवल अंतर्निहित प्रदाता।",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ प्रदाता · $MODELS$ मॉडल",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "रीफ़्रेश करें",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "रीफ़्रेश हो रहा है…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "प्रदाता और मॉडल डेटा models.dev से",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "ब्लॉक का अनुवाद करें (नीचे)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "पेज को नए पेज में अनुवाद करें",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: सेटिंग्स",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: प्रदाता और मॉडल सूची रीफ़्रेश करें",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "पहले किसी ब्लॉक के अंदर कर्सर रखें।",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "यह ब्लॉक खाली है।",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "पहले कोई पेज खोलें।",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "इस पेज में कोई ब्लॉक नहीं है।",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "पेज \"$NAME$\" पहले से मौजूद है।",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "अनुवाद हो रहा है…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "$DONE$/$TOTAL$ का अनुवाद हो रहा है…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "अनुवाद विफल: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "पेज अनुवाद विफल: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "पहले DualTran सेटिंग्स में AI मॉडल चुनें।",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "प्रदाता और मॉडल सूची रीफ़्रेश हो गई।",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "कमांड पैलेट (DualTran: settings) से DualTran सेटिंग्स पैनल खोलें।",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "सेटिंग्स पैनल खोलें",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

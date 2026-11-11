@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "การตั้งค่า DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "ปิด",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "ทั่วไป",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "การแปล",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "โมเดล AI (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "รายการผู้ให้บริการและโมเดล",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "เอนจิน",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google ใช้งานได้โดยไม่ต้องใช้คีย์ ส่วน AI ใช้ผู้ให้บริการของคุณเอง",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "โมเดล AI",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "ภาษาของอินเทอร์เฟซ",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "ตาม Logseq เว้นแต่จะถูกแทนที่",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "ตาม Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "ภาษาปลายทาง",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "ภาษาที่ใช้ในการแปล",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "ผู้ให้บริการ AI",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "ผู้ให้บริการในตัว แคตตาล็อก models.dev หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "ในตัว",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── เพิ่มเติม ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "กำหนดเอง",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "ผู้ให้บริการกำหนดเอง…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "ID ผู้ให้บริการกำหนดเอง",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "ใช้เป็นป้ายกำกับคำขอ endpoint ด้านล่างใช้เป็นฐาน API",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "คีย์ API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "จัดเก็บไว้ในการตั้งค่าปลั๊กอินของกราฟนี้เท่านั้น",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "โมเดล",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "โมเดลมาจาก models.dev สำหรับผู้ให้บริการที่เลือก",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "โมเดลกำหนดเอง…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "ID โมเดลกำหนดเอง",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "ใช้เมื่อตั้งค่าโมเดลเป็นกำหนดเอง",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "เช่น gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpoint",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "เติมจากผู้ให้บริการ แก้ไขเพื่อแทนที่",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "รีเซ็ตเป็นค่าเริ่มต้นของผู้ให้บริการ",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "ระดับการใช้เหตุผล",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "ต่ำสุดจะใช้ความพยายามน้อยที่สุดของโมเดล ระดับที่สูงขึ้นใช้โทเค็นมากขึ้น",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "โมเดลนี้ไม่เปิดเผยระดับการใช้เหตุผล",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "ต่ำสุด (ค่าเริ่มต้น)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "ค่าเริ่มต้นของผู้ให้บริการ",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "ไม่มี",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "น้อยที่สุด",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "ต่ำ",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "ปานกลาง",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "สูง",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "สูงมาก",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "สูงสุด",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "ค่าเริ่มต้นของผู้ให้บริการ",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "กำลังโหลดรายการผู้ให้บริการและโมเดล…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev ไม่พร้อมใช้งาน — ใช้ผู้ให้บริการที่มีในตัวเท่านั้น",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ ผู้ให้บริการ · $MODELS$ โมเดล",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "รีเฟรช",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "กำลังรีเฟรช…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "ข้อมูลผู้ให้บริการและโมเดลจาก models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "แปลบล็อก (ด้านล่าง)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "แปลหน้าเป็นหน้าใหม่",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: การตั้งค่า",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: รีเฟรชรายการผู้ให้บริการและโมเดล",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "วางเคอร์เซอร์ในบล็อกก่อน",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "บล็อกนี้ว่างเปล่า",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "เปิดหน้าก่อน",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "หน้านี้ไม่มีบล็อก",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "มีหน้า \"$NAME$\" อยู่แล้ว",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "กำลังแปล…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "กำลังแปล $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "การแปลล้มเหลว: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "การแปลหน้าล้มเหลว: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "เลือกโมเดล AI ในการตั้งค่า DualTran ก่อน",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "รีเฟรชรายการผู้ให้บริการและโมเดลแล้ว",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "เปิดแผงการตั้งค่า DualTran จาก command palette (DualTran: settings)",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "เปิดแผงการตั้งค่า",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

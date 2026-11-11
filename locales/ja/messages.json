@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran設定",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "閉じる",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "一般",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "翻訳",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AIモデル (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "プロバイダーとモデル一覧",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "エンジン",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Googleはキーなしで動作します。AIはご自身のプロバイダーを使用します。",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google 翻訳",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AIモデル",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "表示言語",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "上書きされない限りLogseqに従います",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseqに従う",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "対象言語",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "翻訳の書き込み先言語",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI プロバイダー",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "組み込みプロバイダー、models.devカタログ、またはOpenAI互換のカスタムエンドポイント",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "組み込み",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── その他 ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "カスタム",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "カスタムプロバイダー…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "カスタムプロバイダーID",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "リクエストラベルとして使用され、下のエンドポイントがAPIベースを提供します",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "APIキー",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "このグラフのプラグイン設定にのみ保存されます",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "モデル",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "モデルは選択したプロバイダーのmodels.devから取得されます",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "カスタムモデル…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "カスタムモデルID",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "モデルがカスタムに設定されている場合に使用されます",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "例: gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "エンドポイント",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "プロバイダーから入力されます。編集して上書きできます。",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "プロバイダーのデフォルトに戻す",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "推論の強度",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "最低にするとモデルの最小の強度を維持します。高いレベルほど多くのトークンを消費します。",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "このモデルは推論レベルを公開していません。",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "最低 (デフォルト)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "プロバイダーのデフォルト",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "なし",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "最小",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "低",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "中",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "高",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "最高",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "最大",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "プロバイダーのデフォルト",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "プロバイダーとモデル一覧を読み込み中…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev は利用できません — 組み込みプロバイダーのみ",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ プロバイダー · $MODELS$ モデル",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "更新",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "更新中…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "プロバイダーとモデルのデータは models.dev から取得",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "ブロックを翻訳（下）",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "ページを新しいページに翻訳",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: 設定",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: プロバイダーとモデル一覧を更新",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "先にカーソルをブロック内に置いてください",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "このブロックは空です",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "先にページを開いてください",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "このページにはブロックがありません",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "ページ「$NAME$」は既に存在します",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "翻訳中…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "$DONE$/$TOTAL$ を翻訳中…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "翻訳に失敗しました: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "ページの翻訳に失敗しました: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "先にDualTranの設定でAIモデルを選択してください",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "プロバイダーとモデルの一覧を更新しました",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "コマンドパレットからDualTran設定パネルを開きます（DualTran: settings）",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "設定パネルを開く",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

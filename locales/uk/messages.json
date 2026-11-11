@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "Налаштування DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Закрити",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Загальні",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Переклад",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI-модель (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Список провайдерів і моделей",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Рушій",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google працює без ключа; AI використовує вашого провайдера.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI-модель",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Мова інтерфейсу",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Наслідує Logseq, якщо не перевизначено.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Наслідувати Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Цільова мова",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Мова, якою виконується переклад.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "Постачальник ШІ",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Вбудовані провайдери, каталог models.dev або власна кінцева точка, сумісна з OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Вбудовані",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── більше ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Власний",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Власний провайдер…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Ідентифікатор власного провайдера",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Використовується як мітка запиту; кінцева точка нижче надає базову адресу API.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "Ключ API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Зберігається лише в налаштуваннях плагіна цього графа.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Модель",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Моделі надходять з models.dev для вибраного постачальника.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Власна модель…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Ідентифікатор власної моделі",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Використовується, коли для параметра «Модель» вибрано «Власна».",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "напр. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Кінцева точка",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Заповнюється постачальником; змініть, щоб перевизначити.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Скинути до стандартного постачальника",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Рівень міркування",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Найнижчий зберігає найменші зусилля моделі; вищі рівні споживають більше токенів.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Ця модель не підтримує рівень міркування.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Найнижчий (за замовчуванням)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Стандартний постачальника",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Немає",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Мінімальна",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Низький",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Середній",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Високий",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Дуже висока",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Максимальний",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Стандартний постачальника",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Завантаження списку постачальників і моделей…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev недоступний — лише вбудовані провайдери.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ провайдерів · $MODELS$ моделей",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Оновити",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Оновлення…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Дані про провайдерів і моделі від models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Перекласти блок (нижче)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Перекласти сторінку в нову сторінку",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: налаштування",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: оновити список провайдерів і моделей",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Спочатку поставте курсор у блок.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Цей блок порожній.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Спочатку відкрийте сторінку.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "На цій сторінці немає блоків.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Сторінка \"$NAME$\" вже існує.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Переклад…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Переклад $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Не вдалося перекласти: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Не вдалося перекласти сторінку: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Спочатку виберіть модель ШІ в налаштуваннях DualTran.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Список провайдерів і моделей оновлено.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Відкрийте панель налаштувань DualTran з палітри команд (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Відкрити панель налаштувань",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

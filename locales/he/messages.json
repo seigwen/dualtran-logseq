@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "הגדרות DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "סגור",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "כללי",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "תרגום",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "מודל AI (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "רשימת ספקים ומודלים",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "מנוע",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google עובד ללא מפתח; AI משתמש בספק שלך.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "מודל AI",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "שפת הממשק",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "עוקב אחר Logseq אלא אם כן נקבע אחרת.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "עקוב אחר Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "שפת יעד",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "השפה שאליה מתורגמות התרגומים.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "ספק בינה מלאכותית",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "ספקים מובנים, קטלוג models.dev, או נקודת קצה מותאמת תואמת OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "מובנה",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── עוד ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "מותאם אישית",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "ספק מותאם אישית…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "מזהה ספק מותאם אישית",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "משמש כתווית הבקשה; נקודת הקצה שלמטה מספקת את בסיס ה-API.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "מפתח API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "נשמר רק בהגדרות התוסף של הגרף הזה.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "מודל",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "המודלים מגיעים מ-models.dev עבור הספק הנבחר.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "מודל מותאם אישית…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "מזהה מודל מותאם אישית",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "משמש כאשר המודל מוגדר למותאם אישית.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "לדוגמה gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "נקודת קצה",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "ממולא מהספק; ניתן לערוך כדי לעקוף.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "איפוס לברירת המחדל של הספק",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "מאמץ חשיבה",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "הנמוך ביותר שומר על המאמץ הקטן ביותר של המודל; רמות גבוהות יותר צורכות יותר טוקנים.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "מודל זה אינו חושף רמת חשיבה.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "הנמוך ביותר (ברירת מחדל)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "ברירת מחדל של הספק",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "ללא",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "מינימלי",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "נמוכה",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "בינונית",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "גבוהה",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "גבוה במיוחד",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "מקסימלית",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "ברירת מחדל של הספק",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "טוען רשימת ספקים ומודלים…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev לא זמין — רק ספקים מובנים.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ ספקים · $MODELS$ מודלים",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "רענן",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "מרענן…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "נתוני ספקים ומודלים מ-models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "תרגם בלוק (למטה)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "תרגם עמוד לעמוד חדש",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: הגדרות",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: רענן רשימת ספקים ומודלים",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "מקם את הסמן בתוך בלוק תחילה.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "הבלוק הזה ריק.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "פתח עמוד תחילה.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "בעמוד הזה אין בלוקים.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "העמוד \"$NAME$\" כבר קיים.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "מתרגם…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "מתרגם $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "התרגום נכשל: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "תרגום העמוד נכשל: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "בחר מודל AI בהגדרות DualTran תחילה.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "רשימת הספקים והמודלים רועננה.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "פתח את חלונית ההגדרות של DualTran מפלטת הפקודות (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "פתח חלונית הגדרות",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

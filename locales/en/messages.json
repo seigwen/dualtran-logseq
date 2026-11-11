@@ -1,0 +1,294 @@
+{
+  "panelTitle": {
+    "message": "DualTran Settings",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Close",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "General",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Translation",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI model (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Provider & model list",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Engine",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google works without a key; AI uses your own provider.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI model",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Interface language",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Follows Logseq unless overridden.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Follow Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Target language",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "The language translations are written in.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI provider",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Built-in providers, the models.dev catalogue, or a custom OpenAI-compatible endpoint.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Built-in",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── more ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Custom",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Custom provider…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Custom provider id",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Used as the request label; the endpoint below supplies the API base.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API key",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Stored in this graph's plugin settings only.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Model",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Models come from models.dev for the selected provider.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Custom model…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Custom model id",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Used when Model is set to Custom.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "e.g. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpoint",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Filled from the provider; edit to override.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Reset to provider default",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Reasoning effort",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Lowest keeps the model's smallest effort; higher levels cost more tokens.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "This model does not expose a reasoning level.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Lowest (default)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Provider default",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": { "message": "None", "description": "Reasoning level label." },
+  "msgReasoningDepthMinimal": { "message": "Minimal", "description": "Reasoning level label." },
+  "msgReasoningDepthLow": { "message": "Low", "description": "Reasoning level label." },
+  "msgReasoningDepthMedium": { "message": "Medium", "description": "Reasoning level label." },
+  "msgReasoningDepthHigh": { "message": "High", "description": "Reasoning level label." },
+  "msgReasoningDepthXHigh": { "message": "XHigh", "description": "Reasoning level label." },
+  "msgReasoningDepthMax": { "message": "Max", "description": "Reasoning level label." },
+  "msgReasoningDepthProviderDefault": { "message": "Provider default", "description": "Reasoning level label." },
+  "catalogLoading": {
+    "message": "Loading provider and model list…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev unavailable — built-in providers only.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ providers · $MODELS$ models",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": { "content": "$1$" },
+      "MODELS": { "content": "$2$" }
+    }
+  },
+  "btnRefresh": {
+    "message": "Refresh",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Refreshing…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Provider and model data from models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": { "content": "$1$" }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Translate block (below)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Translate page to a new page",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: settings",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: refresh provider and model list",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Put the cursor inside a block first.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "This block is empty.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Open a page first.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "This page has no blocks.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Page \"$NAME$\" already exists.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": { "content": "$1$" }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Translating…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Translating $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": { "content": "$1$" },
+      "TOTAL": { "content": "$2$" }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Translation failed: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": { "content": "$1$" }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Page translation failed: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": { "content": "$1$" }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Choose an AI model in the DualTran settings first.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Provider and model list refreshed.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Open the DualTran settings panel from the command palette (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Open settings panel",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

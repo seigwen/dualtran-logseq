@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "إعدادات DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "إغلاق",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "عام",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "الترجمة",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "نموذج الذكاء الاصطناعي (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "قائمة المزوّدين والنماذج",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "المحرك",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "يعمل Google دون مفتاح؛ ويستخدم الذكاء الاصطناعي مزوّدك الخاص.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "ترجمة Google",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "نموذج الذكاء الاصطناعي",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "لغة الواجهة",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "يتبع Logseq ما لم يتم تجاوزه.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "اتبع Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "اللغة المستهدفة",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "اللغة التي تُكتب بها الترجمات.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "مزود الذكاء الاصطناعي",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "موفرو الخدمة المدمجون، أو كتالوج models.dev، أو نقطة نهاية مخصصة متوافقة مع OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "مدمج",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── المزيد ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "مخصص",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "موفر خدمة مخصص…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "معرف موفر الخدمة المخصص",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "يُستخدم كتسمية للطلب؛ يوفّر نقطة النهاية أدناه عنوان API الأساسي.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "مفتاح API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "يُخزَّن في إعدادات إضافة هذا الرسم البياني فقط.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "الطراز",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "تأتي الطرازات من models.dev للمزوّد المحدد.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "طراز مخصص…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "معرّف الطراز المخصص",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "يُستخدم عندما يكون الطراز مضبوطًا على مخصص.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "مثال: gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "نقطة النهاية",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "يتم تعبئتها من المزود؛ عدّلها للتجاوز.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "إعادة التعيين إلى افتراضي المزود",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "جهد الاستدلال",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "الأدنى يحافظ على أصغر جهد للنموذج؛ المستويات الأعلى تستهلك رموزًا أكثر.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "هذا النموذج لا يوفر مستوى استدلال.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "الأدنى (افتراضي)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "افتراضي المزود",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "بلا",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "أدنى حد",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "منخفض",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "متوسط",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "عالٍ",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "مرتفع جدًا",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "الأقصى",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "افتراضي المزود",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "جارٍ تحميل قائمة المزودين والنماذج…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev غير متاح — المزوّدون المدمجون فقط.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ مزوّد · $MODELS$ نموذج",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "تحديث",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "جارٍ التحديث…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "بيانات المزوّدين والنماذج من models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "ترجمة الكتلة (أدناه)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "ترجمة الصفحة إلى صفحة جديدة",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: الإعدادات",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: تحديث قائمة المزوّدين والنماذج",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "ضع المؤشر داخل كتلة أولاً.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "هذه الكتلة فارغة.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "افتح صفحة أولاً.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "هذه الصفحة لا تحتوي على كتل.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "الصفحة \"$NAME$\" موجودة بالفعل.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "جارٍ الترجمة…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "جارٍ ترجمة $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "فشلت الترجمة: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "فشلت ترجمة الصفحة: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "اختر نموذج ذكاء اصطناعي في إعدادات DualTran أولاً.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "تم تحديث قائمة المزودين والنماذج.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "افتح لوحة إعدادات DualTran من لوحة الأوامر (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "فتح لوحة الإعدادات",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

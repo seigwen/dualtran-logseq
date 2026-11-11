@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran iestatījumi",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Aizvērt",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Vispārīgi",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Tulkošana",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI modelis (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Pakalpojumu sniedzēju un modeļu saraksts",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Dzinējs",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google darbojas bez atslēgas; AI izmanto jūsu pašu pakalpojumu sniedzēju.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI modelis",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Saskarnes valoda",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Seko Logseq, ja nav pārrakstīts.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Sekot Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Mērķvaloda",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Valoda, kurā tiek rakstīti tulkojumi.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI pakalpojumu sniedzējs",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Iebūvētie pakalpojumu sniedzēji, models.dev katalogs vai pielāgots OpenAI saderīgs galapunkts.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Iebūvēts",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── vairāk ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Pielāgots",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Pielāgots pakalpojumu sniedzējs…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Pielāgota pakalpojumu sniedzēja ID",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Tiek izmantots kā pieprasījuma apzīmējums; zemāk norādītais galapunkts nodrošina API bāzi.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API atslēga",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Saglabāta tikai šī grafika spraudņa iestatījumos.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Modelis",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Modeļi tiek iegūti no models.dev atlasītajam pakalpojumu sniedzējam.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Pielāgots modelis…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Pielāgota modeļa ID",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Izmantots, kad modelis ir iestatīts uz Pielāgots.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "piem., gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Galapunkts",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Aizpildīts no pakalpojumu sniedzēja; rediģējiet, lai ignorētu.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Atiestatīt uz pakalpojumu sniedzēja noklusējumu",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Spriešanas intensitāte",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Zemākā saglabā mazāko modeļa piepūli; augstāki līmeņi patērē vairāk marķieru.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Šis modelis nepiedāvā spriešanas līmeni.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Zemākais (noklusējums)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Pakalpojumu sniedzēja noklusējums",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Nav",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Minimāla",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Zema",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Vidēja",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Augsta",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Ļoti augsta",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Maksimāla",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Pakalpojumu sniedzēja noklusējums",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Ielādē pakalpojumu sniedzēju un modeļu sarakstu…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev nav pieejams — tikai iebūvētie pakalpojumu sniedzēji.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ pakalpojumu sniedzēji · $MODELS$ modeļi",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Atjaunot",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Atjauno…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Pakalpojumu sniedzēju un modeļu dati no models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Tulkot bloku (zemāk)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Tulkot lapu jaunā lapā",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: iestatījumi",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: atjaunot pakalpojumu sniedzēju un modeļu sarakstu",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Vispirms ievietojiet kursoru blokā.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Šis bloks ir tukšs.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Vispirms atveriet lapu.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Šajā lapā nav bloku.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Lapa \"$NAME$\" jau pastāv.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Tulko…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Tulko $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Tulkošana neizdevās: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Lapas tulkošana neizdevās: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Vispirms DualTran iestatījumos izvēlieties AI modeli.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Pakalpojumu sniedzēju un modeļu saraksts atjaunināts.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Atveriet DualTran iestatījumu paneli no komandu paletes (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Atvērt iestatījumu paneli",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

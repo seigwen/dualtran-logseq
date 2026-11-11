@@ -1,6 +1,6 @@
 # Marketplace listing — current state
 
-Checked on **2026-11-10** against a shallow clone of `logseq/marketplace` (`master`).
+Checked on **2026-11-11** against a shallow clone of `logseq/marketplace` (`master`).
 
 ## Listing
 
@@ -18,26 +18,30 @@ duplicate pull request; changes to the listing go through a PR touching
 `packages/DualTran/manifest.json`.
 
 The manifest in the marketplace repo carries only `title`, `description`, `author`, `repo` and
-`icon` — the plugin id (`dualtran-translate`) and the entry point (`dist/index.html`) come from the
-`logseq` block of `package.json` inside the linked repo.
+`icon` — the plugin id (`dualtran-translate`), the version and the entry point (`dist/index.html`)
+come from the `logseq` block / `version` of `package.json` inside the linked repo. Shipping a
+release therefore means committing the built `dist/` + `package.json` to the repo; no marketplace
+PR is needed for a version bump.
 
-## Verification boundary
-
-The same boundary stated in the plugin README applies to anything published from this listing:
+## Verification boundary (0.2.0)
 
 Verified:
 
-- Build passes (`npm run build` → `dist/index.js`, `dist/index.html`).
-- 16 unit tests pass (`npm test`).
-- Loaded in Logseq 2.0.2 headless over CDP — console showed `entry normalized ... dist/index.html`,
-  `sandbox connected`, `load:done in 123.3ms`.
-- Google Translate endpoints return HTTP 200 from inside the plugin sandbox.
+- `npm run verify` passes: 38 locale catalogues (74 keys each), `tsc --noEmit`, 62 unit tests,
+  esbuild bundle (2.1 MB), dist guards (`node:`-free, banner version, locale completeness).
+- Real Logseq 2.0.2 over CDP: settings panel opens from the command palette and from the native
+  settings button; 223 provider options (built-in → disabled divider → models.dev → custom), 142
+  target languages, provider switch re-populates models and auto-fills the endpoint; German and
+  Arabic UI strings render; Arabic panel is `dir=rtl`.
+- Google Translate: block translation inserts the translated sibling block; page translation
+  creates `<page> · <lang>` and shows a persistent `1/5 …` progress toast that is removed on
+  success and on failure.
+- AI: DeepSeek with an invalid key surfaces the provider's `Authentication Fails …` message.
+- 0.1.1 settings migrate to the 0.2.0 keys on first load.
 
 Not verified:
 
-- Slash-command block insertion has not been run end-to-end in a GUI Logseq window. Until it has,
-  the marketplace description should not claim the slash commands are verified.
-- The sandbox CSP blocks `http://localhost`, so a local Ollama instance is only reachable over an
-  HTTPS endpoint.
+- Local Ollama over plain HTTP is blocked by the sandbox CSP (platform limit).
+- Error responses without CORS headers (e.g. OpenAI 401) surface as a network failure in Logseq.
 
-Release status: 0.1.x is beta.
+Release status: 0.2.0.

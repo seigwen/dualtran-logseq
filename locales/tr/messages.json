@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran Ayarları",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Kapat",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Genel",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Çeviri",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI modeli (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Sağlayıcı ve model listesi",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Motor",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google anahtar olmadan çalışır; AI kendi sağlayıcınızı kullanır.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Çeviri",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI modeli",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Arayüz dili",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Logseq'e uyar, aksi belirtilmedikçe.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseq'i takip et",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Hedef dil",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Çevirilerin yazıldığı dil.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "Yapay zekâ sağlayıcısı",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Yerleşik sağlayıcılar, models.dev kataloğu veya özel bir OpenAI uyumlu uç nokta.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Yerleşik",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── daha fazla ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Özel",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Özel sağlayıcı…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Özel sağlayıcı kimliği",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "İstek etiketi olarak kullanılır; aşağıdaki uç nokta API temelini sağlar.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API anahtarı",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Yalnızca bu grafiğin eklenti ayarlarında saklanır.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Model",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Modeller, seçilen sağlayıcı için models.dev üzerinden gelir.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Özel model…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Özel model kimliği",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Model Özel olarak ayarlandığında kullanılır.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "örn. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Uç nokta",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Sağlayıcıdan doldurulur; geçersiz kılmak için düzenleyin.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Sağlayıcı varsayılanına sıfırla",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Akıl yürütme düzeyi",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "En düşük, modelin en küçük çabasını korur; daha yüksek düzeyler daha fazla token harcar.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Bu model bir akıl yürütme düzeyi sunmuyor.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "En düşük (varsayılan)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Sağlayıcı varsayılanı",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Yok",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Asgari",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Düşük",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Orta",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Yüksek",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Çok Yüksek",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Maksimum",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Sağlayıcı varsayılanı",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Sağlayıcı ve model listesi yükleniyor…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev kullanılamıyor — yalnızca yerleşik sağlayıcılar.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ sağlayıcı · $MODELS$ model",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Yenile",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Yenileniyor…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Sağlayıcı ve model verileri models.dev'den alınır",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Bloğu çevir (aşağıda)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Sayfayı yeni bir sayfaya çevir",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: ayarlar",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: sağlayıcı ve model listesini yenile",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Önce imleci bir bloğun içine yerleştirin.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Bu blok boş.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Önce bir sayfa açın.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Bu sayfada blok yok.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "\"$NAME$\" sayfası zaten var.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Çevriliyor…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "$DONE$/$TOTAL$ çevriliyor…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Çeviri başarısız: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Sayfa çevirisi başarısız: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Önce DualTran ayarlarından bir yapay zeka modeli seçin.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Sağlayıcı ve model listesi yenilendi.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Komut paletinden DualTran ayarlar panelini açın (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Ayarlar panelini aç",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran-Einstellungen",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Schließen",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Allgemein",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Übersetzung",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "KI-Modell (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Anbieter- und Modellliste",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Engine",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google funktioniert ohne Schlüssel; KI nutzt deinen eigenen Anbieter.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "KI-Modell",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Sprache der Oberfläche",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Folgt Logseq, sofern nicht überschrieben.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseq folgen",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Zielsprache",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Die Sprache, in die übersetzt wird.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "KI-Anbieter",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Integrierte Anbieter, der models.dev-Katalog oder ein benutzerdefinierter OpenAI-kompatibler Endpunkt.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Integriert",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── mehr ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Benutzerdefiniert",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Benutzerdefinierter Anbieter…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Benutzerdefinierte Anbieter-ID",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Wird als Anfrage-Label verwendet; der untenstehende Endpunkt liefert die API-Basis.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API-Schlüssel",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Nur in den Plugin-Einstellungen dieses Graphen gespeichert.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Modell",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Modelle stammen von models.dev für den ausgewählten Anbieter.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Benutzerdefiniertes Modell…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Benutzerdefinierte Modell-ID",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Wird verwendet, wenn Modell auf Benutzerdefiniert gesetzt ist.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "z. B. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endpunkt",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Vom Anbieter übernommen; zum Überschreiben bearbeiten.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Auf Anbieterstandard zurücksetzen",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Reasoning-Aufwand",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Niedrigste Stufe nutzt den geringsten Aufwand des Modells; höhere Stufen verbrauchen mehr Tokens.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Dieses Modell bietet keine Reasoning-Stufe.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Niedrigste (Standard)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Anbieterstandard",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Keine",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Minimal",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Niedrig",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Mittel",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Hoch",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Sehr hoch",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Maximal",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Anbieterstandard",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Anbieter- und Modellliste wird geladen…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev nicht verfügbar — nur integrierte Anbieter.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ Anbieter · $MODELS$ Modelle",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Aktualisieren",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Wird aktualisiert…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Anbieter- und Modelldaten von models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Block übersetzen (unten)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Seite in neue Seite übersetzen",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: Einstellungen",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: Anbieter- und Modellliste aktualisieren",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Setzen Sie den Cursor zuerst in einen Block.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Dieser Block ist leer.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Öffnen Sie zuerst eine Seite.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Diese Seite enthält keine Blöcke.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Seite \"$NAME$\" existiert bereits.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Übersetze…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Übersetze $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Übersetzung fehlgeschlagen: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Seitenübersetzung fehlgeschlagen: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Wählen Sie zuerst ein KI-Modell in den DualTran-Einstellungen.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Anbieter- und Modellliste aktualisiert.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Öffne das DualTran-Einstellungsfenster über die Befehlspalette (DualTran: Einstellungen).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Einstellungsfenster öffnen",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

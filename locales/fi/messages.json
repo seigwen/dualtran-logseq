@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran-asetukset",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Sulje",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Yleiset",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Käännös",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI-malli (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Tarjoaja- ja malliluettelo",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Moottori",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google toimii ilman avainta; AI käyttää omaa tarjoajaasi.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI-malli",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Käyttöliittymän kieli",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Noudattaa Logseqiä, ellei ohiteta.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Noudata Logseqiä",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Kohdekieli",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Kieli, jolle käännökset kirjoitetaan.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI-palveluntarjoaja",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Sisäänrakennetut tarjoajat, models.dev-luettelo tai mukautettu OpenAI-yhteensopiva päätepiste.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Sisäänrakennetut",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── lisää ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Mukautettu",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Mukautettu tarjoaja…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Mukautetun tarjoajan tunnus",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Käytetään pyynnön tunnistetietona; alla oleva päätepiste määrittää API-perusosoitteen.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API-avain",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Tallennetaan vain tämän graafin liitännäisasetuksiin.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Malli",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Mallit tulevat models.dev-palvelusta valitulle tarjoajalle.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Mukautettu malli…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Mukautetun mallin tunniste",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Käytetään, kun Malli-asetuksena on Mukautettu.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "esim. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Päätepiste",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Täytetty palveluntarjoajalta; muokkaa ohittaaksesi.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Palauta palveluntarjoajan oletukseen",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Päättelyn taso",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Alin säilyttää mallin pienimmän panostuksen; korkeammat tasot kuluttavat enemmän tokeneita.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Tämä malli ei tarjoa päättelyn tasoa.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Matalin (oletus)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Palveluntarjoajan oletus",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Ei mitään",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Minimaalinen",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Matala",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Keskitaso",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Korkea",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Erittäin korkea",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Enimmäis",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Palveluntarjoajan oletus",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Ladataan palveluntarjoaja- ja malliluetteloa…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev ei ole käytettävissä — vain sisäänrakennetut tarjoajat.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ tarjoajaa · $MODELS$ mallia",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Päivitä",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Päivitetään…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Tarjoaja- ja mallitiedot models.dev-palvelusta",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Käännä lohko (alla)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Käännä sivu uudelle sivulle",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: asetukset",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: päivitä tarjoaja- ja malliluettelo",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Sijoita kohdistin ensin lohkon sisään.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Tämä lohko on tyhjä.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Avaa ensin sivu.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Tällä sivulla ei ole lohkoja.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Sivu \"$NAME$\" on jo olemassa.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Käännetään…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Käännetään $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Käännös epäonnistui: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Sivun käännös epäonnistui: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Valitse ensin tekoälymalli DualTran-asetuksista.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Palveluntarjoaja- ja malliluettelo päivitetty.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Avaa DualTran-asetuspaneeli komentopaletista (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Avaa asetuspaneeli",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

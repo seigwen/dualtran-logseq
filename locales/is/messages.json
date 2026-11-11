@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "Stillingar DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "Loka",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "Almennt",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "Þýðing",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI-líkan (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "Listi yfir þjónustuaðila og líkön",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "Vél",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google virkar án lykils; AI notar þinn eigin þjónustuaðila.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI-líkan",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "Tungumál viðmóts",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Fylgir Logseq nema annað sé valið.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Fylgja Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "Markmál",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "Tungumálið sem þýðingarnar eru skrifaðar á.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI-veitandi",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "Innbyggðir veitendur, models.dev skráin eða sérsniðinn OpenAI-samhæfður endapunktur.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "Innbyggðir",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── fleiri ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "Sérsniðið",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "Sérsniðinn veitandi…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "Auðkenni sérsniðins veitanda",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "Notað sem beiðnimerki; endapunkturinn hér að neðan gefur upp API-grunninn",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API-lykill",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "Geymdur aðeins í viðbótarstillingum þessa grafs",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "Líkan",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "Líkön koma frá models.dev fyrir valinn þjónustuveitanda",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "Sérsniðið líkan…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "Auðkenni sérsniðins líkans",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "Notað þegar Líkan er stillt á Sérsniðið",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "t.d. gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "Endapunktur",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "Fyllt út frá þjónustuveitunni; breyttu til að hnekkja.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "Endurstilla á sjálfgefið gildi þjónustuveitunnar",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "Rökhugsunarstig",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "Lægsta heldur minnstu áreynslu líkansins; hærri stig kosta fleiri tákn.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "Þetta líkan býður ekki upp á rökhugsunarstig.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "Lægst (sjálfgefið)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "Sjálfgefið gildi þjónustuveitunnar",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "Ekkert",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "Lágmark",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "Lág",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "Miðlungs",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "Há",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "Mjög hátt",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "Hámark",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "Sjálfgefið gildi þjónustuveitunnar",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "Hleð lista yfir þjónustuveitur og líkön…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev ekki tiltækt — aðeins innbyggðir veitendur.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ veitendur · $MODELS$ líkön",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "Endurnýja",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "Endurnýji…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "Gögn um veitendur og líkön frá models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "Þýða blokk (fyrir neðan)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "Þýða síðu á nýja síðu",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: stillingar",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: endurnýja lista yfir veitendur og líkön",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "Settu bendilinn inn í blokk fyrst.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "Þessi blokk er tóm.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "Opnaðu síðu fyrst.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "Þessi síða hefur engar blokkir.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "Síðan \"$NAME$\" er þegar til.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "Þýði…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "Þýði $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "Þýðing mistókst: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "Þýðing síðu mistókst: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "Veldu AI-líkan í DualTran stillingunum fyrst.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "Listi yfir þjónustuveitendur og líkön endurnýjaður.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "Opnaðu stillingarspjald DualTran úr skipanapallettunni (DualTran: stillingar).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "Opna stillingarspjald",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

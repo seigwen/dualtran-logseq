@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "DualTran تەڭشەكلىرى",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "تاقاش",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "ئادەتتىكى",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "تەرجىمە",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "AI مودېلى (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "تەمىنلىگۈچى ۋە مودېل تىزىملىكى",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "قوزغاتقۇچ",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google ئاچقۇچسىز ئىشلەيدۇ؛ AI ئۆز تەمىنلىگۈچىڭىزنى ئىشلىتىدۇ.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "AI مودېلى",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "كۆرۈنمە يۈزى تىلى",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "Logseq نى ئەگىشىدۇ، ئەگەر قايتا بەلگىلەنمىسە.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "Logseq نى ئەگىشىش",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "نىشان تىل",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "تەرجىمە قىلىنغان تىل.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "AI تەمىنلىگۈچىسى",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "ئىچكى تەمىنلىگۈچىلەر، models.dev كاتالوگى ياكى خاس OpenAI ماس كېلىدىغان ئاخىرلاشقۇچى.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "ئىچكى",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── تېخىمۇ كۆپ ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "خاس",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "خاس تەمىنلىگۈچى…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "خاس تەمىنلىگۈچى id",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "سوراش بەلگىسى سۈپىتىدە ئىشلىتىلىدۇ؛ تۆۋەندىكى ئاخىرلاش نۇقتىسى API ئاساسىنى تەمىنلەيدۇ.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "API ئاچقۇچى",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "پەقەت بۇ گرافنىڭ قىستۇرما تەڭشەكلىرىدە ساقلىنىدۇ.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "مودېل",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "مودېللار تاللانغان تەمىنلىگۈچى ئۈچۈن models.dev دىن كېلىدۇ.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "ئىختىيارىي مودېل…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "ئىختىيارىي مودېل ID",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "مودېل ئىختىيارىيغا تەڭشەلگەندە ئىشلىتىلىدۇ.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "مەسىلەن gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "ئاخىرلاشقۇچ",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "تەمىنلىگۈچىدىن تولدۇرۇلغان؛ قايتا يېزىش ئۈچۈن تەھرىرلەڭ.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "تەمىنلىگۈچىنىڭ سۈكۈتتىكى قىممىتىگە قايتۇرۇش",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "پىكىر يۈرگۈزۈش كۈچى",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "ئەڭ تۆۋەن دېگەن مودېلنىڭ ئەڭ كىچىك كۈچىنى ساقلايدۇ؛ يۇقىرى دەرىجىلەر تېخىمۇ كۆپ بەلگە سەرپ قىلىدۇ.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "بۇ مودېل پىكىر يۈرگۈزۈش دەرىجىسىنى ئاشكارىلىمايدۇ.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "ئەڭ تۆۋەن (سۈكۈتتىكى)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "تەمىنلىگۈچىنىڭ سۈكۈتتىكى قىممىتى",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "يوق",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "ئەڭ ئاز",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "تۆۋەن",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "ئوتتۇرا",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "يۇقىرى",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "ئىنتايىن يۇقىرى",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "ئەڭ يۇقىرى",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "تەمىنلىگۈچىنىڭ سۈكۈتتىكى قىممىتى",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "تەمىنلىگۈچى ۋە مودېل تىزىملىكى يۈكلىنىۋاتىدۇ…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev ئىشلەتكىلى بولمايدۇ — پەقەت قۇرۇلغان تەمىنلىگۈچىلەر.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ تەمىنلىگۈچى · $MODELS$ مودېل",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "يېڭىلاش",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "يېڭىلىنىۋاتىدۇ…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "تەمىنلىگۈچى ۋە مودېل ئۇچۇرى models.dev دىن",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "بۆلەكنى تەرجىمە قىلىش (تۆۋەندە)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "بەتنى يېڭى بەتكە تەرجىمە قىلىش",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: تەڭشەكلەر",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: تەمىنلىگۈچى ۋە مودېل تىزىملىكىنى يېڭىلاش",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "ئالدى بىلەن كۇرسورنى بىر بۆلەكنىڭ ئىچىگە قويۇڭ.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "بۇ بۆلەك قۇرۇق.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "ئالدى بىلەن بىر بەتنى ئېچىڭ.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "بۇ بەتتە ھېچقانداق بۆلەك يوق.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "\"$NAME$\" بېتى ئاللىبۇرۇن مەۋجۇت.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "تەرجىمە قىلىنىۋاتىدۇ…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "$DONE$/$TOTAL$ تەرجىمە قىلىنىۋاتىدۇ…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "تەرجىمە مەغلۇپ بولدى: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "بەت تەرجىمىسى مەغلۇپ بولدى: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "ئالدى بىلەن DualTran تەڭشەكلىرىدە بىر AI مودېل تاللاڭ.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "تەمىنلىگۈچى ۋە ئەندىزە تىزىملىكى يېڭىلاندى.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "بۇيرۇق تاختىسىدىن DualTran تەڭشەك تاختىسىنى ئېچىڭ (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "تەڭشەك تاختىسىنى ئېچىش",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}

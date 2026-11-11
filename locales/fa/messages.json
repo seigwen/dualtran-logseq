@@ -1,0 +1,334 @@
+{
+  "panelTitle": {
+    "message": "تنظیمات DualTran",
+    "description": "Title of the plugin settings panel."
+  },
+  "panelClose": {
+    "message": "بستن",
+    "description": "Close button label in the settings panel."
+  },
+  "sectionGeneral": {
+    "message": "عمومی",
+    "description": "Settings section heading."
+  },
+  "sectionTranslation": {
+    "message": "ترجمه",
+    "description": "Settings section heading."
+  },
+  "sectionAi": {
+    "message": "مدل هوش مصنوعی (BYOK)",
+    "description": "Settings section heading for bring-your-own-key AI."
+  },
+  "sectionData": {
+    "message": "فهرست ارائه‌دهنده و مدل",
+    "description": "Settings section heading for the models.dev catalogue."
+  },
+  "settingEngine": {
+    "message": "موتور",
+    "description": "Settings label: translation engine."
+  },
+  "settingEngineDesc": {
+    "message": "Google بدون کلید کار می‌کند؛ هوش مصنوعی از ارائه‌دهنده خودتان استفاده می‌کند.",
+    "description": "Settings description for the engine dropdown."
+  },
+  "engineGoogle": {
+    "message": "Google Translate",
+    "description": "Engine option: Google Translate."
+  },
+  "engineAi": {
+    "message": "مدل هوش مصنوعی",
+    "description": "Engine option: AI provider."
+  },
+  "settingUiLang": {
+    "message": "زبان رابط کاربری",
+    "description": "Settings label: plugin UI language."
+  },
+  "settingUiLangDesc": {
+    "message": "از Logseq پیروی می‌کند مگر اینکه بازنویسی شود.",
+    "description": "Settings description for the interface language dropdown."
+  },
+  "languageFollowApp": {
+    "message": "پیروی از Logseq",
+    "description": "Language option: use Logseq's own interface language."
+  },
+  "settingTarget": {
+    "message": "زبان مقصد",
+    "description": "Settings label: translation target language."
+  },
+  "settingTargetDesc": {
+    "message": "زبانی که ترجمه‌ها به آن نوشته می‌شوند.",
+    "description": "Settings description for the target language dropdown."
+  },
+  "settingProvider": {
+    "message": "ارائه‌دهنده هوش مصنوعی",
+    "description": "Settings label: AI provider."
+  },
+  "settingProviderDesc": {
+    "message": "ارائه‌دهندگان داخلی، فهرست models.dev، یا یک نقطه پایانی سفارشی سازگار با OpenAI.",
+    "description": "Settings description for the AI provider dropdown."
+  },
+  "providerGroupBuiltIn": {
+    "message": "داخلی",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupMore": {
+    "message": "──── بیشتر ────",
+    "description": "Disabled divider between built-in providers and the models.dev catalogue."
+  },
+  "providerGroupCatalog": {
+    "message": "models.dev",
+    "description": "Provider dropdown group label."
+  },
+  "providerGroupCustom": {
+    "message": "سفارشی",
+    "description": "Provider dropdown group label."
+  },
+  "providerCustomOption": {
+    "message": "ارائه‌دهنده سفارشی…",
+    "description": "Provider option: enter a provider id manually."
+  },
+  "settingProviderId": {
+    "message": "شناسه ارائه‌دهنده سفارشی",
+    "description": "Settings label: provider id used for a custom endpoint."
+  },
+  "settingProviderIdDesc": {
+    "message": "به عنوان برچسب درخواست استفاده می‌شود؛ نقطه پایانی زیر آدرس پایه API را تأمین می‌کند.",
+    "description": "Settings description for the custom provider id field."
+  },
+  "settingApiKey": {
+    "message": "کلید API",
+    "description": "Settings label: provider API key."
+  },
+  "settingApiKeyDesc": {
+    "message": "فقط در تنظیمات افزونه این گراف ذخیره می‌شود.",
+    "description": "Settings description for the API key field."
+  },
+  "placeholderApiKey": {
+    "message": "sk-…",
+    "description": "Placeholder for the API key input."
+  },
+  "settingModel": {
+    "message": "مدل",
+    "description": "Settings label: AI model."
+  },
+  "settingModelDesc": {
+    "message": "مدل‌ها از models.dev برای ارائه‌دهنده انتخاب‌شده می‌آیند.",
+    "description": "Settings description for the model dropdown."
+  },
+  "customModelOption": {
+    "message": "مدل سفارشی…",
+    "description": "Model option: enter a model id manually."
+  },
+  "settingCustomModel": {
+    "message": "شناسه مدل سفارشی",
+    "description": "Settings label: custom model id."
+  },
+  "settingCustomModelDesc": {
+    "message": "زمانی استفاده می‌شود که مدل روی سفارشی تنظیم شده باشد.",
+    "description": "Settings description for the custom model id field."
+  },
+  "placeholderModelId": {
+    "message": "مثلاً gpt-4o-mini",
+    "description": "Placeholder for the custom model id input."
+  },
+  "settingEndpoint": {
+    "message": "نقطه پایانی",
+    "description": "Settings label: API base URL."
+  },
+  "settingEndpointDesc": {
+    "message": "از ارائه‌دهنده پر شده است؛ برای بازنویسی ویرایش کنید.",
+    "description": "Settings description for the endpoint field."
+  },
+  "placeholderEndpoint": {
+    "message": "https://api.example.com/v1",
+    "description": "Placeholder for the endpoint input."
+  },
+  "btnResetEndpoint": {
+    "message": "بازنشانی به پیش‌فرض ارائه‌دهنده",
+    "description": "Button that clears the endpoint override."
+  },
+  "settingReasoning": {
+    "message": "میزان استدلال",
+    "description": "Settings label: reasoning effort."
+  },
+  "settingReasoningDesc": {
+    "message": "کمترین، کوچک‌ترین تلاش مدل را حفظ می‌کند؛ سطوح بالاتر توکن بیشتری مصرف می‌کنند.",
+    "description": "Settings description for the reasoning effort dropdown."
+  },
+  "settingReasoningInert": {
+    "message": "این مدل سطح استدلال را ارائه نمی‌دهد.",
+    "description": "Shown when the selected model declares no reasoning options."
+  },
+  "reasoningLowest": {
+    "message": "پایین‌ترین (پیش‌فرض)",
+    "description": "Reasoning option: use the lowest level the model accepts."
+  },
+  "reasoningProviderDefault": {
+    "message": "پیش‌فرض ارائه‌دهنده",
+    "description": "Reasoning option: send no reasoning parameter."
+  },
+  "msgReasoningDepthNone": {
+    "message": "هیچ",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMinimal": {
+    "message": "حداقلی",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthLow": {
+    "message": "کم",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMedium": {
+    "message": "متوسط",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthHigh": {
+    "message": "زیاد",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthXHigh": {
+    "message": "خیلی زیاد",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthMax": {
+    "message": "حداکثر",
+    "description": "Reasoning level label."
+  },
+  "msgReasoningDepthProviderDefault": {
+    "message": "پیش‌فرض ارائه‌دهنده",
+    "description": "Reasoning level label."
+  },
+  "catalogLoading": {
+    "message": "در حال بارگذاری فهرست ارائه‌دهنده و مدل…",
+    "description": "Catalogue status while models.dev is being fetched."
+  },
+  "catalogOffline": {
+    "message": "models.dev در دسترس نیست — فقط ارائه‌دهندگان داخلی.",
+    "description": "Catalogue status when models.dev cannot be reached."
+  },
+  "catalogSummary": {
+    "message": "$PROVIDERS$ ارائه‌دهنده · $MODELS$ مدل",
+    "description": "Catalogue status with provider and model counts.",
+    "placeholders": {
+      "PROVIDERS": {
+        "content": "$1$"
+      },
+      "MODELS": {
+        "content": "$2$"
+      }
+    }
+  },
+  "btnRefresh": {
+    "message": "به‌روزرسانی",
+    "description": "Button that refreshes the models.dev catalogue."
+  },
+  "btnRefreshing": {
+    "message": "در حال به‌روزرسانی…",
+    "description": "Refresh button while the catalogue is reloading."
+  },
+  "dataSource": {
+    "message": "داده‌های ارائه‌دهنده و مدل از models.dev",
+    "description": "Footer credit for the catalogue data source."
+  },
+  "aboutVersion": {
+    "message": "DualTran Translate v$VERSION$",
+    "description": "Footer version label.",
+    "placeholders": {
+      "VERSION": {
+        "content": "$1$"
+      }
+    }
+  },
+  "cmdTranslateBlock": {
+    "message": "ترجمه بلوک (پایین)",
+    "description": "Command name: translate the current block and insert the result below."
+  },
+  "cmdTranslatePage": {
+    "message": "ترجمه صفحه به صفحه جدید",
+    "description": "Command name: translate every block of the page into a new page."
+  },
+  "cmdOpenSettings": {
+    "message": "DualTran: تنظیمات",
+    "description": "Command palette entry that opens the settings panel."
+  },
+  "cmdRefreshCatalog": {
+    "message": "DualTran: به‌روزرسانی فهرست ارائه‌دهندگان و مدل‌ها",
+    "description": "Command palette entry that refreshes the models.dev catalogue."
+  },
+  "noticeNoBlock": {
+    "message": "ابتدا نشانگر را داخل یک بلوک قرار دهید.",
+    "description": "Warning when no block is selected."
+  },
+  "noticeEmptyBlock": {
+    "message": "این بلوک خالی است.",
+    "description": "Warning when the current block has no text."
+  },
+  "noticeNoPage": {
+    "message": "ابتدا یک صفحه باز کنید.",
+    "description": "Warning when no page is open."
+  },
+  "noticeEmptyPage": {
+    "message": "این صفحه هیچ بلوکی ندارد.",
+    "description": "Warning when the current page has no blocks."
+  },
+  "noticePageExists": {
+    "message": "صفحه «$NAME$» از قبل وجود دارد.",
+    "description": "Warning when the translated page already exists.",
+    "placeholders": {
+      "NAME": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeLoadingBlock": {
+    "message": "در حال ترجمه…",
+    "description": "Persistent loading toast while a block is translated."
+  },
+  "noticeLoadingPage": {
+    "message": "در حال ترجمه $DONE$/$TOTAL$…",
+    "description": "Loading toast progress while a page is translated.",
+    "placeholders": {
+      "DONE": {
+        "content": "$1$"
+      },
+      "TOTAL": {
+        "content": "$2$"
+      }
+    }
+  },
+  "noticeTranslateFailed": {
+    "message": "ترجمه ناموفق بود: $DETAIL$",
+    "description": "Error toast for a failed block translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticePageFailed": {
+    "message": "ترجمه صفحه ناموفق بود: $DETAIL$",
+    "description": "Error toast for a failed page translation.",
+    "placeholders": {
+      "DETAIL": {
+        "content": "$1$"
+      }
+    }
+  },
+  "noticeNoModel": {
+    "message": "ابتدا یک مدل هوش مصنوعی در تنظیمات DualTran انتخاب کنید.",
+    "description": "Warning when AI mode has no model selected."
+  },
+  "noticeCatalogRefreshed": {
+    "message": "فهرست ارائه‌دهنده‌ها و مدل‌ها به‌روزرسانی شد.",
+    "description": "Toast after a successful catalogue refresh."
+  },
+  "nativeSettingsHint": {
+    "message": "پنل تنظیمات DualTran را از پالت فرمان باز کنید (DualTran: settings).",
+    "description": "Shown in Logseq's native plugin settings when the host cannot render a button."
+  },
+  "nativeOpenButton": {
+    "message": "باز کردن پنل تنظیمات",
+    "description": "Button inside Logseq's native plugin settings that opens the panel."
+  }
+}
