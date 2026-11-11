@@ -332,7 +332,10 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   const modelRow = row(doc, { label: t("settingModel"), desc: t("settingModelDesc") });
   const model = select(doc, customModel ? CUSTOM_MODEL : shownModel);
   model.dataset.dt = "model";
-  for (const entry of models) model.appendChild(option(doc, entry.value, `${entry.text} (${entry.value})`));
+  for (const entry of models) {
+    const label = entry.text === entry.value ? entry.text : `${entry.text} (${entry.value})`;
+    model.appendChild(option(doc, entry.value, label));
+  }
   model.appendChild(option(doc, CUSTOM_MODEL, t("customModelOption")));
   model.value = customModel ? CUSTOM_MODEL : shownModel;
   model.addEventListener("change", () => {

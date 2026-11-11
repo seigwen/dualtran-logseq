@@ -20,6 +20,7 @@ const data: ModelsDevData = {
     models: {
       "gpt-4o": { id: "gpt-4o", name: "GPT-4o" },
       "gpt-4o-mini": { id: "gpt-4o-mini", name: "GPT-4o mini" },
+      "gpt-equal": { id: "gpt-equal" },
     },
   },
   anthropic: {
@@ -98,6 +99,11 @@ describe("settings panel", () => {
     const target = host.querySelector('[data-dt="target"]') as HTMLSelectElement;
     expect(target.tagName).toBe("SELECT");
     expect([...target.options].some((option) => option.textContent === "Chinese (Simplified) (zh-CN)")).toBe(true);
+
+    // A model whose catalogue name equals its id must not render "id (id)".
+    const model = host.querySelector('[data-dt="model"]') as HTMLSelectElement;
+    const equal = [...model.options].find((option) => option.value === "gpt-equal");
+    expect(equal?.textContent).toBe("gpt-equal");
   });
 
   it("groups providers built-in → divider → catalogue → custom", () => {
