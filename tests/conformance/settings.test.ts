@@ -214,13 +214,13 @@ function buildPayload(): Record<string, unknown> {
   const endpoint = endpointInput?.value || "";
   providerSelect.value = "anthropic";
   providerSelect.dispatchEvent(new Event("change"));
-  const afterPick = updates.at(-1)?.aiBaseUrl as string | undefined;
+  const afterPick = updates[updates.length - 1]?.aiBaseUrl as string | undefined;
 
   // User override must survive a later provider switch.
   settings.aiBaseUrl = "https://proxy.example/v1";
   providerSelect.value = "deepseek";
   providerSelect.dispatchEvent(new Event("change"));
-  const afterSwitch = updates.at(-1)?.aiBaseUrl as string | undefined;
+  const afterSwitch = updates[updates.length - 1]?.aiBaseUrl as string | undefined;
 
   const reasoningOptions = optionsOf(reasoningSelect).map((option) => ({ value: option.value }));
   const resolveCase = (values: string[]) => ({
