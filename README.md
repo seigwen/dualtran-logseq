@@ -67,9 +67,19 @@ so explicitly instead of reporting a generic network failure. Some providers ans
 CORS headers, in which case Logseq reports a network failure rather than the provider's message.
 Ollama needs `OLLAMA_ORIGINS=*` (or the Logseq origin).
 
-The sandbox also refuses plain-HTTP origins such as `http://localhost`. A local Ollama therefore
-has to be reached over an HTTPS endpoint; the default `http://localhost:11434` will not load from
-inside the plugin.
+Ollama Cloud (`https://ollama.com/v1`) is one such provider: it sends no CORS headers and answers
+the browser preflight with 405. A local loopback endpoint is allowed, so the workaround is a tiny
+relay that adds the headers and streams the upstream response:
+
+```bash
+node tools/cors-relay.mjs          # 127.0.0.1:11435 -> https://ollama.com/v1
+```
+
+Then set **Endpoint** to `http://127.0.0.1:11435/v1` and keep the Ollama Cloud provider/model/API
+key as they are. The relay stores no key: the plugin's `Authorization` header is forwarded.
+
+A plain-HTTP endpoint such as `http://localhost:11434` for a local Ollama works the same way only
+when that server also answers with CORS headers (`OLLAMA_ORIGINS=*`).
 
 ### Native settings page
 
