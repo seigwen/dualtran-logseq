@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Ugrađeni pružatelji, dodatni pružatelji ili prilagođena OpenAI-kompatibilna krajnja točka."
   },
-  "providerGroupBuiltIn": {
-    "message": "Ugrađeno",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── više ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Prilagođeno",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Prilagođeni pružatelj…",
     "description": "Provider option: enter a provider id manually."

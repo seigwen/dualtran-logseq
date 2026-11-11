@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "ئىچكى تەمىنلىگۈچىلەر، قوشۇمچە تەمىنلىگۈچىلەر ياكى OpenAI غا ماسلاشتۇرۇلغان ئۆزگىچە ئاخىرلاش نۇقتىسى."
   },
-  "providerGroupBuiltIn": {
-    "message": "ئىچكى",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── تېخىمۇ كۆپ ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "خاس",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "خاس تەمىنلىگۈچى…",
     "description": "Provider option: enter a provider id manually."

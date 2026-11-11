@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
   },
-  "providerGroupBuiltIn": {
-    "message": "ในตัว",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── เพิ่มเติม ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "กำหนดเอง",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "ผู้ให้บริการกำหนดเอง…",
     "description": "Provider option: enter a provider id manually."

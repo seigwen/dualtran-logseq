@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Provider integrati, provider aggiuntivi o un endpoint personalizzato compatibile con OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "Integrati",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── altri ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Personalizzato",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Provider personalizzato…",
     "description": "Provider option: enter a provider id manually."

@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Yerleşik sağlayıcılar, ek sağlayıcılar veya özel bir OpenAI uyumlu uç nokta."
   },
-  "providerGroupBuiltIn": {
-    "message": "Yerleşik",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── daha fazla ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Özel",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Özel sağlayıcı…",
     "description": "Provider option: enter a provider id manually."

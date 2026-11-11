@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "ارائه‌دهندگان داخلی، ارائه‌دهندگان اضافی، یا یک نقطه پایانی سفارشی سازگار با OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "داخلی",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── بیشتر ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "سفارشی",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "ارائه‌دهنده سفارشی…",
     "description": "Provider option: enter a provider id manually."

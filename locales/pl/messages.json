@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Wbudowani dostawcy, dodatkowi dostawcy lub niestandardowy punkt końcowy zgodny z OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "Wbudowane",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── więcej ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Niestandardowe",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Niestandardowy dostawca…",
     "description": "Provider option: enter a provider id manually."

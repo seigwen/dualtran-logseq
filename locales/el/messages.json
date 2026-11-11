@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Ενσωματωμένοι πάροχοι, πρόσθετοι πάροχοι ή προσαρμοσμένο endpoint συμβατό με OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "Ενσωματωμένοι",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── περισσότερα ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Προσαρμοσμένος",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Προσαρμοσμένος πάροχος…",
     "description": "Provider option: enter a provider id manually."

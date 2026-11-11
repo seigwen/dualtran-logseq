@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "موفرو الخدمة المدمجون أو موفرو خدمة إضافيون أو نقطة نهاية مخصصة متوافقة مع OpenAI"
   },
-  "providerGroupBuiltIn": {
-    "message": "مدمج",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── المزيد ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "مخصص",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "موفر خدمة مخصص…",
     "description": "Provider option: enter a provider id manually."

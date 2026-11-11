@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Iebūvētie pakalpojumu sniedzēji, papildu pakalpojumu sniedzēji vai pielāgots OpenAI saderīgs galapunkts."
   },
-  "providerGroupBuiltIn": {
-    "message": "Iebūvēts",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── vairāk ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Pielāgots",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Pielāgots pakalpojumu sniedzējs…",
     "description": "Provider option: enter a provider id manually."

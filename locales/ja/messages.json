@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "組み込みプロバイダー、追加プロバイダー、またはカスタムのOpenAI互換エンドポイント"
   },
-  "providerGroupBuiltIn": {
-    "message": "組み込み",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── その他 ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "カスタム",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "カスタムプロバイダー…",
     "description": "Provider option: enter a provider id manually."

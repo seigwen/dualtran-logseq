@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Sisäänrakennetut palveluntarjoajat, lisäpalveluntarjoajat tai mukautettu OpenAI-yhteensopiva päätepiste."
   },
-  "providerGroupBuiltIn": {
-    "message": "Sisäänrakennetut",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── lisää ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Mukautettu",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Mukautettu tarjoaja…",
     "description": "Provider option: enter a provider id manually."

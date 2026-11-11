@@ -70,18 +70,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Ingeboude verskaffers, bykomende verskaffers of 'n pasgemaakte OpenAI-versoenbare eindpunt."
     },
-    "providerGroupBuiltIn": {
-      "message": "Ingebou",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── meer ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Pasgemaak",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Pasgemaakte verskaffer…",
       "description": "Provider option: enter a provider id manually."
@@ -392,18 +380,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "موفرو الخدمة المدمجون أو موفرو خدمة إضافيون أو نقطة نهاية مخصصة متوافقة مع OpenAI"
-    },
-    "providerGroupBuiltIn": {
-      "message": "مدمج",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── المزيد ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "مخصص",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "موفر خدمة مخصص…",
@@ -716,18 +692,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Proveïdors integrats, proveïdors addicionals o un punt de connexió personalitzat compatible amb OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Integrats",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── més ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalitzat",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Proveïdor personalitzat…",
       "description": "Provider option: enter a provider id manually."
@@ -1038,18 +1002,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Vestavěné",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── další ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Vlastní",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Vlastní poskytovatel…",
@@ -1362,18 +1314,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Indbyggede udbydere, yderligere udbydere eller et brugerdefineret OpenAI-kompatibelt endpoint."
     },
-    "providerGroupBuiltIn": {
-      "message": "Indbygget",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mere ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Brugerdefineret",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Brugerdefineret udbyder…",
       "description": "Provider option: enter a provider id manually."
@@ -1684,18 +1624,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Integrierte Anbieter, zusätzliche Anbieter oder ein benutzerdefinierter OpenAI-kompatibler Endpunkt."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Integriert",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mehr ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Benutzerdefiniert",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Benutzerdefinierter Anbieter…",
@@ -2008,18 +1936,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Ενσωματωμένοι πάροχοι, πρόσθετοι πάροχοι ή προσαρμοσμένο endpoint συμβατό με OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Ενσωματωμένοι",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── περισσότερα ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Προσαρμοσμένος",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Προσαρμοσμένος πάροχος…",
       "description": "Provider option: enter a provider id manually."
@@ -2331,18 +2247,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Built-in providers, additional providers, or a custom OpenAI-compatible endpoint.",
       "description": "Settings description for the AI provider dropdown."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Built-in",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── more ────",
-      "description": "Disabled divider between built-in providers and the additional ones."
-    },
-    "providerGroupCustom": {
-      "message": "Custom",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Custom provider…",
@@ -2657,18 +2561,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Proveedores integrados, proveedores adicionales o un endpoint personalizado compatible con OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Integrados",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── más ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalizado",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Proveedor personalizado…",
       "description": "Provider option: enter a provider id manually."
@@ -2979,18 +2871,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "ارائه‌دهندگان داخلی، ارائه‌دهندگان اضافی، یا یک نقطه پایانی سفارشی سازگار با OpenAI."
-    },
-    "providerGroupBuiltIn": {
-      "message": "داخلی",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── بیشتر ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "سفارشی",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "ارائه‌دهنده سفارشی…",
@@ -3303,18 +3183,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Sisäänrakennetut palveluntarjoajat, lisäpalveluntarjoajat tai mukautettu OpenAI-yhteensopiva päätepiste."
     },
-    "providerGroupBuiltIn": {
-      "message": "Sisäänrakennetut",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── lisää ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Mukautettu",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Mukautettu tarjoaja…",
       "description": "Provider option: enter a provider id manually."
@@ -3625,18 +3493,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Fournisseurs intégrés, fournisseurs supplémentaires ou un point de terminaison personnalisé compatible OpenAI."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Intégrés",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── plus ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personnalisé",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Fournisseur personnalisé…",
@@ -3949,18 +3805,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "ספקים מובנים, ספקים נוספים או נקודת קצה מותאמת אישית תואמת OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "מובנה",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── עוד ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "מותאם אישית",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "ספק מותאם אישית…",
       "description": "Provider option: enter a provider id manually."
@@ -4271,18 +4115,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "अंतर्निहित प्रदाता, अतिरिक्त प्रदाता, या कस्टम OpenAI-संगत एंडपॉइंट।"
-    },
-    "providerGroupBuiltIn": {
-      "message": "अंतर्निहित",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── अधिक ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "कस्टम",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "कस्टम प्रदाता…",
@@ -4595,18 +4427,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Ugrađeni pružatelji, dodatni pružatelji ili prilagođena OpenAI-kompatibilna krajnja točka."
     },
-    "providerGroupBuiltIn": {
-      "message": "Ugrađeno",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── više ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Prilagođeno",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Prilagođeni pružatelj…",
       "description": "Provider option: enter a provider id manually."
@@ -4917,18 +4737,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Beépített szolgáltatók, további szolgáltatók vagy egyéni OpenAI-kompatibilis végpont."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Beépített",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── további ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Egyéni",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Egyéni szolgáltató…",
@@ -5241,18 +5049,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Innbyggðir þjónustuveitendur, viðbótarþjónustuveitendur eða sérsniðinn OpenAI-samhæfur endapunktur."
     },
-    "providerGroupBuiltIn": {
-      "message": "Innbyggðir",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── fleiri ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Sérsniðið",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Sérsniðinn veitandi…",
       "description": "Provider option: enter a provider id manually."
@@ -5563,18 +5359,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Provider integrati, provider aggiuntivi o un endpoint personalizzato compatibile con OpenAI."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Integrati",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── altri ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalizzato",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Provider personalizzato…",
@@ -5887,18 +5671,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "組み込みプロバイダー、追加プロバイダー、またはカスタムのOpenAI互換エンドポイント"
     },
-    "providerGroupBuiltIn": {
-      "message": "組み込み",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── その他 ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "カスタム",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "カスタムプロバイダー…",
       "description": "Provider option: enter a provider id manually."
@@ -6209,18 +5981,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "내장 제공자, 추가 제공자 또는 사용자 지정 OpenAI 호환 엔드포인트"
-    },
-    "providerGroupBuiltIn": {
-      "message": "내장",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── 더 보기 ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "사용자 지정",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "사용자 지정 제공자…",
@@ -6533,18 +6293,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Iebūvētie pakalpojumu sniedzēji, papildu pakalpojumu sniedzēji vai pielāgots OpenAI saderīgs galapunkts."
     },
-    "providerGroupBuiltIn": {
-      "message": "Iebūvēts",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── vairāk ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Pielāgots",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Pielāgots pakalpojumu sniedzējs…",
       "description": "Provider option: enter a provider id manually."
@@ -6855,18 +6603,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Ingebouwde providers, extra providers of een aangepast OpenAI-compatibel eindpunt."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Ingebouwd",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── meer ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Aangepast",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Aangepaste provider…",
@@ -7179,18 +6915,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Innebygde leverandører, flere leverandører eller et egendefinert OpenAI-kompatibelt endepunkt."
     },
-    "providerGroupBuiltIn": {
-      "message": "Innebygd",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mer ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Egendefinert",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Egendefinert leverandør…",
       "description": "Provider option: enter a provider id manually."
@@ -7501,18 +7225,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Wbudowani dostawcy, dodatkowi dostawcy lub niestandardowy punkt końcowy zgodny z OpenAI."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Wbudowane",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── więcej ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Niestandardowe",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Niestandardowy dostawca…",
@@ -7825,18 +7537,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Provedores integrados, provedores adicionais ou um endpoint personalizado compatível com OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Integrados",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mais ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalizado",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Provedor personalizado…",
       "description": "Provider option: enter a provider id manually."
@@ -8147,18 +7847,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Fornecedores integrados, fornecedores adicionais ou um endpoint personalizado compatível com OpenAI"
-    },
-    "providerGroupBuiltIn": {
-      "message": "Integrados",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mais ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalizado",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Fornecedor personalizado…",
@@ -8471,18 +8159,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Furnizori integrați, furnizori suplimentari sau un endpoint personalizat compatibil OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Încorporat",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── mai multe ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Personalizat",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Furnizor personalizat…",
       "description": "Provider option: enter a provider id manually."
@@ -8793,18 +8469,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Встроенные провайдеры, дополнительные провайдеры или собственный OpenAI-совместимый эндпоинт."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Встроенные",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── ещё ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Собственный",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Собственный провайдер…",
@@ -9117,18 +8781,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Vgrajeni ponudniki, dodatni ponudniki ali končna točka, združljiva z OpenAI po meri."
     },
-    "providerGroupBuiltIn": {
-      "message": "Vgrajeno",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── več ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Po meri",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Ponudnik po meri …",
       "description": "Provider option: enter a provider id manually."
@@ -9439,18 +9091,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "Ugrađeni provajderi, dodatni provajderi ili prilagođena OpenAI-kompatibilna krajnja tačka."
-    },
-    "providerGroupBuiltIn": {
-      "message": "Ugrađeno",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── više ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Prilagođeno",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "Prilagođeni provajder…",
@@ -9763,18 +9403,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Inbyggda leverantörer, ytterligare leverantörer eller en anpassad OpenAI-kompatibel slutpunkt."
     },
-    "providerGroupBuiltIn": {
-      "message": "Inbyggda",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── fler ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Anpassad",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Anpassad leverantör…",
       "description": "Provider option: enter a provider id manually."
@@ -10085,18 +9713,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
-    },
-    "providerGroupBuiltIn": {
-      "message": "ในตัว",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── เพิ่มเติม ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "กำหนดเอง",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "ผู้ให้บริการกำหนดเอง…",
@@ -10409,18 +10025,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Yerleşik sağlayıcılar, ek sağlayıcılar veya özel bir OpenAI uyumlu uç nokta."
     },
-    "providerGroupBuiltIn": {
-      "message": "Yerleşik",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── daha fazla ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Özel",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Özel sağlayıcı…",
       "description": "Provider option: enter a provider id manually."
@@ -10731,18 +10335,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "ئىچكى تەمىنلىگۈچىلەر، قوشۇمچە تەمىنلىگۈچىلەر ياكى OpenAI غا ماسلاشتۇرۇلغان ئۆزگىچە ئاخىرلاش نۇقتىسى."
-    },
-    "providerGroupBuiltIn": {
-      "message": "ئىچكى",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── تېخىمۇ كۆپ ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "خاس",
-      "description": "Provider dropdown group label."
     },
     "providerCustomOption": {
       "message": "خاس تەمىنلىگۈچى…",
@@ -11055,18 +10647,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Вбудовані провайдери, додаткові провайдери або власна кінцева точка, сумісна з OpenAI."
     },
-    "providerGroupBuiltIn": {
-      "message": "Вбудовані",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── більше ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Власний",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Власний провайдер…",
       "description": "Provider option: enter a provider id manually."
@@ -11378,18 +10958,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "Nhà cung cấp tích hợp, nhà cung cấp bổ sung hoặc điểm cuối tương thích OpenAI tùy chỉnh"
     },
-    "providerGroupBuiltIn": {
-      "message": "Tích hợp",
-      "description": "Provider dropdown group label."
-    },
-    "providerGroupMore": {
-      "message": "──── thêm ────",
-      "description": "Disabled divider between built-in providers and the models.dev catalogue."
-    },
-    "providerGroupCustom": {
-      "message": "Tùy chỉnh",
-      "description": "Provider dropdown group label."
-    },
     "providerCustomOption": {
       "message": "Nhà cung cấp tùy chỉnh…",
       "description": "Provider option: enter a provider id manually."
@@ -11685,15 +11253,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProviderDesc": {
       "message": "内建服务商、更多服务商，或自定义 OpenAI 兼容端点。"
     },
-    "providerGroupBuiltIn": {
-      "message": "内建"
-    },
-    "providerGroupMore": {
-      "message": "──── 更多 ────"
-    },
-    "providerGroupCustom": {
-      "message": "自定义"
-    },
     "providerCustomOption": {
       "message": "自定义服务商…"
     },
@@ -11902,15 +11461,6 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "settingProviderDesc": {
       "message": "內建服務商、更多服務商，或自訂 OpenAI 相容端點。"
-    },
-    "providerGroupBuiltIn": {
-      "message": "內建"
-    },
-    "providerGroupMore": {
-      "message": "──── 更多 ────"
-    },
-    "providerGroupCustom": {
-      "message": "自訂"
     },
     "providerCustomOption": {
       "message": "自訂服務商…"

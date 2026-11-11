@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Ingebouwde providers, extra providers of een aangepast OpenAI-compatibel eindpunt."
   },
-  "providerGroupBuiltIn": {
-    "message": "Ingebouwd",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── meer ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Aangepast",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Aangepaste provider…",
     "description": "Provider option: enter a provider id manually."

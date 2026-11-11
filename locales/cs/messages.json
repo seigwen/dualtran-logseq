@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "Vestavěné",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── další ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Vlastní",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Vlastní poskytovatel…",
     "description": "Provider option: enter a provider id manually."

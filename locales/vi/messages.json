@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Nhà cung cấp tích hợp, nhà cung cấp bổ sung hoặc điểm cuối tương thích OpenAI tùy chỉnh"
   },
-  "providerGroupBuiltIn": {
-    "message": "Tích hợp",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── thêm ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Tùy chỉnh",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Nhà cung cấp tùy chỉnh…",
     "description": "Provider option: enter a provider id manually."

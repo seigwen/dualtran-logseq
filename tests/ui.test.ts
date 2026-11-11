@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { CUSTOM_MODEL, CUSTOM_PROVIDER, PROVIDER_SEPARATOR, type ModelsDevData } from "../src/catalog";
+import { CUSTOM_MODEL, CUSTOM_PROVIDER, type ModelsDevData } from "../src/catalog";
 import { LOWEST_REASONING, sanitizeSettings } from "../src/settings";
 import { createTranslator } from "../src/i18n";
 import { renderSettingsPanel, type PanelDeps } from "../src/ui";
@@ -126,22 +126,23 @@ describe("settings panel", () => {
     expect(host.textContent || "").not.toMatch(/models\.dev/i);
   });
 
-  it("groups providers built-in → divider → catalogue (flat) → custom", () => {
+  it("lists every provider alphabetically with custom last", () => {
     const host = mount(makeDeps().deps);
     const provider = host.querySelector('[data-dt="provider"]') as HTMLSelectElement;
     const options = [...provider.options];
     const ids = options.map((option) => option.value);
-    expect(ids.slice(0, 4)).toEqual(["openai", "anthropic", "google-gemini", "moonshot"]);
-    const dividerIndex = ids.indexOf(PROVIDER_SEPARATOR);
-    expect(dividerIndex).toBe(4);
-    expect(options[dividerIndex].disabled).toBe(true);
-    expect(ids).toContain("groq");
-    // Catalogue entries are flat (no vendor-labelled optgroup).
-    expect(provider.querySelector('optgroup[label="models.dev"]')).toBeNull();
-    const groq = options.find((option) => option.value === "groq");
-    expect(groq?.parentElement).toBe(provider);
-    expect(ids[ids.length - 1]).toBe(CUSTOM_PROVIDER);
-    expect(options[options.length - 1].parentElement?.tagName).toBe("OPTGROUP");
+    expect(ids).toEqual([
+      "anthropic",
+      "google-gemini",
+      "groq",
+      "moonshot",
+      "openai",
+      CUSTOM_PROVIDER,
+    ]);
+    const labels = options.slice(0, -1).map((option) => option.textContent);
+    expect(labels).toEqual([...labels].sort((left, right) => left.localeCompare(right)));
+    expect(options[options.length - 1].textContent).toBe("Custom provider…");
+    expect(provider.querySelectorAll("optgroup").length).toBe(0);
   });
 
   it("updates model, endpoint and re-renders when the provider changes", () => {

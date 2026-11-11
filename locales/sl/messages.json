@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Vgrajeni ponudniki, dodatni ponudniki ali končna točka, združljiva z OpenAI po meri."
   },
-  "providerGroupBuiltIn": {
-    "message": "Vgrajeno",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── več ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Po meri",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Ponudnik po meri …",
     "description": "Provider option: enter a provider id manually."

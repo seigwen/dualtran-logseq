@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Innbyggðir þjónustuveitendur, viðbótarþjónustuveitendur eða sérsniðinn OpenAI-samhæfur endapunktur."
   },
-  "providerGroupBuiltIn": {
-    "message": "Innbyggðir",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── fleiri ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Sérsniðið",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Sérsniðinn veitandi…",
     "description": "Provider option: enter a provider id manually."

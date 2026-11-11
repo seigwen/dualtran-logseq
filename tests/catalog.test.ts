@@ -1,7 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
   CUSTOM_PROVIDER,
-  PROVIDER_SEPARATOR,
   effectiveBaseUrl,
   languageOptions,
   modelReasoningOptions,
@@ -60,13 +59,14 @@ const data: ModelsDevData = {
 };
 
 describe("projectProviders", () => {
-  it("puts built-ins first in registry order, then the catalogue, then custom", () => {
+  it("mixes built-ins and catalogue entries into one alphabetical list", () => {
     const options = projectProviders({ data, builtIns, selectedId: "openai", resolveId });
-    expect(options.slice(0, 4).map((option) => option.id)).toEqual([
-      "openai",
+    const providers = options.slice(0, -1);
+    expect(providers.map((option) => option.id)).toEqual([
       "anthropic",
       "google-gemini",
       "moonshot",
+      "openai",
     ]);
     expect(options[options.length - 1].id).toBe(CUSTOM_PROVIDER);
     expect(options.map((option) => option.id)).not.toContain("templated");
@@ -80,16 +80,18 @@ describe("projectProviders", () => {
     expect(ids).not.toContain("noapi");
   });
 
-  it("sorts catalogue providers by label and keeps an unknown saved id", () => {
+  it("keeps an unknown saved id selectable in its alphabetical place", () => {
     const options = projectProviders({ data, builtIns, selectedId: "legacy-provider", resolveId });
-    const catalogue = options.filter((option) => option.source === "models.dev").map((option) => option.id);
-    expect(catalogue).toEqual(["legacy-provider"]);
+    const ids = options.map((option) => option.id);
+    expect(ids).toContain("legacy-provider");
+    const labels = options.slice(0, -1).map((option) => option.label);
+    expect(labels).toEqual([...labels].sort((left, right) => left.localeCompare(right)));
   });
 
-  it("marks the custom sentinel and the divider value", () => {
+  it("marks the custom sentinel at the end", () => {
     const options = projectProviders({ data, builtIns, selectedId: "openai", resolveId });
     expect(options.find((option) => option.id === CUSTOM_PROVIDER)?.label).toBe("Custom…");
-    expect(PROVIDER_SEPARATOR).toBe("__more__");
+    expect(options[options.length - 1].id).toBe(CUSTOM_PROVIDER);
   });
 });
 

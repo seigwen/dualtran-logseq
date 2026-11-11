@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Встроенные провайдеры, дополнительные провайдеры или собственный OpenAI-совместимый эндпоинт."
   },
-  "providerGroupBuiltIn": {
-    "message": "Встроенные",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── ещё ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Собственный",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Собственный провайдер…",
     "description": "Provider option: enter a provider id manually."

@@ -47,8 +47,6 @@ export interface ModelOption {
   text: string;
 }
 
-/** Sentinel that renders a disabled divider inside the provider dropdown. */
-export const PROVIDER_SEPARATOR = "__more__";
 /** Sentinel for the free-text provider id (OpenAI-compatible fallback). */
 export const CUSTOM_PROVIDER = "__custom_provider__";
 /** Sentinel that reveals the free-text model input. */
@@ -75,10 +73,10 @@ function usableApi(api: string | undefined): string {
 }
 
 /**
- * Built-in providers first (registry order), then every models.dev provider
- * that is not the catalogue twin of a built-in (google ↔ google-gemini,
- * xai ↔ grok…), sorted by label, then the custom-provider sentinel. A saved
- * value the catalogue no longer knows stays selectable.
+ * Every provider in one alphabetical list — built-ins and catalogue entries are
+ * mixed by visible label (the user does not care where a provider came from),
+ * with the custom-provider sentinel last. A saved value the catalogue no longer
+ * knows stays selectable.
  */
 export function projectProviders({
   data,
@@ -98,20 +96,19 @@ export function projectProviders({
   }));
   const taken = new Set(options.map((option) => option.id));
   const builtInDevIds = new Set(builtIns.map((def) => resolveId(def.id)));
-  const discovered: ProviderOption[] = [];
 
   for (const [id, info] of Object.entries(data || {})) {
     if (!usableApi(info?.api) || builtInDevIds.has(id) || taken.has(id)) continue;
     const label = (info?.name || info?.id || id).trim() || id;
-    discovered.push({ id, label, source: "models.dev" });
+    options.push({ id, label, source: "models.dev" });
     taken.add(id);
   }
-  discovered.sort((left, right) => left.label.localeCompare(right.label));
-  options.push(...discovered);
 
   if (selectedId && selectedId !== CUSTOM_PROVIDER && !taken.has(selectedId)) {
     options.push({ id: selectedId, label: selectedId, source: "models.dev" });
   }
+
+  options.sort((left, right) => left.label.localeCompare(right.label));
   options.push({ id: CUSTOM_PROVIDER, label: "Custom…", source: "custom" });
   return options;
 }

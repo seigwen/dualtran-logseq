@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "ספקים מובנים, ספקים נוספים או נקודת קצה מותאמת אישית תואמת OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "מובנה",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── עוד ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "מותאם אישית",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "ספק מותאם אישית…",
     "description": "Provider option: enter a provider id manually."

@@ -46,7 +46,7 @@ DualTran Obsidian plugin:
 | Engine | Google Translate or AI (BYOK) |
 | Interface language | Follows Logseq, or one of the 38 bundled languages |
 | Target language | Dropdown of 142 languages (name + code), defaults to the Logseq language |
-| AI provider | Built-in providers → `──── more ────` → additional providers (235) → custom |
+| AI provider | One alphabetical list of 235 providers, plus a custom entry at the end |
 | API key | Stored in this graph's plugin settings |
 | Model | Dropdown of the selected provider's models, plus a custom id |
 | Endpoint | Filled from the provider automatically; edit it to override, “Reset” restores the default |
@@ -84,11 +84,11 @@ immediately but the command names after the next Logseq start.
 
 ## Status
 
-Current version: **0.2.1**.
+Current version: **0.2.2**.
 
 Verified on a real Logseq 2.0.2 instance (driven over the DevTools protocol):
 
-- `npm run verify` — i18n check (38 locales × 72 keys), typecheck, 64 unit tests, build, dist guards.
+- `npm run verify` — i18n check (38 locales × 69 keys), typecheck, 64 unit tests, build, dist guards.
 - `npm run e2e` against the running app: 223 provider options, 142 target languages, provider switch
   → model + endpoint auto-fill, German/Arabic panel text, Arabic `dir=rtl` (`e2e/artifacts/`).
 - Google Translate inserts a translated sibling block; page translation creates `<page> · zh-CN`

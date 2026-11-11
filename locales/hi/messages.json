@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "अंतर्निहित प्रदाता, अतिरिक्त प्रदाता, या कस्टम OpenAI-संगत एंडपॉइंट।"
   },
-  "providerGroupBuiltIn": {
-    "message": "अंतर्निहित",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── अधिक ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "कस्टम",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "कस्टम प्रदाता…",
     "description": "Provider option: enter a provider id manually."

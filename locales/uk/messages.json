@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Вбудовані провайдери, додаткові провайдери або власна кінцева точка, сумісна з OpenAI."
   },
-  "providerGroupBuiltIn": {
-    "message": "Вбудовані",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── більше ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Власний",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Власний провайдер…",
     "description": "Provider option: enter a provider id manually."

@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "내장 제공자, 추가 제공자 또는 사용자 지정 OpenAI 호환 엔드포인트"
   },
-  "providerGroupBuiltIn": {
-    "message": "내장",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── 더 보기 ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "사용자 지정",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "사용자 지정 제공자…",
     "description": "Provider option: enter a provider id manually."

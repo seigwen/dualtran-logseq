@@ -64,10 +64,10 @@ async function main() {
       panel: !!document.querySelector('.dt-panel'),
       controls: ['engine', 'uiLang', 'target', 'provider', 'model', 'reasoning'].filter((key) => !!q(key)),
       providerCount: provider ? provider.options.length : 0,
-      separatorIndex: provider ? [...provider.options].findIndex((option) => option.value === '__more__') : -1,
-      separatorDisabled: provider
-        ? [...provider.options].some((option) => option.value === '__more__' && option.disabled)
-        : false,
+      providerLabels: provider
+        ? [...provider.options].slice(0, -1).map((option) => option.textContent)
+        : [],
+      providerGroups: provider ? provider.querySelectorAll('optgroup').length : 0,
       lastProvider: provider ? provider.options[provider.options.length - 1].value : '',
       targetCount: q('target') ? q('target').options.length : 0,
       targetHasZh: q('target') ? [...q('target').options].some((option) => option.value === 'zh-CN') : false,
@@ -80,8 +80,9 @@ async function main() {
   assert.equal(snapshot.panel, true, "settings panel did not open");
   assert.deepEqual(snapshot.controls, ["engine", "uiLang", "target", "provider", "model", "reasoning"]);
   assert.ok(snapshot.providerCount > 100, `provider dropdown has only ${snapshot.providerCount} options`);
-  assert.ok(snapshot.separatorIndex > 0, "provider dropdown is missing the models.dev divider");
-  assert.equal(snapshot.separatorDisabled, true, "the models.dev divider must be disabled");
+  assert.equal(snapshot.providerGroups, 0, "provider dropdown must not be grouped");
+  const sortedLabels = [...snapshot.providerLabels].sort((left, right) => left.localeCompare(right));
+  assert.deepEqual(snapshot.providerLabels, sortedLabels, "provider list is not alphabetical");
   assert.equal(snapshot.lastProvider, "__custom_provider__", "custom provider must be last");
   assert.ok(snapshot.targetCount >= 140, `target language dropdown has only ${snapshot.targetCount} options`);
   assert.equal(snapshot.targetHasZh, true, "target language dropdown is missing zh-CN");
@@ -89,12 +90,11 @@ async function main() {
   assert.match(snapshot.endpoint, /^https:\/\//, "endpoint was not filled from the provider");
   assert.match(snapshot.catalogStatus, /providers|Loading|unavailable/);
 
-  // Provider switch: pick the first catalogue-only provider after the divider.
+  // Provider switch: pick a known catalogue provider.
   const switched = await plugin.evaluate(`(async () => {
     const provider = document.querySelector('[data-dt="provider"]');
-    const options = [...provider.options];
-    const divider = options.findIndex((option) => option.value === '__more__');
-    const next = options.slice(divider + 1).find((option) => option.value !== '__custom_provider__');
+    const options = [...provider.options].filter((option) => option.value !== '__custom_provider__');
+    const next = options.find((option) => option.value === '302ai') || options[Math.floor(options.length / 2)];
     const setter = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, 'value').set;
     setter.call(provider, next.value);
     provider.dispatchEvent(new Event('change', { bubbles: true }));

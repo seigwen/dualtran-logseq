@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Inbyggda leverantörer, ytterligare leverantörer eller en anpassad OpenAI-kompatibel slutpunkt."
   },
-  "providerGroupBuiltIn": {
-    "message": "Inbyggda",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── fler ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Anpassad",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Anpassad leverantör…",
     "description": "Provider option: enter a provider id manually."

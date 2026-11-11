@@ -67,18 +67,6 @@
     "message": "Built-in providers, additional providers, or a custom OpenAI-compatible endpoint.",
     "description": "Settings description for the AI provider dropdown."
   },
-  "providerGroupBuiltIn": {
-    "message": "Built-in",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── more ────",
-    "description": "Disabled divider between built-in providers and the additional ones."
-  },
-  "providerGroupCustom": {
-    "message": "Custom",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Custom provider…",
     "description": "Provider option: enter a provider id manually."

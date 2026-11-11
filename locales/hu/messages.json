@@ -66,18 +66,6 @@
   "settingProviderDesc": {
     "message": "Beépített szolgáltatók, további szolgáltatók vagy egyéni OpenAI-kompatibilis végpont."
   },
-  "providerGroupBuiltIn": {
-    "message": "Beépített",
-    "description": "Provider dropdown group label."
-  },
-  "providerGroupMore": {
-    "message": "──── további ────",
-    "description": "Disabled divider between built-in providers and the models.dev catalogue."
-  },
-  "providerGroupCustom": {
-    "message": "Egyéni",
-    "description": "Provider dropdown group label."
-  },
   "providerCustomOption": {
     "message": "Egyéni szolgáltató…",
     "description": "Provider option: enter a provider id manually."

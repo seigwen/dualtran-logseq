@@ -9,7 +9,6 @@
 import {
   CUSTOM_MODEL,
   CUSTOM_PROVIDER,
-  PROVIDER_SEPARATOR,
   effectiveBaseUrl,
   languageOptions,
   modelsForProvider,
@@ -246,27 +245,12 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   const providerRow = row(doc, { label: t("settingProvider"), desc: t("settingProviderDesc") });
   const provider = select(doc, settings.aiProvider);
   provider.dataset.dt = "provider";
-  // Built-ins in an optgroup, a disabled divider, then the rest flat. The
-  // catalogue source is an implementation detail — the user only sees "more".
-  const builtIn = doc.createElement("optgroup");
-  builtIn.label = t("providerGroupBuiltIn");
-  for (const entry of providers.filter((option) => option.source === "built-in")) {
-    builtIn.appendChild(option(doc, entry.id, entry.label));
+  // One alphabetical list: the user does not care which providers are built in.
+  // The custom entry is an action, not a provider, so it stays at the end.
+  for (const entry of providers) {
+    const label = entry.source === "custom" ? t("providerCustomOption") : entry.label;
+    provider.appendChild(option(doc, entry.id, label));
   }
-  provider.appendChild(builtIn);
-
-  const catalogueEntries = providers.filter((entry) => entry.source === "models.dev");
-  if (catalogueEntries.length > 0) {
-    provider.appendChild(option(doc, PROVIDER_SEPARATOR, t("providerGroupMore"), true));
-    for (const entry of catalogueEntries) provider.appendChild(option(doc, entry.id, entry.label));
-  }
-
-  const custom = doc.createElement("optgroup");
-  custom.label = t("providerGroupCustom");
-  for (const entry of providers.filter((option) => option.source === "custom")) {
-    custom.appendChild(option(doc, entry.id, t("providerCustomOption")));
-  }
-  provider.appendChild(custom);
   provider.value = settings.aiProvider;
   provider.addEventListener("change", () => {
     if (provider.value === settings.aiProvider) return;
