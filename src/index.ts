@@ -6,7 +6,7 @@ import { coreNamespace } from "./coreAdapter";
 import { LOCALE_CODES, createTranslator, pickLanguageTable } from "./i18n";
 import { readSettings, sanitizeSettings, type DualTranSettings } from "./settings";
 import { createLocalStorageAdapter } from "./storage";
-import { chunkText, describeFetchFailure } from "./translate";
+import { chunkText, describeFetchFailure, providerRequiredMessage } from "./translate";
 import { renderSettingsPanel } from "./ui";
 
 declare const __VERSION__: string;
@@ -86,6 +86,7 @@ function bridge() {
     getStore: () => store,
     resolveReasoningDepth: (value) =>
       resolveReasoningDepth({ setting: value.aiReasoningDepth, options: reasoningOptions(value.aiProvider, value.aiModel) }),
+    providerRequiredError: () => providerRequiredMessage(translator.t),
   });
 }
 
@@ -125,6 +126,11 @@ function hideLoading(): void {
 
 // ── Commands ───────────────────────────────────────────────────────────────
 
+/** SPEC 2.1: AI mode with no provider configured — the commands refuse to run. */
+function providerMissing(): boolean {
+  return current.engine === "ai" && !current.aiProvider.trim();
+}
+
 async function translateCurrentBlock(): Promise<void> {
   const block = await logseq.Editor.getCurrentBlock();
   if (!block) {
@@ -137,7 +143,12 @@ async function translateCurrentBlock(): Promise<void> {
     return;
   }
   if (current.engine === "ai" && !current.aiModel) {
-    await logseq.UI.showMsg(translator.t("noticeNoModel"), "warning");
+    await logseq.UI.showMsg(
+      providerMissing()
+        ? providerRequiredMessage(translator.t)
+        : translator.t("noticeNoModel"),
+      "warning",
+    );
     openSettingsPanel();
     return;
   }
@@ -166,7 +177,10 @@ async function translateCurrentPage(): Promise<void> {
     return;
   }
   if (current.engine === "ai" && !current.aiModel) {
-    await logseq.UI.showMsg(translator.t("noticeNoModel"), "warning");
+    await logseq.UI.showMsg(
+      providerMissing() ? providerRequiredMessage(translator.t) : translator.t("noticeNoModel"),
+      "warning",
+    );
     openSettingsPanel();
     return;
   }

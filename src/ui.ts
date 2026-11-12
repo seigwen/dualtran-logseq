@@ -43,6 +43,12 @@ export interface PanelDeps {
   close(): void;
   /** Re-render from the host (used after language / provider / model changes). */
   rerender(): void;
+  /**
+   * Optional: a translate action driven from the panel. SPEC 2.1 rule 5 makes it
+   * a guarded primary button (disabled with the providerRequiredError tooltip)
+   * while no AI provider is configured; hosts without one simply omit it.
+   */
+  runTranslate?(): void;
 }
 
 const STYLE_ID = "dualtran-panel-style";
@@ -242,9 +248,14 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
     selectedId: settings.aiProvider,
     resolveId: deps.resolveId,
   });
+  // SPEC 2.1: a fresh install has no provider. The empty option is a disabled,
+  // selected placeholder — not one of the real providers, so it stays outside
+  // the alphabetical list and no "None" item can take the user back to empty.
+  const unconfigured = !settings.aiProvider;
   const providerRow = row(doc, { label: t("settingProvider"), desc: t("settingProviderDesc") });
   const provider = select(doc, settings.aiProvider);
   provider.dataset.dt = "provider";
+  if (unconfigured) provider.appendChild(option(doc, "", t("providerPlaceholder"), true));
   // One alphabetical list: the user does not care which providers are built in.
   // The custom entry is an action, not a provider, so it stays at the end.
   for (const entry of providers) {
@@ -254,6 +265,12 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   provider.value = settings.aiProvider;
   provider.addEventListener("change", () => {
     if (provider.value === settings.aiProvider) return;
+    // The placeholder is disabled; guard anyway so a scripted change cannot
+    // "select" it and leave the panel in a half-configured state.
+    if (!provider.value) {
+      renderSettingsPanel(host, deps);
+      return;
+    }
     const nextProvider = provider.value;
     const current = deps.getSettings();
     const models = nextProvider === CUSTOM_PROVIDER
@@ -299,13 +316,13 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   ai.appendChild(keyRow.root);
 
   const allModels =
-    settings.aiProvider === CUSTOM_PROVIDER
+    unconfigured || settings.aiProvider === CUSTOM_PROVIDER
       ? []
       : modelsForProvider({ provider: settings.aiProvider, data, resolveId: deps.resolveId });
-  const models = withCurrentModel(allModels, settings.aiModel);
+  const models = unconfigured ? [] : withCurrentModel(allModels, settings.aiModel);
   const modelIsListed = !!settings.aiModel && allModels.some((model) => model.value === settings.aiModel);
-  const customModel = allModels.length === 0 || (!!settings.aiModel && !modelIsListed);
-  let shownModel = settings.aiModel;
+  const customModel = !unconfigured && (allModels.length === 0 || (!!settings.aiModel && !modelIsListed));
+  let shownModel = unconfigured ? "" : settings.aiModel;
   if (!shownModel && allModels.length > 0) {
     shownModel =
       pickModelForProvider({
@@ -319,13 +336,21 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   const modelRow = row(doc, { label: t("settingModel"), desc: t("settingModelDesc") });
   const model = select(doc, customModel ? CUSTOM_MODEL : shownModel);
   model.dataset.dt = "model";
-  for (const entry of models) {
-    const label = entry.text === entry.value ? entry.text : `${entry.text} (${entry.value})`;
-    model.appendChild(option(doc, entry.value, label));
+  if (unconfigured) {
+    // Nothing to pick from yet: an empty, disabled picker that says why. It is
+    // never pre-filled with an OpenAI model the user did not choose.
+    model.appendChild(option(doc, "", t("providerRequiredForModel"), true));
+    model.disabled = true;
+  } else {
+    for (const entry of models) {
+      const label = entry.text === entry.value ? entry.text : `${entry.text} (${entry.value})`;
+      model.appendChild(option(doc, entry.value, label));
+    }
+    model.appendChild(option(doc, CUSTOM_MODEL, t("customModelOption")));
   }
-  model.appendChild(option(doc, CUSTOM_MODEL, t("customModelOption")));
-  model.value = customModel ? CUSTOM_MODEL : shownModel;
+  model.value = unconfigured ? "" : customModel ? CUSTOM_MODEL : shownModel;
   model.addEventListener("change", () => {
+    if (!model.value) return;
     if (model.value === CUSTOM_MODEL) {
       deps.rerender();
       return;
@@ -336,7 +361,7 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   modelRow.control.appendChild(model);
   ai.appendChild(modelRow.root);
 
-  const showCustomModel = settings.aiProvider === CUSTOM_PROVIDER || customModel;
+  const showCustomModel = !unconfigured && (settings.aiProvider === CUSTOM_PROVIDER || customModel);
   if (showCustomModel) {
     const customRow = row(doc, { label: t("settingCustomModel"), desc: t("settingCustomModelDesc") });
     const customInput = doc.createElement("input");
@@ -353,18 +378,22 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
     ai.appendChild(customRow.root);
   }
 
-  const endpointDefault = effectiveBaseUrl({
-    provider: settings.aiProvider,
-    data,
-    builtIns: deps.builtIns,
-    resolveId: deps.resolveId,
-  });
+  const endpointDefault = unconfigured
+    ? ""
+    : effectiveBaseUrl({
+        provider: settings.aiProvider,
+        data,
+        builtIns: deps.builtIns,
+        resolveId: deps.resolveId,
+      });
   const endpointRow = row(doc, { label: t("settingEndpoint"), desc: t("settingEndpointDesc") });
   const endpoint = doc.createElement("input");
   endpoint.type = "text";
   endpoint.dataset.dt = "endpoint";
-  endpoint.placeholder = endpointDefault || t("placeholderEndpoint");
-  endpoint.value = settings.aiBaseUrl || endpointDefault;
+  // Unconfigured: an empty value and the bare scheme as the only hint — the
+  // field must not advertise a provider the user has not chosen.
+  endpoint.placeholder = unconfigured ? "https://" : endpointDefault || t("placeholderEndpoint");
+  endpoint.value = unconfigured ? "" : settings.aiBaseUrl || endpointDefault;
   let endpointTimer: ReturnType<typeof setTimeout> | null = null;
   endpoint.addEventListener("input", () => {
     if (endpointTimer) clearTimeout(endpointTimer);
@@ -382,29 +411,57 @@ export function renderSettingsPanel(host: HTMLElement, deps: PanelDeps): void {
   endpointRow.control.append(endpoint, reset);
   ai.appendChild(endpointRow.root);
 
-  const declared = deps.reasoningOptions(settings.aiProvider, settings.aiModel);
+  const declared = unconfigured ? [] : deps.reasoningOptions(settings.aiProvider, settings.aiModel);
   const hasLevels = declared.some((option) => option.value !== "");
   const reasoningChoices = reasoningDepthChoices({ options: declared, t });
   const storedReasoning = reasoningChoices.some((choice) => choice.value === settings.aiReasoningDepth)
     ? settings.aiReasoningDepth
     : LOWEST_REASONING;
-  // Only normalise once the catalogue is loaded — an unloaded panel would wipe
-  // a valid explicit level. Same guard as Obsidian's settings pane.
-  if (deps.catalogState() === "ready" && storedReasoning !== settings.aiReasoningDepth) {
+  // Only normalise once the catalogue is loaded AND a provider is chosen — an
+  // unloaded (or unconfigured) panel must never wipe the stored sentinel.
+  if (!unconfigured && deps.catalogState() === "ready" && storedReasoning !== settings.aiReasoningDepth) {
     deps.update({ aiReasoningDepth: LOWEST_REASONING });
   }
   const reasoningRow = row(doc, {
     label: t("settingReasoning"),
-    desc: hasLevels ? t("settingReasoningDesc") : t("settingReasoningInert"),
+    desc: unconfigured
+      ? t("providerRequiredForModel")
+      : hasLevels
+        ? t("settingReasoningDesc")
+        : t("settingReasoningInert"),
   });
   const reasoning = select(doc, storedReasoning);
   reasoning.dataset.dt = "reasoning";
-  reasoning.disabled = !hasLevels;
+  reasoning.disabled = unconfigured || !hasLevels;
   for (const choice of reasoningChoices) reasoning.appendChild(option(doc, choice.value, choice.text));
   reasoning.value = storedReasoning;
   reasoning.addEventListener("change", () => deps.update({ aiReasoningDepth: reasoning.value }));
   reasoningRow.control.appendChild(reasoning);
   ai.appendChild(reasoningRow.root);
+
+  // SPEC 2.1 rule 5: where a primary translate button exists, an unconfigured
+  // provider disables it and its title/tooltip carries the same localized text
+  // the command refuses with.
+  if (deps.runTranslate) {
+    const providerError = t("providerRequiredError");
+    const actionRow = row(doc, { label: t("sectionAi") });
+    const run = doc.createElement("button");
+    run.type = "button";
+    run.className = "dt-btn dt-primary";
+    run.dataset.dt = "translate";
+    run.textContent = t("btnTranslate");
+    if (unconfigured) {
+      run.disabled = true;
+      run.title = providerError;
+      run.setAttribute("aria-disabled", "true");
+      run.setAttribute("data-blocked", "provider");
+    }
+    run.addEventListener("click", () => {
+      if (!run.disabled) deps.runTranslate?.();
+    });
+    actionRow.control.appendChild(run);
+    ai.appendChild(actionRow.root);
+  }
   body.appendChild(ai);
 
   // ── Catalogue ───────────────────────────────────────────────────────────

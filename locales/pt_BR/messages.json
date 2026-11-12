@@ -63,6 +63,18 @@
     "message": "Provedor de IA",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Selecione um provedor",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Selecione um provedor primeiro",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Escolha um provedor de IA nas configurações antes de traduzir.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Provedores integrados, provedores adicionais ou um endpoint personalizado compatível com OpenAI."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Redefinir para o padrão do provedor",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Traduzir",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Esforço de raciocínio",

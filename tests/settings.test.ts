@@ -59,6 +59,8 @@ describe("readSettings", () => {
       context,
     );
     expect(result.migrated).toBe(true);
+    // SPEC 2.1 / Q14 C: the old OpenAI endpoint together with an OpenAI model
+    // id migrates to openai; the old endpoint itself becomes "auto" ("").
     expect(result.settings).toEqual({
       engine: "ai",
       targetLanguage: "zh-CN",

@@ -55,6 +55,23 @@ export function normalizeBlocks(blocks: string[]): string[] {
   return blocks.map((block) => block.trim()).filter((block) => block.length > 0);
 }
 
+/** English source text of `providerRequiredError` (used when no translator is wired). */
+export const PROVIDER_REQUIRED_FALLBACK = "Choose an AI provider in settings before translating.";
+
+/**
+ * Guard for every AI path (SPEC 2.1 rule 5). Returns the localized message when
+ * AI mode has no provider, otherwise "". The caller must stop — there is no
+ * fallback provider behind this.
+ */
+export function providerRequiredErrorFor(
+  settings: { engine: string; aiProvider: string },
+  message?: string,
+): string {
+  if (settings.engine !== "ai") return "";
+  if (String(settings.aiProvider || "").trim()) return "";
+  return message && message.trim() ? message : PROVIDER_REQUIRED_FALLBACK;
+}
+
 export interface BridgeDeps {
   core: CoreLike;
   fetchImpl: FetchLike | null;
@@ -63,10 +80,24 @@ export interface BridgeDeps {
   getStore?: () => unknown;
   /** Model-aware effort resolution; defaults to the stored sentinel resolution. */
   resolveReasoningDepth?: (settings: DualTranSettings) => string;
+  /** Localized `providerRequiredError`; English source text when omitted. */
+  providerRequiredError?: (settings: DualTranSettings) => string;
 }
 
-export function createBridge({ core, fetchImpl, getSettings, getStore, resolveReasoningDepth }: BridgeDeps) {
+export function createBridge({
+  core,
+  fetchImpl,
+  getSettings,
+  getStore,
+  resolveReasoningDepth,
+  providerRequiredError,
+}: BridgeDeps) {
   async function translateBlocksAi(blocks: string[], settings: DualTranSettings): Promise<string[]> {
+    // SPEC 2.1: an unconfigured provider stops the whole batch before the first
+    // request — no prompt is built and nothing is sent.
+    const missing = providerRequiredErrorFor(settings, providerRequiredError ? providerRequiredError(settings) : "");
+    if (missing) throw new Error(missing);
+    if (!settings.aiModel) throw new Error("No model selected");
     const results: string[] = [];
     for (const content of blocks) {
       const targetLanguageName =
@@ -116,7 +147,8 @@ export function createBridge({ core, fetchImpl, getSettings, getStore, resolveRe
       if (normalized.length === 0) return [];
       const settings = getSettings();
       if (settings.engine === "ai") {
-        if (!settings.aiModel) throw new Error("No model selected");
+        // translateBlocksAi owns the provider guard (SPEC 2.1 rule 5), so every
+        // caller — commands, page translation, tests — passes through one check.
         return translateBlocksAi(normalized, settings);
       }
       return core.translateGoogle({

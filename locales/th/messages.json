@@ -63,6 +63,18 @@
     "message": "ผู้ให้บริการ AI",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "เลือกผู้ให้บริการ",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "เลือกผู้ให้บริการก่อน",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "เลือกผู้ให้บริการ AI ในการตั้งค่าก่อนแปล",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "รีเซ็ตเป็นค่าเริ่มต้นของผู้ให้บริการ",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "แปล",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "ระดับการใช้เหตุผล",

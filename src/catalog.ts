@@ -6,7 +6,7 @@
  * tarball and without network. `core.createModelsDevStore` owns the 24 h
  * cache + fetch; this module only decides what the dropdowns show.
  */
-import { LOWEST_REASONING } from "./settings";
+import { CUSTOM_ENDPOINT_PROVIDER, LOWEST_REASONING } from "./settings";
 
 export interface ModelsDevModel {
   id?: string;
@@ -48,7 +48,7 @@ export interface ModelOption {
 }
 
 /** Sentinel for the free-text provider id (OpenAI-compatible fallback). */
-export const CUSTOM_PROVIDER = "__custom_provider__";
+export const CUSTOM_PROVIDER = CUSTOM_ENDPOINT_PROVIDER;
 /** Sentinel that reveals the free-text model input. */
 export const CUSTOM_MODEL = "__custom__";
 

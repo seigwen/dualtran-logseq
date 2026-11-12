@@ -9,6 +9,25 @@
  */
 
 /**
+ * A translation entry point that has no AI provider configured must stop here,
+ * before any chunking, any prompt building and any fetch. This is the ONE
+ * definition of "unconfigured" the bridge, the command handlers and the panel
+ * button share — there is deliberately no fallback provider behind it.
+ */
+export function providerRequiredMessage(t: (key: string) => string): string {
+  const localized = t("providerRequiredError");
+  // A missing catalogue entry returns the key itself; never show that to users.
+  return !localized || localized === "providerRequiredError"
+    ? "Choose an AI provider in settings before translating."
+    : localized;
+}
+
+/** True when AI mode is on but no provider has been chosen (SPEC 2.1 rule 5). */
+export function isProviderMissing(settings: { engine: string; aiProvider: string }): boolean {
+  return settings.engine === "ai" && !String(settings.aiProvider || "").trim();
+}
+
+/**
  * Long blocks blow past provider limits and make one bad sentence poison the
  * whole block. Split on paragraph boundaries first, then hard-wrap anything
  * still oversized.

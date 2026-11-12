@@ -67,6 +67,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "KI-verskaffer",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Kies 'n verskaffer",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Kies eers 'n verskaffer",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Kies eers 'n KI-verskaffer in die instellings voordat jy vertaal.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Ingeboude verskaffers, bykomende verskaffers of 'n pasgemaakte OpenAI-versoenbare eindpunt."
     },
@@ -132,6 +144,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Herstel na verskafferverstek",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Vertaal",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Redenasie-inspanning",
@@ -378,6 +394,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "مزود الذكاء الاصطناعي",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "اختر مزوّدًا",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "اختر مزوّدًا أولًا",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "اختر مزوّد ذكاء اصطناعي في الإعدادات قبل الترجمة.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "موفرو الخدمة المدمجون أو موفرو خدمة إضافيون أو نقطة نهاية مخصصة متوافقة مع OpenAI"
     },
@@ -443,6 +471,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "إعادة التعيين إلى افتراضي المزود",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "ترجم",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "جهد الاستدلال",
@@ -689,6 +721,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Proveïdor d'IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Selecciona un proveïdor",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Selecciona primer un proveïdor",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Tria un proveïdor d'IA a la configuració abans de traduir.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Proveïdors integrats, proveïdors addicionals o un punt de connexió personalitzat compatible amb OpenAI."
     },
@@ -754,6 +798,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Restableix al valor predeterminat del proveïdor",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Tradueix",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Esforç de raonament",
@@ -1000,6 +1048,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Poskytovatel AI",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Vyberte poskytovatele",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Nejprve vyberte poskytovatele",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Před překladem vyberte v nastavení poskytovatele AI.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
     },
@@ -1065,6 +1125,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Obnovit výchozí hodnotu poskytovatele",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Přeložit",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Úroveň uvažování",
@@ -1311,6 +1375,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-udbyder",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Vælg en udbyder",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Vælg først en udbyder",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Vælg en AI-udbyder i indstillingerne, før du oversætter.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Indbyggede udbydere, yderligere udbydere eller et brugerdefineret OpenAI-kompatibelt endpoint."
     },
@@ -1376,6 +1452,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Nulstil til udbyderens standard",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Oversæt",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Reasoning-indsats",
@@ -1622,6 +1702,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "KI-Anbieter",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Anbieter auswählen",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Zuerst Anbieter auswählen",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Wählen Sie vor dem Übersetzen einen KI-Anbieter in den Einstellungen.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Integrierte Anbieter, zusätzliche Anbieter oder ein benutzerdefinierter OpenAI-kompatibler Endpunkt."
     },
@@ -1687,6 +1779,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Auf Anbieterstandard zurücksetzen",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Übersetzen",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Reasoning-Aufwand",
@@ -1933,6 +2029,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Πάροχος τεχνητής νοημοσύνης",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Επιλέξτε πάροχο",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Επιλέξτε πρώτα πάροχο",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Επιλέξτε πάροχο AI στις ρυθμίσεις πριν από τη μετάφραση.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Ενσωματωμένοι πάροχοι, πρόσθετοι πάροχοι ή προσαρμοσμένο endpoint συμβατό με OpenAI."
     },
@@ -1998,6 +2106,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Επαναφορά στο προεπιλεγμένο του παρόχου",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Μετάφραση",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Βάθος συλλογισμού",
@@ -2244,6 +2356,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI provider",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Select a provider",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Select a provider first",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Choose an AI provider in settings before translating.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Built-in providers, additional providers, or a custom OpenAI-compatible endpoint.",
       "description": "Settings description for the AI provider dropdown."
@@ -2311,6 +2435,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Reset to provider default",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Translate",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Reasoning effort",
@@ -2558,6 +2686,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Proveedor de IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Selecciona un proveedor",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Selecciona primero un proveedor",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Elige un proveedor de IA en los ajustes antes de traducir.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Proveedores integrados, proveedores adicionales o un endpoint personalizado compatible con OpenAI."
     },
@@ -2623,6 +2763,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Restablecer al valor predeterminado del proveedor",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Traducir",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Esfuerzo de razonamiento",
@@ -2869,6 +3013,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "ارائه‌دهنده هوش مصنوعی",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "یک ارائه‌دهنده انتخاب کنید",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "ابتدا یک ارائه‌دهنده انتخاب کنید",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "پیش از ترجمه، یک ارائه‌دهنده هوش مصنوعی را در تنظیمات انتخاب کنید.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "ارائه‌دهندگان داخلی، ارائه‌دهندگان اضافی، یا یک نقطه پایانی سفارشی سازگار با OpenAI."
     },
@@ -2934,6 +3090,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "بازنشانی به پیش‌فرض ارائه‌دهنده",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "ترجمه",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "میزان استدلال",
@@ -3180,6 +3340,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-palveluntarjoaja",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Valitse tarjoaja",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Valitse ensin tarjoaja",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Valitse tekoälytarjoaja asetuksista ennen kääntämistä.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Sisäänrakennetut palveluntarjoajat, lisäpalveluntarjoajat tai mukautettu OpenAI-yhteensopiva päätepiste."
     },
@@ -3245,6 +3417,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Palauta palveluntarjoajan oletukseen",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Käännä",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Päättelyn taso",
@@ -3491,6 +3667,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Fournisseur d'IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Sélectionner un fournisseur",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Sélectionnez d'abord un fournisseur",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Choisissez un fournisseur d'IA dans les paramètres avant de traduire.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Fournisseurs intégrés, fournisseurs supplémentaires ou un point de terminaison personnalisé compatible OpenAI."
     },
@@ -3556,6 +3744,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Réinitialiser au fournisseur par défaut",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Traduire",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Effort de raisonnement",
@@ -3802,6 +3994,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "ספק בינה מלאכותית",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "בחרו ספק",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "בחרו קודם ספק",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "בחרו ספק AI בהגדרות לפני התרגום.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "ספקים מובנים, ספקים נוספים או נקודת קצה מותאמת אישית תואמת OpenAI."
     },
@@ -3867,6 +4071,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "איפוס לברירת המחדל של הספק",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "תרגם",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "מאמץ חשיבה",
@@ -4113,6 +4321,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "एआई प्रदाता",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "प्रदाता चुनें",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "पहले प्रदाता चुनें",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "अनुवाद करने से पहले सेटिंग्स में AI प्रदाता चुनें।",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "अंतर्निहित प्रदाता, अतिरिक्त प्रदाता, या कस्टम OpenAI-संगत एंडपॉइंट।"
     },
@@ -4178,6 +4398,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "प्रदाता डिफ़ॉल्ट पर रीसेट करें",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "अनुवाद करें",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "तर्क प्रयास",
@@ -4424,6 +4648,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Dobavljač AI-a",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Odaberite pružatelja",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Najprije odaberite pružatelja",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Prije prevođenja odaberite AI pružatelja u postavkama.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Ugrađeni pružatelji, dodatni pružatelji ili prilagođena OpenAI-kompatibilna krajnja točka."
     },
@@ -4489,6 +4725,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Vrati na zadano pružatelja",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Prevedi",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Razina zaključivanja",
@@ -4735,6 +4975,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "MI-szolgáltató",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Válasszon szolgáltatót",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Előbb válasszon szolgáltatót",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Fordítás előtt válasszon AI-szolgáltatót a beállításokban.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Beépített szolgáltatók, további szolgáltatók vagy egyéni OpenAI-kompatibilis végpont."
     },
@@ -4800,6 +5052,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Visszaállítás a szolgáltató alapértelmezésére",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Fordítás",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Gondolkodási erőfeszítés",
@@ -5046,6 +5302,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-veitandi",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Veldu þjónustuaðila",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Veldu fyrst þjónustuaðila",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Veldu gervigreindarþjónustuaðila í stillingum áður en þú þýðir.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Innbyggðir þjónustuveitendur, viðbótarþjónustuveitendur eða sérsniðinn OpenAI-samhæfur endapunktur."
     },
@@ -5111,6 +5379,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Endurstilla á sjálfgefið gildi þjónustuveitunnar",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Þýða",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Rökhugsunarstig",
@@ -5357,6 +5629,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Provider di IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Seleziona un fornitore",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Seleziona prima un fornitore",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Scegli un fornitore di IA nelle impostazioni prima di tradurre.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Provider integrati, provider aggiuntivi o un endpoint personalizzato compatibile con OpenAI."
     },
@@ -5422,6 +5706,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Ripristina predefinito del provider",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Traduci",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Sforzo di ragionamento",
@@ -5668,6 +5956,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI プロバイダー",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "プロバイダーを選択",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "先にプロバイダーを選択してください",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "翻訳する前に設定で AI プロバイダーを選択してください。",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "組み込みプロバイダー、追加プロバイダー、またはカスタムのOpenAI互換エンドポイント"
     },
@@ -5733,6 +6033,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "プロバイダーのデフォルトに戻す",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "翻訳",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "推論の強度",
@@ -5979,6 +6283,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI 공급자",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "공급자 선택",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "먼저 공급자를 선택하세요",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "번역하기 전에 설정에서 AI 공급자를 선택하세요.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "내장 제공자, 추가 제공자 또는 사용자 지정 OpenAI 호환 엔드포인트"
     },
@@ -6044,6 +6360,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "제공자 기본값으로 재설정",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "번역",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "추론 강도",
@@ -6290,6 +6610,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI pakalpojumu sniedzējs",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Izvēlieties pakalpojumu sniedzēju",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Vispirms izvēlieties pakalpojumu sniedzēju",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Pirms tulkošanas iestatījumos izvēlieties AI pakalpojumu sniedzēju.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Iebūvētie pakalpojumu sniedzēji, papildu pakalpojumu sniedzēji vai pielāgots OpenAI saderīgs galapunkts."
     },
@@ -6355,6 +6687,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Atiestatīt uz pakalpojumu sniedzēja noklusējumu",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Tulkot",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Spriešanas intensitāte",
@@ -6601,6 +6937,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-provider",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Kies een provider",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Kies eerst een provider",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Kies een AI-provider in de instellingen voordat je vertaalt.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Ingebouwde providers, extra providers of een aangepast OpenAI-compatibel eindpunt."
     },
@@ -6666,6 +7014,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Terugzetten naar providerstandaard",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Vertalen",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Redeneerinspanning",
@@ -6912,6 +7264,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-leverandør",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Velg en leverandør",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Velg først en leverandør",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Velg en AI-leverandør i innstillingene før du oversetter.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Innebygde leverandører, flere leverandører eller et egendefinert OpenAI-kompatibelt endepunkt."
     },
@@ -6977,6 +7341,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Tilbakestill til leverandørens standard",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Oversett",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Resonneringsinnsats",
@@ -7223,6 +7591,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Dostawca AI",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Wybierz dostawcę",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Najpierw wybierz dostawcę",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Przed tłumaczeniem wybierz dostawcę AI w ustawieniach.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Wbudowani dostawcy, dodatkowi dostawcy lub niestandardowy punkt końcowy zgodny z OpenAI."
     },
@@ -7288,6 +7668,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Przywróć domyślne dostawcy",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Przetłumacz",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Poziom rozumowania",
@@ -7534,6 +7918,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Provedor de IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Selecione um provedor",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Selecione um provedor primeiro",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Escolha um provedor de IA nas configurações antes de traduzir.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Provedores integrados, provedores adicionais ou um endpoint personalizado compatível com OpenAI."
     },
@@ -7599,6 +7995,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Redefinir para o padrão do provedor",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Traduzir",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Esforço de raciocínio",
@@ -7845,6 +8245,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Fornecedor de IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Selecione um fornecedor",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Selecione primeiro um fornecedor",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Escolha um fornecedor de IA nas definições antes de traduzir.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Fornecedores integrados, fornecedores adicionais ou um endpoint personalizado compatível com OpenAI"
     },
@@ -7910,6 +8322,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Repor predefinição do fornecedor",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Traduzir",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Esforço de raciocínio",
@@ -8156,6 +8572,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Furnizor de IA",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Selectați un furnizor",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Selectați mai întâi un furnizor",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Alegeți un furnizor AI din setări înainte de a traduce.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Furnizori integrați, furnizori suplimentari sau un endpoint personalizat compatibil OpenAI."
     },
@@ -8221,6 +8649,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Resetați la valoarea implicită a furnizorului",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Tradu",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Efort de raționament",
@@ -8467,6 +8899,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Поставщик ИИ",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Выберите провайдера",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Сначала выберите провайдера",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Перед переводом выберите провайдера ИИ в настройках.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Встроенные провайдеры, дополнительные провайдеры или собственный OpenAI-совместимый эндпоинт."
     },
@@ -8532,6 +8976,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Сбросить к значению провайдера",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Перевести",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Уровень рассуждений",
@@ -8778,6 +9226,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Ponudnik umetne inteligence",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Izberite ponudnika",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Najprej izberite ponudnika",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Pred prevajanjem v nastavitvah izberite ponudnika AI.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Vgrajeni ponudniki, dodatni ponudniki ali končna točka, združljiva z OpenAI po meri."
     },
@@ -8843,6 +9303,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Ponastavi na privzeto ponudnika",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Prevedi",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Globina sklepanja",
@@ -9089,6 +9553,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI dobavljač",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Изаберите добављача",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Прво изаберите добављача",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Пре превођења изаберите AI добављача у подешавањима.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Ugrađeni provajderi, dodatni provajderi ili prilagođena OpenAI-kompatibilna krajnja tačka."
     },
@@ -9154,6 +9630,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Vrati na podrazumevano provajdera",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Преведи",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Nivo rezonovanja",
@@ -9400,6 +9880,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI-leverantör",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Välj en leverantör",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Välj först en leverantör",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Välj en AI-leverantör i inställningarna innan du översätter.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Inbyggda leverantörer, ytterligare leverantörer eller en anpassad OpenAI-kompatibel slutpunkt."
     },
@@ -9465,6 +9957,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Återställ till leverantörens standard",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Översätt",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Resonemangsansträngning",
@@ -9711,6 +10207,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "ผู้ให้บริการ AI",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "เลือกผู้ให้บริการ",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "เลือกผู้ให้บริการก่อน",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "เลือกผู้ให้บริการ AI ในการตั้งค่าก่อนแปล",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "ผู้ให้บริการในตัว ผู้ให้บริการเพิ่มเติม หรือปลายทางที่เข้ากันได้กับ OpenAI แบบกำหนดเอง"
     },
@@ -9776,6 +10284,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "รีเซ็ตเป็นค่าเริ่มต้นของผู้ให้บริการ",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "แปล",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "ระดับการใช้เหตุผล",
@@ -10022,6 +10534,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Yapay zekâ sağlayıcısı",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Bir sağlayıcı seçin",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Önce bir sağlayıcı seçin",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Çeviri yapmadan önce ayarlardan bir yapay zeka sağlayıcısı seçin.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Yerleşik sağlayıcılar, ek sağlayıcılar veya özel bir OpenAI uyumlu uç nokta."
     },
@@ -10087,6 +10611,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Sağlayıcı varsayılanına sıfırla",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Çevir",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Akıl yürütme düzeyi",
@@ -10333,6 +10861,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "AI تەمىنلىگۈچىسى",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "تەمىنلىگۈچى تاللاڭ",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "ئاۋۋال تەمىنلىگۈچى تاللاڭ",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "تەرجىمە قىلىشتىن بۇرۇن تەڭشەكتە AI تەمىنلىگۈچىسىنى تاللاڭ.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "ئىچكى تەمىنلىگۈچىلەر، قوشۇمچە تەمىنلىگۈچىلەر ياكى OpenAI غا ماسلاشتۇرۇلغان ئۆزگىچە ئاخىرلاش نۇقتىسى."
     },
@@ -10398,6 +10938,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "تەمىنلىگۈچىنىڭ سۈكۈتتىكى قىممىتىگە قايتۇرۇش",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "تەرجىمە",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "پىكىر يۈرگۈزۈش كۈچى",
@@ -10644,6 +11188,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Постачальник ШІ",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Виберіть постачальника",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Спершу виберіть постачальника",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Перед перекладом виберіть постачальника ШІ в налаштуваннях.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Вбудовані провайдери, додаткові провайдери або власна кінцева точка, сумісна з OpenAI."
     },
@@ -10709,6 +11265,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Скинути до стандартного постачальника",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Перекласти",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Рівень міркування",
@@ -10955,6 +11515,18 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
       "message": "Nhà cung cấp AI",
       "description": "Settings label: AI provider."
     },
+    "providerPlaceholder": {
+      "message": "Chọn nhà cung cấp",
+      "description": "Provider picker placeholder shown while no AI provider is configured."
+    },
+    "providerRequiredForModel": {
+      "message": "Hãy chọn nhà cung cấp trước",
+      "description": "Model and reasoning placeholders shown while no AI provider is configured."
+    },
+    "providerRequiredError": {
+      "message": "Chọn nhà cung cấp AI trong cài đặt trước khi dịch.",
+      "description": "Warning when a translation is started without an AI provider."
+    },
     "settingProviderDesc": {
       "message": "Nhà cung cấp tích hợp, nhà cung cấp bổ sung hoặc điểm cuối tương thích OpenAI tùy chỉnh"
     },
@@ -11020,6 +11592,10 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "btnResetEndpoint": {
       "message": "Đặt lại về mặc định của nhà cung cấp",
       "description": "Button that clears the endpoint override."
+    },
+    "btnTranslate": {
+      "message": "Dịch",
+      "description": "Primary action button in the settings panel."
     },
     "settingReasoning": {
       "message": "Mức độ suy luận",
@@ -11250,6 +11826,15 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProvider": {
       "message": "AI 服务商"
     },
+    "providerPlaceholder": {
+      "message": "请选择 AI 提供商"
+    },
+    "providerRequiredForModel": {
+      "message": "请先选择提供商"
+    },
+    "providerRequiredError": {
+      "message": "翻译前请先在设置中选择 AI 提供商。"
+    },
     "settingProviderDesc": {
       "message": "内建服务商、更多服务商，或自定义 OpenAI 兼容端点。"
     },
@@ -11300,6 +11885,9 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "btnResetEndpoint": {
       "message": "恢复服务商默认值"
+    },
+    "btnTranslate": {
+      "message": "翻译"
     },
     "settingReasoning": {
       "message": "推理强度"
@@ -11459,6 +12047,15 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     "settingProvider": {
       "message": "AI 服務商"
     },
+    "providerPlaceholder": {
+      "message": "請選擇 AI 提供商"
+    },
+    "providerRequiredForModel": {
+      "message": "請先選擇提供商"
+    },
+    "providerRequiredError": {
+      "message": "翻譯前請先在設定中選擇 AI 提供商。"
+    },
     "settingProviderDesc": {
       "message": "內建服務商、更多服務商，或自訂 OpenAI 相容端點。"
     },
@@ -11509,6 +12106,9 @@ export const LOCALES: Record<string, LocaleCatalogue> = {
     },
     "btnResetEndpoint": {
       "message": "還原服務商預設值"
+    },
+    "btnTranslate": {
+      "message": "翻譯"
     },
     "settingReasoning": {
       "message": "推理強度"
