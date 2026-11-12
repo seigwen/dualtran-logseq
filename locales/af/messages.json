@@ -63,6 +63,18 @@
     "message": "KI-verskaffer",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Kies 'n verskaffer",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Kies eers 'n verskaffer",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Kies eers 'n KI-verskaffer in die instellings voordat jy vertaal.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Ingeboude verskaffers, bykomende verskaffers of 'n pasgemaakte OpenAI-versoenbare eindpunt."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Herstel na verskafferverstek",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Vertaal",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Redenasie-inspanning",

@@ -63,6 +63,18 @@
     "message": "AI dobavljač",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Изаберите добављача",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Прво изаберите добављача",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Пре превођења изаберите AI добављача у подешавањима.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Ugrađeni provajderi, dodatni provajderi ili prilagođena OpenAI-kompatibilna krajnja tačka."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Vrati na podrazumevano provajdera",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Преведи",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Nivo rezonovanja",

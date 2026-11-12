@@ -63,6 +63,18 @@
     "message": "AI-leverantör",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Välj en leverantör",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Välj först en leverantör",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Välj en AI-leverantör i inställningarna innan du översätter.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Inbyggda leverantörer, ytterligare leverantörer eller en anpassad OpenAI-kompatibel slutpunkt."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Återställ till leverantörens standard",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Översätt",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Resonemangsansträngning",

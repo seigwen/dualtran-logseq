@@ -63,6 +63,18 @@
     "message": "ספק בינה מלאכותית",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "בחרו ספק",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "בחרו קודם ספק",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "בחרו ספק AI בהגדרות לפני התרגום.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "ספקים מובנים, ספקים נוספים או נקודת קצה מותאמת אישית תואמת OpenAI."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "איפוס לברירת המחדל של הספק",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "תרגם",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "מאמץ חשיבה",

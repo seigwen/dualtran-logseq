@@ -1,10 +1,20 @@
 {
-  "spec": "2.0.0",
+  "spec": "2.1.0",
   "host": "dualtran-logseq",
   "payload": "tests/conformance/settings.test.ts",
   "static": {
-    "files": ["src/ui.ts", "src/catalog.ts", "src/settings.ts"],
-    "patterns": ["providerSeparator", "__separator__", "__more__", "More (models.dev)"]
+    "files": [
+      "src/ui.ts",
+      "src/catalog.ts",
+      "src/settings.ts"
+    ],
+    "patterns": [
+      "providerSeparator",
+      "__separator__",
+      "__more__",
+      "More (models.dev)"
+    ]
   },
-  "platformLimits": []
+  "platformLimits": [],
+  "payloadCommand": "node scripts/conformance/payload.mjs"
 }

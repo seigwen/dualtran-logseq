@@ -63,6 +63,18 @@
     "message": "AI-udbyder",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Vælg en udbyder",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Vælg først en udbyder",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Vælg en AI-udbyder i indstillingerne, før du oversætter.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Indbyggede udbydere, yderligere udbydere eller et brugerdefineret OpenAI-kompatibelt endpoint."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Nulstil til udbyderens standard",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Oversæt",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Reasoning-indsats",

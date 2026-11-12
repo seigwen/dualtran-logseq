@@ -60,19 +60,31 @@ async function main() {
   const snapshot = await plugin.evaluate(`(() => {
     const q = (key) => document.querySelector('[data-dt="' + key + '"]');
     const provider = q('provider');
+    const placeholder = provider ? [...provider.options].find((option) => option.value === '') : null;
     return {
       panel: !!document.querySelector('.dt-panel'),
       controls: ['engine', 'uiLang', 'target', 'provider', 'model', 'reasoning'].filter((key) => !!q(key)),
+      provider: logseq.settings.aiProvider,
+      placeholder: placeholder
+        ? { label: placeholder.textContent, disabled: placeholder.disabled, selected: placeholder.selected }
+        : null,
       providerCount: provider ? provider.options.length : 0,
       providerLabels: provider
-        ? [...provider.options].slice(0, -1).map((option) => option.textContent)
+        ? [...provider.options]
+            .filter((option) => option.value !== '')
+            .slice(0, -1)
+            .map((option) => option.textContent)
         : [],
       providerGroups: provider ? provider.querySelectorAll('optgroup').length : 0,
       lastProvider: provider ? provider.options[provider.options.length - 1].value : '',
       targetCount: q('target') ? q('target').options.length : 0,
       targetHasZh: q('target') ? [...q('target').options].some((option) => option.value === 'zh-CN') : false,
       modelCount: q('model') ? q('model').options.length : 0,
+      modelDisabled: q('model') ? q('model').disabled : false,
+      modelLabel: q('model') && q('model').options[0] ? q('model').options[0].textContent : '',
+      reasoningDisabled: q('reasoning') ? q('reasoning').disabled : false,
       endpoint: q('endpoint') ? q('endpoint').value : '',
+      endpointPlaceholder: q('endpoint') ? q('endpoint').placeholder : '',
       catalogStatus: document.querySelector('[data-dt="catalogStatus"]')?.textContent || '',
     };
   })()`);
@@ -86,9 +98,26 @@ async function main() {
   assert.equal(snapshot.lastProvider, "__custom_provider__", "custom provider must be last");
   assert.ok(snapshot.targetCount >= 140, `target language dropdown has only ${snapshot.targetCount} options`);
   assert.equal(snapshot.targetHasZh, true, "target language dropdown is missing zh-CN");
-  assert.ok(snapshot.modelCount > 1, "model dropdown is empty");
-  assert.match(snapshot.endpoint, /^https:\/\//, "endpoint was not filled from the provider");
   assert.match(snapshot.catalogStatus, /providers|Loading|unavailable/);
+
+  // SPEC 2.1: an unconfigured install has no provider. The placeholder is a
+  // disabled, selected entry with an empty value, and every dependent control
+  // is empty/disabled instead of advertising OpenAI.
+  if (!snapshot.provider) {
+    assert.deepEqual(snapshot.placeholder, {
+      label: message("en", "providerPlaceholder"),
+      disabled: true,
+      selected: true,
+    }, "unconfigured provider picker is missing its disabled placeholder");
+    assert.equal(snapshot.modelDisabled, true, "model picker must be disabled while unconfigured");
+    assert.equal(snapshot.modelLabel, message("en", "providerRequiredForModel"), "model picker placeholder text");
+    assert.equal(snapshot.reasoningDisabled, true, "reasoning picker must be disabled while unconfigured");
+    assert.equal(snapshot.endpoint, "", "endpoint must be empty while unconfigured");
+    assert.equal(snapshot.endpointPlaceholder, "https://", "endpoint placeholder must be https://");
+  } else {
+    assert.ok(snapshot.modelCount > 1, "model dropdown is empty");
+    assert.match(snapshot.endpoint, /^https:\/\//, "endpoint was not filled from the provider");
+  }
 
   // Provider switch: pick a known catalogue provider.
   const switched = await plugin.evaluate(`(async () => {

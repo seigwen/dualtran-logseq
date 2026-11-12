@@ -63,6 +63,18 @@
     "message": "AI pakalpojumu sniedzējs",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Izvēlieties pakalpojumu sniedzēju",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Vispirms izvēlieties pakalpojumu sniedzēju",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Pirms tulkošanas iestatījumos izvēlieties AI pakalpojumu sniedzēju.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Iebūvētie pakalpojumu sniedzēji, papildu pakalpojumu sniedzēji vai pielāgots OpenAI saderīgs galapunkts."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Atiestatīt uz pakalpojumu sniedzēja noklusējumu",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Tulkot",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Spriešanas intensitāte",

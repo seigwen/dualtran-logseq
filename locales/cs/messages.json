@@ -63,6 +63,18 @@
     "message": "Poskytovatel AI",
     "description": "Settings label: AI provider."
   },
+  "providerPlaceholder": {
+    "message": "Vyberte poskytovatele",
+    "description": "Provider picker placeholder shown while no AI provider is configured."
+  },
+  "providerRequiredForModel": {
+    "message": "Nejprve vyberte poskytovatele",
+    "description": "Model and reasoning placeholders shown while no AI provider is configured."
+  },
+  "providerRequiredError": {
+    "message": "Před překladem vyberte v nastavení poskytovatele AI.",
+    "description": "Warning when a translation is started without an AI provider."
+  },
   "settingProviderDesc": {
     "message": "Vestavění poskytovatelé, další poskytovatelé nebo vlastní koncový bod kompatibilní s OpenAI."
   },
@@ -128,6 +140,10 @@
   "btnResetEndpoint": {
     "message": "Obnovit výchozí hodnotu poskytovatele",
     "description": "Button that clears the endpoint override."
+  },
+  "btnTranslate": {
+    "message": "Přeložit",
+    "description": "Primary action button in the settings panel."
   },
   "settingReasoning": {
     "message": "Úroveň uvažování",
